@@ -47,7 +47,10 @@ Resource acquisition and tokenizer downloads are separate from model API calls.
 
 ## Distribution
 
-External database payloads and tokenizer caches are not bundled in this private
-code checkout. Redistribution permissions and an accessible resource distribution
-must be settled before the public release supports an end-to-end fresh setup of
-all seven environments. See [resource notices](../THIRD_PARTY_NOTICES.md).
+The benchmark code is public. External database templates and MCP support
+packages for the five source-derived environments are not publicly distributed
+at present. Their generators require an authorized local copy configured as
+above. FinanceOps and FieldOps do not require these resources.
+
+Tokenizer caches are also excluded; tiktoken can download its vocabularies
+on first use. See [resource notices](../THIRD_PARTY_NOTICES.md).

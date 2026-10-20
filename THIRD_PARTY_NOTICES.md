@@ -38,5 +38,6 @@ The repository retains seven task-construction manifests from the selected
 benchmark release. Model-result tables and historical execution logs are not
 part of this repository's current contents.
 
-No new license is assigned by this repository cleanup. Project licensing and
-inherited-code provenance must be resolved before public release.
+No project license is assigned by this code publication. Dependencies and
+inherited material retain their existing terms; public repository access does
+not grant permission to redistribute the excluded external resources.

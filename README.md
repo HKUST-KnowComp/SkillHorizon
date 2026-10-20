@@ -7,6 +7,11 @@
 [Resource Setup](docs/RESOURCES.md) |
 [Paper Figures](docs/FIGURES.md)
 
+**Availability:** Benchmark code is public. FinanceOps and FieldOps generate
+their worlds programmatically. The database templates and MCP support packages
+required by the other five environments are not publicly distributed at present;
+their generators accept an authorized local copy as described in Resource Setup.
+
 SkillHorizon provides seven stateful business environments, configurable task
 generators, skill resources, and automatic business scoring. Generate tasks,
 connect an agent, and evaluate its ability to complete dependent business work.
