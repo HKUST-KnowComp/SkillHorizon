@@ -1,0 +1,2856 @@
+{
+  "environment": "DocOps",
+  "dataset_id": "skillhorizon-docops150-20260921-v2",
+  "tasks": [
+    {
+      "id": "64k-docops-expiring_amendments-01",
+      "band": "64k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 921200,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921200-3w-2d-docops-v2-expiring_amendments-chain_join-6p",
+      "L_business_ref": 57266,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-expiring_amendments-02",
+      "band": "64k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 921201,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921201-3w-2d-docops-v2-expiring_amendments-chain_join-6p",
+      "L_business_ref": 58089,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-expiring_amendments-03",
+      "band": "64k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 921202,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921202-3w-2d-docops-v2-expiring_amendments-chain_join-6p",
+      "L_business_ref": 56838,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-expiring_amendments-04",
+      "band": "64k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 921203,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921203-3w-2d-docops-v2-expiring_amendments-chain_join-6p",
+      "L_business_ref": 57974,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-expiring_amendments-05",
+      "band": "64k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 921204,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921204-3w-2d-docops-v2-expiring_amendments-braided-6p",
+      "L_business_ref": 58096,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-expiring_amendments-06",
+      "band": "64k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 921205,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921205-3w-2d-docops-v2-expiring_amendments-braided-6p",
+      "L_business_ref": 58945,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-expiring_amendments-07",
+      "band": "64k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 921206,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921206-3w-2d-docops-v2-expiring_amendments-braided-6p",
+      "L_business_ref": 59487,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-expiring_amendments-08",
+      "band": "64k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 921207,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921207-3w-2d-docops-v2-expiring_amendments-distributed-6p",
+      "L_business_ref": 57020,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-expiring_amendments-09",
+      "band": "64k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 921208,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921208-3w-2d-docops-v2-expiring_amendments-distributed-6p",
+      "L_business_ref": 57203,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-expiring_amendments-10",
+      "band": "64k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 921209,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921209-3w-2d-docops-v2-expiring_amendments-distributed-6p",
+      "L_business_ref": 57325,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-expiring_reservations-01",
+      "band": "64k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 921000,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 10,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 98,
+      "business_calls": 81,
+      "task_id": "c25-capacity-921000-3w-4d-docops-v2-expiring_reservations-chain_join-10p",
+      "L_business_ref": 53775,
+      "B": 139
+    },
+    {
+      "id": "64k-docops-expiring_reservations-02",
+      "band": "64k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 921001,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 10,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 98,
+      "business_calls": 81,
+      "task_id": "c25-capacity-921001-3w-4d-docops-v2-expiring_reservations-chain_join-10p",
+      "L_business_ref": 53592,
+      "B": 139
+    },
+    {
+      "id": "64k-docops-expiring_reservations-03",
+      "band": "64k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 921002,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 10,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 98,
+      "business_calls": 81,
+      "task_id": "c25-capacity-921002-3w-4d-docops-v2-expiring_reservations-chain_join-10p",
+      "L_business_ref": 52415,
+      "B": 139
+    },
+    {
+      "id": "64k-docops-expiring_reservations-04",
+      "band": "64k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 921003,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 10,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 98,
+      "business_calls": 81,
+      "task_id": "c25-capacity-921003-3w-4d-docops-v2-expiring_reservations-chain_join-10p",
+      "L_business_ref": 52923,
+      "B": 139
+    },
+    {
+      "id": "64k-docops-expiring_reservations-05",
+      "band": "64k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 921004,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 9,
+        "depth": 3,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 89,
+      "business_calls": 73,
+      "task_id": "c25-capacity-921004-3w-3d-docops-v2-expiring_reservations-braided-9p",
+      "L_business_ref": 54127,
+      "B": 126
+    },
+    {
+      "id": "64k-docops-expiring_reservations-06",
+      "band": "64k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 921005,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 10,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 98,
+      "business_calls": 81,
+      "task_id": "c25-capacity-921005-3w-4d-docops-v2-expiring_reservations-braided-10p",
+      "L_business_ref": 57322,
+      "B": 139
+    },
+    {
+      "id": "64k-docops-expiring_reservations-07",
+      "band": "64k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 921006,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 10,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 98,
+      "business_calls": 81,
+      "task_id": "c25-capacity-921006-3w-4d-docops-v2-expiring_reservations-braided-10p",
+      "L_business_ref": 57490,
+      "B": 139
+    },
+    {
+      "id": "64k-docops-expiring_reservations-08",
+      "band": "64k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 921007,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 9,
+        "depth": 3,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 89,
+      "business_calls": 73,
+      "task_id": "c25-capacity-921007-3w-3d-docops-v2-expiring_reservations-distributed-9p",
+      "L_business_ref": 53192,
+      "B": 126
+    },
+    {
+      "id": "64k-docops-expiring_reservations-09",
+      "band": "64k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 921008,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 10,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 98,
+      "business_calls": 81,
+      "task_id": "c25-capacity-921008-3w-4d-docops-v2-expiring_reservations-distributed-10p",
+      "L_business_ref": 57972,
+      "B": 139
+    },
+    {
+      "id": "64k-docops-expiring_reservations-10",
+      "band": "64k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 921009,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 9,
+        "depth": 3,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 89,
+      "business_calls": 73,
+      "task_id": "c25-capacity-921009-3w-3d-docops-v2-expiring_reservations-distributed-9p",
+      "L_business_ref": 51462,
+      "B": 126
+    },
+    {
+      "id": "64k-docops-independent_amendments-01",
+      "band": "64k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 921100,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921100-3w-2d-docops-v2-independent_amendments-chain_join-6p",
+      "L_business_ref": 55836,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-independent_amendments-02",
+      "band": "64k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 921101,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921101-3w-2d-docops-v2-independent_amendments-chain_join-6p",
+      "L_business_ref": 58059,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-independent_amendments-03",
+      "band": "64k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 921102,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921102-3w-2d-docops-v2-independent_amendments-chain_join-6p",
+      "L_business_ref": 57756,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-independent_amendments-04",
+      "band": "64k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 921103,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921103-3w-2d-docops-v2-independent_amendments-chain_join-6p",
+      "L_business_ref": 58611,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-independent_amendments-05",
+      "band": "64k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 921104,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921104-3w-2d-docops-v2-independent_amendments-braided-6p",
+      "L_business_ref": 58474,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-independent_amendments-06",
+      "band": "64k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 921105,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921105-3w-2d-docops-v2-independent_amendments-braided-6p",
+      "L_business_ref": 57261,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-independent_amendments-07",
+      "band": "64k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 921106,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921106-3w-2d-docops-v2-independent_amendments-braided-6p",
+      "L_business_ref": 58720,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-independent_amendments-08",
+      "band": "64k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 921107,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921107-3w-2d-docops-v2-independent_amendments-distributed-6p",
+      "L_business_ref": 57414,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-independent_amendments-09",
+      "band": "64k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 921108,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921108-3w-2d-docops-v2-independent_amendments-distributed-6p",
+      "L_business_ref": 59080,
+      "B": 164
+    },
+    {
+      "id": "64k-docops-independent_amendments-10",
+      "band": "64k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 921109,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 6,
+        "depth": 2,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 114,
+      "business_calls": 99,
+      "task_id": "c25-capacity-921109-3w-2d-docops-v2-independent_amendments-distributed-6p",
+      "L_business_ref": 56893,
+      "B": 164
+    },
+    {
+      "id": "128k-docops-expiring_amendments-01",
+      "band": "128k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 922200,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 15,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 219,
+      "business_calls": 195,
+      "task_id": "c25-capacity-922200-3w-5d-docops-v2-expiring_amendments-chain_join-15p",
+      "L_business_ref": 128932,
+      "B": 317
+    },
+    {
+      "id": "128k-docops-expiring_amendments-02",
+      "band": "128k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 922201,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 14,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 210,
+      "business_calls": 187,
+      "task_id": "c25-capacity-922201-3w-5d-docops-v2-expiring_amendments-chain_join-14p",
+      "L_business_ref": 128819,
+      "B": 304
+    },
+    {
+      "id": "128k-docops-expiring_amendments-03",
+      "band": "128k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 922202,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 14,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 194,
+      "business_calls": 171,
+      "task_id": "c25-capacity-922202-3w-5d-docops-v2-expiring_amendments-chain_join-14p",
+      "L_business_ref": 107828,
+      "B": 280
+    },
+    {
+      "id": "128k-docops-expiring_amendments-04",
+      "band": "128k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 922203,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 14,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 194,
+      "business_calls": 171,
+      "task_id": "c25-capacity-922203-3w-5d-docops-v2-expiring_amendments-chain_join-14p",
+      "L_business_ref": 113609,
+      "B": 280
+    },
+    {
+      "id": "128k-docops-expiring_amendments-05",
+      "band": "128k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 922204,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 12,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 184,
+      "business_calls": 163,
+      "task_id": "c25-capacity-922204-3w-4d-docops-v2-expiring_amendments-braided-12p",
+      "L_business_ref": 108845,
+      "B": 266
+    },
+    {
+      "id": "128k-docops-expiring_amendments-06",
+      "band": "128k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 922205,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 12,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 184,
+      "business_calls": 163,
+      "task_id": "c25-capacity-922205-3w-4d-docops-v2-expiring_amendments-braided-12p",
+      "L_business_ref": 108798,
+      "B": 266
+    },
+    {
+      "id": "128k-docops-expiring_amendments-07",
+      "band": "128k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 922206,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 13,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 193,
+      "business_calls": 171,
+      "task_id": "c25-capacity-922206-3w-5d-docops-v2-expiring_amendments-braided-13p",
+      "L_business_ref": 118110,
+      "B": 279
+    },
+    {
+      "id": "128k-docops-expiring_amendments-08",
+      "band": "128k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 922207,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 12,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 184,
+      "business_calls": 163,
+      "task_id": "c25-capacity-922207-3w-4d-docops-v2-expiring_amendments-distributed-12p",
+      "L_business_ref": 129902,
+      "B": 266
+    },
+    {
+      "id": "128k-docops-expiring_amendments-09",
+      "band": "128k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 922208,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 11,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 175,
+      "business_calls": 155,
+      "task_id": "c25-capacity-922208-3w-4d-docops-v2-expiring_amendments-distributed-11p",
+      "L_business_ref": 104298,
+      "B": 253
+    },
+    {
+      "id": "128k-docops-expiring_amendments-10",
+      "band": "128k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 922209,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 12,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 184,
+      "business_calls": 163,
+      "task_id": "c25-capacity-922209-3w-4d-docops-v2-expiring_amendments-distributed-12p",
+      "L_business_ref": 118677,
+      "B": 266
+    },
+    {
+      "id": "128k-docops-expiring_reservations-01",
+      "band": "128k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 922000,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 19,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 179,
+      "business_calls": 153,
+      "task_id": "c25-capacity-922000-3w-7d-docops-v2-expiring_reservations-chain_join-19p",
+      "L_business_ref": 113148,
+      "B": 256
+    },
+    {
+      "id": "128k-docops-expiring_reservations-02",
+      "band": "128k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 922001,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 19,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 179,
+      "business_calls": 153,
+      "task_id": "c25-capacity-922001-3w-7d-docops-v2-expiring_reservations-chain_join-19p",
+      "L_business_ref": 109064,
+      "B": 256
+    },
+    {
+      "id": "128k-docops-expiring_reservations-03",
+      "band": "128k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 922002,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 18,
+        "depth": 6,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 170,
+      "business_calls": 145,
+      "task_id": "c25-capacity-922002-3w-6d-docops-v2-expiring_reservations-chain_join-18p",
+      "L_business_ref": 111032,
+      "B": 243
+    },
+    {
+      "id": "128k-docops-expiring_reservations-04",
+      "band": "128k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 922003,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 19,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 179,
+      "business_calls": 153,
+      "task_id": "c25-capacity-922003-3w-7d-docops-v2-expiring_reservations-chain_join-19p",
+      "L_business_ref": 112651,
+      "B": 256
+    },
+    {
+      "id": "128k-docops-expiring_reservations-05",
+      "band": "128k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 922004,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 17,
+        "depth": 6,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 161,
+      "business_calls": 137,
+      "task_id": "c25-capacity-922004-3w-6d-docops-v2-expiring_reservations-braided-17p",
+      "L_business_ref": 116479,
+      "B": 230
+    },
+    {
+      "id": "128k-docops-expiring_reservations-06",
+      "band": "128k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 922005,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 17,
+        "depth": 6,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 161,
+      "business_calls": 137,
+      "task_id": "c25-capacity-922005-3w-6d-docops-v2-expiring_reservations-braided-17p",
+      "L_business_ref": 113629,
+      "B": 230
+    },
+    {
+      "id": "128k-docops-expiring_reservations-07",
+      "band": "128k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 922006,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 17,
+        "depth": 6,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 161,
+      "business_calls": 137,
+      "task_id": "c25-capacity-922006-3w-6d-docops-v2-expiring_reservations-braided-17p",
+      "L_business_ref": 104768,
+      "B": 230
+    },
+    {
+      "id": "128k-docops-expiring_reservations-08",
+      "band": "128k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 922007,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 17,
+        "depth": 6,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 161,
+      "business_calls": 137,
+      "task_id": "c25-capacity-922007-3w-6d-docops-v2-expiring_reservations-distributed-17p",
+      "L_business_ref": 119242,
+      "B": 230
+    },
+    {
+      "id": "128k-docops-expiring_reservations-09",
+      "band": "128k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 922008,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 15,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 143,
+      "business_calls": 121,
+      "task_id": "c25-capacity-922008-3w-5d-docops-v2-expiring_reservations-distributed-15p",
+      "L_business_ref": 106254,
+      "B": 204
+    },
+    {
+      "id": "128k-docops-expiring_reservations-10",
+      "band": "128k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 922009,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 15,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 143,
+      "business_calls": 121,
+      "task_id": "c25-capacity-922009-3w-5d-docops-v2-expiring_reservations-distributed-15p",
+      "L_business_ref": 103325,
+      "B": 204
+    },
+    {
+      "id": "128k-docops-independent_amendments-01",
+      "band": "128k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 922100,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 15,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 219,
+      "business_calls": 195,
+      "task_id": "c25-capacity-922100-3w-5d-docops-v2-independent_amendments-chain_join-15p",
+      "L_business_ref": 131002,
+      "B": 317
+    },
+    {
+      "id": "128k-docops-independent_amendments-02",
+      "band": "128k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 922101,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 14,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 194,
+      "business_calls": 171,
+      "task_id": "c25-capacity-922101-3w-5d-docops-v2-independent_amendments-chain_join-14p",
+      "L_business_ref": 114090,
+      "B": 280
+    },
+    {
+      "id": "128k-docops-independent_amendments-03",
+      "band": "128k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 922102,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 15,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 219,
+      "business_calls": 195,
+      "task_id": "c25-capacity-922102-3w-5d-docops-v2-independent_amendments-chain_join-15p",
+      "L_business_ref": 127333,
+      "B": 317
+    },
+    {
+      "id": "128k-docops-independent_amendments-04",
+      "band": "128k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 922103,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 14,
+        "depth": 5,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 194,
+      "business_calls": 171,
+      "task_id": "c25-capacity-922103-3w-5d-docops-v2-independent_amendments-chain_join-14p",
+      "L_business_ref": 117278,
+      "B": 280
+    },
+    {
+      "id": "128k-docops-independent_amendments-05",
+      "band": "128k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 922104,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 12,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 184,
+      "business_calls": 163,
+      "task_id": "c25-capacity-922104-3w-4d-docops-v2-independent_amendments-braided-12p",
+      "L_business_ref": 122676,
+      "B": 266
+    },
+    {
+      "id": "128k-docops-independent_amendments-06",
+      "band": "128k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 922105,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 12,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 184,
+      "business_calls": 163,
+      "task_id": "c25-capacity-922105-3w-4d-docops-v2-independent_amendments-braided-12p",
+      "L_business_ref": 115067,
+      "B": 266
+    },
+    {
+      "id": "128k-docops-independent_amendments-07",
+      "band": "128k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 922106,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 11,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 175,
+      "business_calls": 155,
+      "task_id": "c25-capacity-922106-3w-4d-docops-v2-independent_amendments-braided-11p",
+      "L_business_ref": 119548,
+      "B": 253
+    },
+    {
+      "id": "128k-docops-independent_amendments-08",
+      "band": "128k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 922107,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 11,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 175,
+      "business_calls": 155,
+      "task_id": "c25-capacity-922107-3w-4d-docops-v2-independent_amendments-distributed-11p",
+      "L_business_ref": 118047,
+      "B": 253
+    },
+    {
+      "id": "128k-docops-independent_amendments-09",
+      "band": "128k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 922108,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 10,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 150,
+      "business_calls": 131,
+      "task_id": "c25-capacity-922108-3w-4d-docops-v2-independent_amendments-distributed-10p",
+      "L_business_ref": 100911,
+      "B": 216
+    },
+    {
+      "id": "128k-docops-independent_amendments-10",
+      "band": "128k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 922109,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 12,
+        "depth": 4,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 184,
+      "business_calls": 163,
+      "task_id": "c25-capacity-922109-3w-4d-docops-v2-independent_amendments-distributed-12p",
+      "L_business_ref": 119390,
+      "B": 266
+    },
+    {
+      "id": "256k-docops-expiring_amendments-01",
+      "band": "256k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 923200,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 25,
+        "depth": 9,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 349,
+      "business_calls": 315,
+      "task_id": "c25-capacity-923200-3w-9d-docops-v2-expiring_amendments-chain_join-25p",
+      "L_business_ref": 230082,
+      "B": 507
+    },
+    {
+      "id": "256k-docops-expiring_amendments-02",
+      "band": "256k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 923201,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 25,
+        "depth": 9,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 365,
+      "business_calls": 331,
+      "task_id": "c25-capacity-923201-3w-9d-docops-v2-expiring_amendments-chain_join-25p",
+      "L_business_ref": 228395,
+      "B": 531
+    },
+    {
+      "id": "256k-docops-expiring_amendments-03",
+      "band": "256k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 923202,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 24,
+        "depth": 8,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 340,
+      "business_calls": 307,
+      "task_id": "c25-capacity-923202-3w-8d-docops-v2-expiring_amendments-chain_join-24p",
+      "L_business_ref": 218517,
+      "B": 494
+    },
+    {
+      "id": "256k-docops-expiring_amendments-04",
+      "band": "256k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 923203,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 24,
+        "depth": 8,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 340,
+      "business_calls": 307,
+      "task_id": "c25-capacity-923203-3w-8d-docops-v2-expiring_amendments-chain_join-24p",
+      "L_business_ref": 218267,
+      "B": 494
+    },
+    {
+      "id": "256k-docops-expiring_amendments-05",
+      "band": "256k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 923204,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 21,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 329,
+      "business_calls": 299,
+      "task_id": "c25-capacity-923204-3w-7d-docops-v2-expiring_amendments-braided-21p",
+      "L_business_ref": 243371,
+      "B": 479
+    },
+    {
+      "id": "256k-docops-expiring_amendments-06",
+      "band": "256k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 923205,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 22,
+        "depth": 8,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 322,
+      "business_calls": 291,
+      "task_id": "c25-capacity-923205-3w-8d-docops-v2-expiring_amendments-braided-22p",
+      "L_business_ref": 231321,
+      "B": 468
+    },
+    {
+      "id": "256k-docops-expiring_amendments-07",
+      "band": "256k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 923206,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 21,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 329,
+      "business_calls": 299,
+      "task_id": "c25-capacity-923206-3w-7d-docops-v2-expiring_amendments-braided-21p",
+      "L_business_ref": 235962,
+      "B": 479
+    },
+    {
+      "id": "256k-docops-expiring_amendments-08",
+      "band": "256k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 923207,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 20,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 304,
+      "business_calls": 275,
+      "task_id": "c25-capacity-923207-3w-7d-docops-v2-expiring_amendments-distributed-20p",
+      "L_business_ref": 217839,
+      "B": 442
+    },
+    {
+      "id": "256k-docops-expiring_amendments-09",
+      "band": "256k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 923208,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 22,
+        "depth": 8,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 306,
+      "business_calls": 275,
+      "task_id": "c25-capacity-923208-3w-8d-docops-v2-expiring_amendments-distributed-22p",
+      "L_business_ref": 239265,
+      "B": 444
+    },
+    {
+      "id": "256k-docops-expiring_amendments-10",
+      "band": "256k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 923209,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 21,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 329,
+      "business_calls": 299,
+      "task_id": "c25-capacity-923209-3w-7d-docops-v2-expiring_amendments-distributed-21p",
+      "L_business_ref": 248628,
+      "B": 479
+    },
+    {
+      "id": "256k-docops-expiring_reservations-01",
+      "band": "256k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 923000,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 35,
+        "depth": 12,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 323,
+      "business_calls": 281,
+      "task_id": "c25-capacity-923000-3w-12d-docops-v2-expiring_reservations-chain_join-35p",
+      "L_business_ref": 229842,
+      "B": 464
+    },
+    {
+      "id": "256k-docops-expiring_reservations-02",
+      "band": "256k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 923001,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 36,
+        "depth": 12,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 332,
+      "business_calls": 289,
+      "task_id": "c25-capacity-923001-3w-12d-docops-v2-expiring_reservations-chain_join-36p",
+      "L_business_ref": 237101,
+      "B": 477
+    },
+    {
+      "id": "256k-docops-expiring_reservations-03",
+      "band": "256k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 923002,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 36,
+        "depth": 12,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 332,
+      "business_calls": 289,
+      "task_id": "c25-capacity-923002-3w-12d-docops-v2-expiring_reservations-chain_join-36p",
+      "L_business_ref": 239417,
+      "B": 477
+    },
+    {
+      "id": "256k-docops-expiring_reservations-04",
+      "band": "256k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 923003,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 35,
+        "depth": 12,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 323,
+      "business_calls": 281,
+      "task_id": "c25-capacity-923003-3w-12d-docops-v2-expiring_reservations-chain_join-35p",
+      "L_business_ref": 239638,
+      "B": 464
+    },
+    {
+      "id": "256k-docops-expiring_reservations-05",
+      "band": "256k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 923004,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 30,
+        "depth": 10,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 278,
+      "business_calls": 241,
+      "task_id": "c25-capacity-923004-3w-10d-docops-v2-expiring_reservations-braided-30p",
+      "L_business_ref": 238493,
+      "B": 399
+    },
+    {
+      "id": "256k-docops-expiring_reservations-06",
+      "band": "256k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 923005,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 28,
+        "depth": 10,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 260,
+      "business_calls": 225,
+      "task_id": "c25-capacity-923005-3w-10d-docops-v2-expiring_reservations-braided-28p",
+      "L_business_ref": 249931,
+      "B": 373
+    },
+    {
+      "id": "256k-docops-expiring_reservations-07",
+      "band": "256k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 923006,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 29,
+        "depth": 10,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 269,
+      "business_calls": 233,
+      "task_id": "c25-capacity-923006-3w-10d-docops-v2-expiring_reservations-braided-29p",
+      "L_business_ref": 232951,
+      "B": 386
+    },
+    {
+      "id": "256k-docops-expiring_reservations-08",
+      "band": "256k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 923007,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 28,
+        "depth": 10,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 260,
+      "business_calls": 225,
+      "task_id": "c25-capacity-923007-3w-10d-docops-v2-expiring_reservations-distributed-28p",
+      "L_business_ref": 235471,
+      "B": 373
+    },
+    {
+      "id": "256k-docops-expiring_reservations-09",
+      "band": "256k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 923008,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 28,
+        "depth": 10,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 260,
+      "business_calls": 225,
+      "task_id": "c25-capacity-923008-3w-10d-docops-v2-expiring_reservations-distributed-28p",
+      "L_business_ref": 232973,
+      "B": 373
+    },
+    {
+      "id": "256k-docops-expiring_reservations-10",
+      "band": "256k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 923009,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 28,
+        "depth": 10,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 260,
+      "business_calls": 225,
+      "task_id": "c25-capacity-923009-3w-10d-docops-v2-expiring_reservations-distributed-28p",
+      "L_business_ref": 236939,
+      "B": 373
+    },
+    {
+      "id": "256k-docops-independent_amendments-01",
+      "band": "256k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 923100,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 26,
+        "depth": 9,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 390,
+      "business_calls": 355,
+      "task_id": "c25-capacity-923100-3w-9d-docops-v2-independent_amendments-chain_join-26p",
+      "L_business_ref": 254347,
+      "B": 568
+    },
+    {
+      "id": "256k-docops-independent_amendments-02",
+      "band": "256k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 923101,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 23,
+        "depth": 8,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 315,
+      "business_calls": 283,
+      "task_id": "c25-capacity-923101-3w-8d-docops-v2-independent_amendments-chain_join-23p",
+      "L_business_ref": 214551,
+      "B": 457
+    },
+    {
+      "id": "256k-docops-independent_amendments-03",
+      "band": "256k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 923102,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 25,
+        "depth": 9,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 365,
+      "business_calls": 331,
+      "task_id": "c25-capacity-923102-3w-9d-docops-v2-independent_amendments-chain_join-25p",
+      "L_business_ref": 236232,
+      "B": 531
+    },
+    {
+      "id": "256k-docops-independent_amendments-04",
+      "band": "256k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 923103,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 21,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 321,
+      "business_calls": 291,
+      "task_id": "c25-capacity-923103-3w-7d-docops-v2-independent_amendments-chain_join-21p",
+      "L_business_ref": 210085,
+      "B": 467
+    },
+    {
+      "id": "256k-docops-independent_amendments-05",
+      "band": "256k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 923104,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 20,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 320,
+      "business_calls": 291,
+      "task_id": "c25-capacity-923104-3w-7d-docops-v2-independent_amendments-braided-20p",
+      "L_business_ref": 250981,
+      "B": 466
+    },
+    {
+      "id": "256k-docops-independent_amendments-06",
+      "band": "256k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 923105,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 21,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 329,
+      "business_calls": 299,
+      "task_id": "c25-capacity-923105-3w-7d-docops-v2-independent_amendments-braided-21p",
+      "L_business_ref": 262126,
+      "B": 479
+    },
+    {
+      "id": "256k-docops-independent_amendments-07",
+      "band": "256k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 923106,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 21,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 329,
+      "business_calls": 299,
+      "task_id": "c25-capacity-923106-3w-7d-docops-v2-independent_amendments-braided-21p",
+      "L_business_ref": 259117,
+      "B": 479
+    },
+    {
+      "id": "256k-docops-independent_amendments-08",
+      "band": "256k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 923107,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 20,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 304,
+      "business_calls": 275,
+      "task_id": "c25-capacity-923107-3w-7d-docops-v2-independent_amendments-distributed-20p",
+      "L_business_ref": 237015,
+      "B": 442
+    },
+    {
+      "id": "256k-docops-independent_amendments-09",
+      "band": "256k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 923108,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 19,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 295,
+      "business_calls": 267,
+      "task_id": "c25-capacity-923108-3w-7d-docops-v2-independent_amendments-distributed-19p",
+      "L_business_ref": 232177,
+      "B": 429
+    },
+    {
+      "id": "256k-docops-independent_amendments-10",
+      "band": "256k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 923109,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 20,
+        "depth": 7,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 304,
+      "business_calls": 275,
+      "task_id": "c25-capacity-923109-3w-7d-docops-v2-independent_amendments-distributed-20p",
+      "L_business_ref": 250882,
+      "B": 442
+    },
+    {
+      "id": "512k-docops-expiring_amendments-01",
+      "band": "512k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 924200,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 44,
+        "depth": 15,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 648,
+      "business_calls": 595,
+      "task_id": "c25-capacity-924200-3w-15d-docops-v2-expiring_amendments-chain_join-44p",
+      "L_business_ref": 469888,
+      "B": 946
+    },
+    {
+      "id": "512k-docops-expiring_amendments-02",
+      "band": "512k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 924201,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 47,
+        "depth": 16,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 651,
+      "business_calls": 595,
+      "task_id": "c25-capacity-924201-3w-16d-docops-v2-expiring_amendments-chain_join-47p",
+      "L_business_ref": 473872,
+      "B": 949
+    },
+    {
+      "id": "512k-docops-expiring_amendments-03",
+      "band": "512k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 924202,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 45,
+        "depth": 15,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 657,
+      "business_calls": 603,
+      "task_id": "c25-capacity-924202-3w-15d-docops-v2-expiring_amendments-chain_join-45p",
+      "L_business_ref": 467503,
+      "B": 959
+    },
+    {
+      "id": "512k-docops-expiring_amendments-04",
+      "band": "512k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 924203,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 46,
+        "depth": 16,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 626,
+      "business_calls": 571,
+      "task_id": "c25-capacity-924203-3w-16d-docops-v2-expiring_amendments-chain_join-46p",
+      "L_business_ref": 453923,
+      "B": 912
+    },
+    {
+      "id": "512k-docops-expiring_amendments-05",
+      "band": "512k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 924204,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 37,
+        "depth": 13,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 553,
+      "business_calls": 507,
+      "task_id": "c25-capacity-924204-3w-13d-docops-v2-expiring_amendments-braided-37p",
+      "L_business_ref": 455093,
+      "B": 807
+    },
+    {
+      "id": "512k-docops-expiring_amendments-06",
+      "band": "512k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 924205,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 41,
+        "depth": 14,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 605,
+      "business_calls": 555,
+      "task_id": "c25-capacity-924205-3w-14d-docops-v2-expiring_amendments-braided-41p",
+      "L_business_ref": 460096,
+      "B": 883
+    },
+    {
+      "id": "512k-docops-expiring_amendments-07",
+      "band": "512k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 924206,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 40,
+        "depth": 14,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 580,
+      "business_calls": 531,
+      "task_id": "c25-capacity-924206-3w-14d-docops-v2-expiring_amendments-braided-40p",
+      "L_business_ref": 447906,
+      "B": 846
+    },
+    {
+      "id": "512k-docops-expiring_amendments-08",
+      "band": "512k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 924207,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 39,
+        "depth": 13,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 587,
+      "business_calls": 539,
+      "task_id": "c25-capacity-924207-3w-13d-docops-v2-expiring_amendments-distributed-39p",
+      "L_business_ref": 513110,
+      "B": 857
+    },
+    {
+      "id": "512k-docops-expiring_amendments-09",
+      "band": "512k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 924208,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 36,
+        "depth": 12,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 528,
+      "business_calls": 483,
+      "task_id": "c25-capacity-924208-3w-12d-docops-v2-expiring_amendments-distributed-36p",
+      "L_business_ref": 478057,
+      "B": 770
+    },
+    {
+      "id": "512k-docops-expiring_amendments-10",
+      "band": "512k",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 924209,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 37,
+        "depth": 13,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 553,
+      "business_calls": 507,
+      "task_id": "c25-capacity-924209-3w-13d-docops-v2-expiring_amendments-distributed-37p",
+      "L_business_ref": 470639,
+      "B": 807
+    },
+    {
+      "id": "512k-docops-expiring_reservations-01",
+      "band": "512k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 924000,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 63,
+        "depth": 21,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 575,
+      "business_calls": 505,
+      "task_id": "c25-capacity-924000-3w-21d-docops-v2-expiring_reservations-chain_join-63p",
+      "L_business_ref": 482194,
+      "B": 828
+    },
+    {
+      "id": "512k-docops-expiring_reservations-02",
+      "band": "512k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 924001,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 62,
+        "depth": 21,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 566,
+      "business_calls": 497,
+      "task_id": "c25-capacity-924001-3w-21d-docops-v2-expiring_reservations-chain_join-62p",
+      "L_business_ref": 486046,
+      "B": 815
+    },
+    {
+      "id": "512k-docops-expiring_reservations-03",
+      "band": "512k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 924002,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 63,
+        "depth": 21,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 575,
+      "business_calls": 505,
+      "task_id": "c25-capacity-924002-3w-21d-docops-v2-expiring_reservations-chain_join-63p",
+      "L_business_ref": 498362,
+      "B": 828
+    },
+    {
+      "id": "512k-docops-expiring_reservations-04",
+      "band": "512k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 924003,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 62,
+        "depth": 21,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 566,
+      "business_calls": 497,
+      "task_id": "c25-capacity-924003-3w-21d-docops-v2-expiring_reservations-chain_join-62p",
+      "L_business_ref": 491049,
+      "B": 815
+    },
+    {
+      "id": "512k-docops-expiring_reservations-05",
+      "band": "512k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 924004,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 53,
+        "depth": 18,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 485,
+      "business_calls": 425,
+      "task_id": "c25-capacity-924004-3w-18d-docops-v2-expiring_reservations-braided-53p",
+      "L_business_ref": 478247,
+      "B": 698
+    },
+    {
+      "id": "512k-docops-expiring_reservations-06",
+      "band": "512k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 924005,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 52,
+        "depth": 18,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 476,
+      "business_calls": 417,
+      "task_id": "c25-capacity-924005-3w-18d-docops-v2-expiring_reservations-braided-52p",
+      "L_business_ref": 471464,
+      "B": 685
+    },
+    {
+      "id": "512k-docops-expiring_reservations-07",
+      "band": "512k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 924006,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 52,
+        "depth": 18,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 476,
+      "business_calls": 417,
+      "task_id": "c25-capacity-924006-3w-18d-docops-v2-expiring_reservations-braided-52p",
+      "L_business_ref": 492149,
+      "B": 685
+    },
+    {
+      "id": "512k-docops-expiring_reservations-08",
+      "band": "512k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 924007,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 49,
+        "depth": 17,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 449,
+      "business_calls": 393,
+      "task_id": "c25-capacity-924007-3w-17d-docops-v2-expiring_reservations-distributed-49p",
+      "L_business_ref": 490833,
+      "B": 646
+    },
+    {
+      "id": "512k-docops-expiring_reservations-09",
+      "band": "512k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 924008,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 50,
+        "depth": 17,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 458,
+      "business_calls": 401,
+      "task_id": "c25-capacity-924008-3w-17d-docops-v2-expiring_reservations-distributed-50p",
+      "L_business_ref": 475735,
+      "B": 659
+    },
+    {
+      "id": "512k-docops-expiring_reservations-10",
+      "band": "512k",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 924009,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 48,
+        "depth": 16,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 440,
+      "business_calls": 385,
+      "task_id": "c25-capacity-924009-3w-16d-docops-v2-expiring_reservations-distributed-48p",
+      "L_business_ref": 485919,
+      "B": 633
+    },
+    {
+      "id": "512k-docops-independent_amendments-01",
+      "band": "512k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 924100,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 43,
+        "depth": 15,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 623,
+      "business_calls": 571,
+      "task_id": "c25-capacity-924100-3w-15d-docops-v2-independent_amendments-chain_join-43p",
+      "L_business_ref": 499891,
+      "B": 909
+    },
+    {
+      "id": "512k-docops-independent_amendments-02",
+      "band": "512k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 924101,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 44,
+        "depth": 15,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 632,
+      "business_calls": 579,
+      "task_id": "c25-capacity-924101-3w-15d-docops-v2-independent_amendments-chain_join-44p",
+      "L_business_ref": 492802,
+      "B": 922
+    },
+    {
+      "id": "512k-docops-independent_amendments-03",
+      "band": "512k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 924102,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 42,
+        "depth": 14,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 598,
+      "business_calls": 547,
+      "task_id": "c25-capacity-924102-3w-14d-docops-v2-independent_amendments-chain_join-42p",
+      "L_business_ref": 450877,
+      "B": 872
+    },
+    {
+      "id": "512k-docops-independent_amendments-04",
+      "band": "512k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 924103,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 42,
+        "depth": 14,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 598,
+      "business_calls": 547,
+      "task_id": "c25-capacity-924103-3w-14d-docops-v2-independent_amendments-chain_join-42p",
+      "L_business_ref": 446761,
+      "B": 872
+    },
+    {
+      "id": "512k-docops-independent_amendments-05",
+      "band": "512k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 924104,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 38,
+        "depth": 13,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 562,
+      "business_calls": 515,
+      "task_id": "c25-capacity-924104-3w-13d-docops-v2-independent_amendments-braided-38p",
+      "L_business_ref": 522326,
+      "B": 820
+    },
+    {
+      "id": "512k-docops-independent_amendments-06",
+      "band": "512k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 924105,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 37,
+        "depth": 13,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 553,
+      "business_calls": 507,
+      "task_id": "c25-capacity-924105-3w-13d-docops-v2-independent_amendments-braided-37p",
+      "L_business_ref": 506516,
+      "B": 807
+    },
+    {
+      "id": "512k-docops-independent_amendments-07",
+      "band": "512k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 924106,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 36,
+        "depth": 12,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 528,
+      "business_calls": 483,
+      "task_id": "c25-capacity-924106-3w-12d-docops-v2-independent_amendments-braided-36p",
+      "L_business_ref": 441653,
+      "B": 770
+    },
+    {
+      "id": "512k-docops-independent_amendments-08",
+      "band": "512k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 924107,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 33,
+        "depth": 11,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 501,
+      "business_calls": 459,
+      "task_id": "c25-capacity-924107-3w-11d-docops-v2-independent_amendments-distributed-33p",
+      "L_business_ref": 516234,
+      "B": 731
+    },
+    {
+      "id": "512k-docops-independent_amendments-09",
+      "band": "512k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 924108,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 33,
+        "depth": 11,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 501,
+      "business_calls": 459,
+      "task_id": "c25-capacity-924108-3w-11d-docops-v2-independent_amendments-distributed-33p",
+      "L_business_ref": 506172,
+      "B": 731
+    },
+    {
+      "id": "512k-docops-independent_amendments-10",
+      "band": "512k",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 924109,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 31,
+        "depth": 11,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 467,
+      "business_calls": 427,
+      "task_id": "c25-capacity-924109-3w-11d-docops-v2-independent_amendments-distributed-31p",
+      "L_business_ref": 493042,
+      "B": 681
+    },
+    {
+      "id": "1m-docops-expiring_amendments-01",
+      "band": "1m",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 925200,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 81,
+        "depth": 27,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1173,
+      "business_calls": 1083,
+      "task_id": "c25-capacity-925200-3w-27d-docops-v2-expiring_amendments-chain_join-81p",
+      "L_business_ref": 1028160,
+      "B": 1715
+    },
+    {
+      "id": "1m-docops-expiring_amendments-02",
+      "band": "1m",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 925201,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 81,
+        "depth": 27,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1173,
+      "business_calls": 1083,
+      "task_id": "c25-capacity-925201-3w-27d-docops-v2-expiring_amendments-chain_join-81p",
+      "L_business_ref": 1023325,
+      "B": 1715
+    },
+    {
+      "id": "1m-docops-expiring_amendments-03",
+      "band": "1m",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 925202,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 81,
+        "depth": 27,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1173,
+      "business_calls": 1083,
+      "task_id": "c25-capacity-925202-3w-27d-docops-v2-expiring_amendments-chain_join-81p",
+      "L_business_ref": 1007776,
+      "B": 1715
+    },
+    {
+      "id": "1m-docops-expiring_amendments-04",
+      "band": "1m",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 925203,
+        "scenario": "expiring_amendments",
+        "topology": "chain_join",
+        "documents": 81,
+        "depth": 27,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1173,
+      "business_calls": 1083,
+      "task_id": "c25-capacity-925203-3w-27d-docops-v2-expiring_amendments-chain_join-81p",
+      "L_business_ref": 1018850,
+      "B": 1715
+    },
+    {
+      "id": "1m-docops-expiring_amendments-05",
+      "band": "1m",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 925204,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 72,
+        "depth": 24,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1044,
+      "business_calls": 963,
+      "task_id": "c25-capacity-925204-3w-24d-docops-v2-expiring_amendments-braided-72p",
+      "L_business_ref": 1006991,
+      "B": 1526
+    },
+    {
+      "id": "1m-docops-expiring_amendments-06",
+      "band": "1m",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 925205,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 70,
+        "depth": 24,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1010,
+      "business_calls": 931,
+      "task_id": "c25-capacity-925205-3w-24d-docops-v2-expiring_amendments-braided-70p",
+      "L_business_ref": 979306,
+      "B": 1476
+    },
+    {
+      "id": "1m-docops-expiring_amendments-07",
+      "band": "1m",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 925206,
+        "scenario": "expiring_amendments",
+        "topology": "braided",
+        "documents": 72,
+        "depth": 24,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1044,
+      "business_calls": 963,
+      "task_id": "c25-capacity-925206-3w-24d-docops-v2-expiring_amendments-braided-72p",
+      "L_business_ref": 966603,
+      "B": 1526
+    },
+    {
+      "id": "1m-docops-expiring_amendments-08",
+      "band": "1m",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 925207,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 65,
+        "depth": 22,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 933,
+      "business_calls": 859,
+      "task_id": "c25-capacity-925207-3w-22d-docops-v2-expiring_amendments-distributed-65p",
+      "L_business_ref": 972610,
+      "B": 1363
+    },
+    {
+      "id": "1m-docops-expiring_amendments-09",
+      "band": "1m",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 925208,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 65,
+        "depth": 22,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 933,
+      "business_calls": 859,
+      "task_id": "c25-capacity-925208-3w-22d-docops-v2-expiring_amendments-distributed-65p",
+      "L_business_ref": 971827,
+      "B": 1363
+    },
+    {
+      "id": "1m-docops-expiring_amendments-10",
+      "band": "1m",
+      "family": "expiring_amendments",
+      "parameters": {
+        "seed": 925209,
+        "scenario": "expiring_amendments",
+        "topology": "distributed",
+        "documents": 69,
+        "depth": 23,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1017,
+      "business_calls": 939,
+      "task_id": "c25-capacity-925209-3w-23d-docops-v2-expiring_amendments-distributed-69p",
+      "L_business_ref": 1041143,
+      "B": 1487
+    },
+    {
+      "id": "1m-docops-expiring_reservations-01",
+      "band": "1m",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 925000,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 105,
+        "depth": 35,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 953,
+      "business_calls": 841,
+      "task_id": "c25-capacity-925000-3w-35d-docops-v2-expiring_reservations-chain_join-105p",
+      "L_business_ref": 1015976,
+      "B": 1374
+    },
+    {
+      "id": "1m-docops-expiring_reservations-02",
+      "band": "1m",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 925001,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 104,
+        "depth": 35,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 944,
+      "business_calls": 833,
+      "task_id": "c25-capacity-925001-3w-35d-docops-v2-expiring_reservations-chain_join-104p",
+      "L_business_ref": 1007549,
+      "B": 1361
+    },
+    {
+      "id": "1m-docops-expiring_reservations-03",
+      "band": "1m",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 925002,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 104,
+        "depth": 35,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 944,
+      "business_calls": 833,
+      "task_id": "c25-capacity-925002-3w-35d-docops-v2-expiring_reservations-chain_join-104p",
+      "L_business_ref": 1007893,
+      "B": 1361
+    },
+    {
+      "id": "1m-docops-expiring_reservations-04",
+      "band": "1m",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 925003,
+        "scenario": "expiring_reservations",
+        "topology": "chain_join",
+        "documents": 104,
+        "depth": 35,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 944,
+      "business_calls": 833,
+      "task_id": "c25-capacity-925003-3w-35d-docops-v2-expiring_reservations-chain_join-104p",
+      "L_business_ref": 1016894,
+      "B": 1361
+    },
+    {
+      "id": "1m-docops-expiring_reservations-05",
+      "band": "1m",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 925004,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 90,
+        "depth": 30,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 818,
+      "business_calls": 721,
+      "task_id": "c25-capacity-925004-3w-30d-docops-v2-expiring_reservations-braided-90p",
+      "L_business_ref": 995640,
+      "B": 1179
+    },
+    {
+      "id": "1m-docops-expiring_reservations-06",
+      "band": "1m",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 925005,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 92,
+        "depth": 31,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 836,
+      "business_calls": 737,
+      "task_id": "c25-capacity-925005-3w-31d-docops-v2-expiring_reservations-braided-92p",
+      "L_business_ref": 1014813,
+      "B": 1205
+    },
+    {
+      "id": "1m-docops-expiring_reservations-07",
+      "band": "1m",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 925006,
+        "scenario": "expiring_reservations",
+        "topology": "braided",
+        "documents": 88,
+        "depth": 30,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 800,
+      "business_calls": 705,
+      "task_id": "c25-capacity-925006-3w-30d-docops-v2-expiring_reservations-braided-88p",
+      "L_business_ref": 997351,
+      "B": 1153
+    },
+    {
+      "id": "1m-docops-expiring_reservations-08",
+      "band": "1m",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 925007,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 85,
+        "depth": 29,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 773,
+      "business_calls": 681,
+      "task_id": "c25-capacity-925007-3w-29d-docops-v2-expiring_reservations-distributed-85p",
+      "L_business_ref": 1020121,
+      "B": 1114
+    },
+    {
+      "id": "1m-docops-expiring_reservations-09",
+      "band": "1m",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 925008,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 85,
+        "depth": 29,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 773,
+      "business_calls": 681,
+      "task_id": "c25-capacity-925008-3w-29d-docops-v2-expiring_reservations-distributed-85p",
+      "L_business_ref": 1024401,
+      "B": 1114
+    },
+    {
+      "id": "1m-docops-expiring_reservations-10",
+      "band": "1m",
+      "family": "expiring_reservations",
+      "parameters": {
+        "seed": 925009,
+        "scenario": "expiring_reservations",
+        "topology": "distributed",
+        "documents": 87,
+        "depth": 29,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 791,
+      "business_calls": 697,
+      "task_id": "c25-capacity-925009-3w-29d-docops-v2-expiring_reservations-distributed-87p",
+      "L_business_ref": 1015298,
+      "B": 1140
+    },
+    {
+      "id": "1m-docops-independent_amendments-01",
+      "band": "1m",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 925100,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 79,
+        "depth": 27,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1139,
+      "business_calls": 1051,
+      "task_id": "c25-capacity-925100-3w-27d-docops-v2-independent_amendments-chain_join-79p",
+      "L_business_ref": 1044367,
+      "B": 1665
+    },
+    {
+      "id": "1m-docops-independent_amendments-02",
+      "band": "1m",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 925101,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 75,
+        "depth": 25,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1095,
+      "business_calls": 1011,
+      "task_id": "c25-capacity-925101-3w-25d-docops-v2-independent_amendments-chain_join-75p",
+      "L_business_ref": 1006712,
+      "B": 1601
+    },
+    {
+      "id": "1m-docops-independent_amendments-03",
+      "band": "1m",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 925102,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 74,
+        "depth": 25,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1070,
+      "business_calls": 987,
+      "task_id": "c25-capacity-925102-3w-25d-docops-v2-independent_amendments-chain_join-74p",
+      "L_business_ref": 963459,
+      "B": 1564
+    },
+    {
+      "id": "1m-docops-independent_amendments-04",
+      "band": "1m",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 925103,
+        "scenario": "independent_amendments",
+        "topology": "chain_join",
+        "documents": 75,
+        "depth": 25,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 1095,
+      "business_calls": 1011,
+      "task_id": "c25-capacity-925103-3w-25d-docops-v2-independent_amendments-chain_join-75p",
+      "L_business_ref": 1005489,
+      "B": 1601
+    },
+    {
+      "id": "1m-docops-independent_amendments-05",
+      "band": "1m",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 925104,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 62,
+        "depth": 21,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 922,
+      "business_calls": 851,
+      "task_id": "c25-capacity-925104-3w-21d-docops-v2-independent_amendments-braided-62p",
+      "L_business_ref": 996248,
+      "B": 1348
+    },
+    {
+      "id": "1m-docops-independent_amendments-06",
+      "band": "1m",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 925105,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 65,
+        "depth": 22,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 949,
+      "business_calls": 875,
+      "task_id": "c25-capacity-925105-3w-22d-docops-v2-independent_amendments-braided-65p",
+      "L_business_ref": 974885,
+      "B": 1387
+    },
+    {
+      "id": "1m-docops-independent_amendments-07",
+      "band": "1m",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 925106,
+        "scenario": "independent_amendments",
+        "topology": "braided",
+        "documents": 68,
+        "depth": 23,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 992,
+      "business_calls": 915,
+      "task_id": "c25-capacity-925106-3w-23d-docops-v2-independent_amendments-braided-68p",
+      "L_business_ref": 1018333,
+      "B": 1450
+    },
+    {
+      "id": "1m-docops-independent_amendments-08",
+      "band": "1m",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 925107,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 52,
+        "depth": 18,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 752,
+      "business_calls": 691,
+      "task_id": "c25-capacity-925107-3w-18d-docops-v2-independent_amendments-distributed-52p",
+      "L_business_ref": 968320,
+      "B": 1098
+    },
+    {
+      "id": "1m-docops-independent_amendments-09",
+      "band": "1m",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 925108,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 56,
+        "depth": 19,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 820,
+      "business_calls": 755,
+      "task_id": "c25-capacity-925108-3w-19d-docops-v2-independent_amendments-distributed-56p",
+      "L_business_ref": 1015872,
+      "B": 1198
+    },
+    {
+      "id": "1m-docops-independent_amendments-10",
+      "band": "1m",
+      "family": "independent_amendments",
+      "parameters": {
+        "seed": 925109,
+        "scenario": "independent_amendments",
+        "topology": "distributed",
+        "documents": 55,
+        "depth": 19,
+        "background": true
+      },
+      "reference_policy": "public_document_cache_v2",
+      "reference_calls": 811,
+      "business_calls": 747,
+      "task_id": "c25-capacity-925109-3w-19d-docops-v2-independent_amendments-distributed-55p",
+      "L_business_ref": 1046945,
+      "B": 1185
+    }
+  ]
+}

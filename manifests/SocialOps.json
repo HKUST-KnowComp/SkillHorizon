@@ -1,0 +1,2856 @@
+{
+  "environment": "SocialOps",
+  "dataset_id": "skillhorizon-socialops150-20260921-v3",
+  "tasks": [
+    {
+      "id": "socialops-v3-64k-1-01",
+      "band": "64k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 3709210000,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709210000-2c-2w-overlapping-conversions",
+      "L_business_ref": 63322,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-1-02",
+      "band": "64k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 3709220001,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709220001-2c-2w-overlapping-conversions",
+      "L_business_ref": 63694,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-1-03",
+      "band": "64k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200002,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200002-2c-2w-overlapping-conversions",
+      "L_business_ref": 63875,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-1-04",
+      "band": "64k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 3709210003,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709210003-2c-2w-overlapping-conversions",
+      "L_business_ref": 63192,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-1-05",
+      "band": "64k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200004,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 136,
+      "business_calls": 113,
+      "task_id": "c06-exposure-2709200004-2c-2w-overlapping-conversions",
+      "L_business_ref": 65419,
+      "B": 193
+    },
+    {
+      "id": "socialops-v3-64k-1-06",
+      "band": "64k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200005,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200005-2c-2w-overlapping-conversions",
+      "L_business_ref": 64145,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-1-07",
+      "band": "64k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 3709220006,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 136,
+      "business_calls": 113,
+      "task_id": "c06-exposure-3709220006-2c-2w-overlapping-conversions",
+      "L_business_ref": 65232,
+      "B": 193
+    },
+    {
+      "id": "socialops-v3-64k-1-08",
+      "band": "64k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 3709230007,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709230007-2c-2w-overlapping-conversions",
+      "L_business_ref": 62871,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-1-09",
+      "band": "64k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200008,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200008-2c-2w-overlapping-conversions",
+      "L_business_ref": 64727,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-1-10",
+      "band": "64k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200009,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200009-2c-2w-overlapping-conversions",
+      "L_business_ref": 63723,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-2-01",
+      "band": "64k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200010,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 136,
+      "business_calls": 113,
+      "task_id": "c06-exposure-2709200010-2c-2w-cooldown-reactivation",
+      "L_business_ref": 65431,
+      "B": 193
+    },
+    {
+      "id": "socialops-v3-64k-2-02",
+      "band": "64k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 3709210011,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709210011-2c-2w-cooldown-reactivation",
+      "L_business_ref": 64900,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-2-03",
+      "band": "64k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 3709220012,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709220012-2c-2w-cooldown-reactivation",
+      "L_business_ref": 62989,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-2-04",
+      "band": "64k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200013,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 136,
+      "business_calls": 113,
+      "task_id": "c06-exposure-2709200013-2c-2w-cooldown-reactivation",
+      "L_business_ref": 64111,
+      "B": 193
+    },
+    {
+      "id": "socialops-v3-64k-2-05",
+      "band": "64k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200014,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200014-2c-2w-cooldown-reactivation",
+      "L_business_ref": 62876,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-2-06",
+      "band": "64k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 3709230015,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709230015-2c-2w-cooldown-reactivation",
+      "L_business_ref": 64791,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-2-07",
+      "band": "64k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 3709210016,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709210016-2c-2w-cooldown-reactivation",
+      "L_business_ref": 65523,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-2-08",
+      "band": "64k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200017,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200017-2c-2w-cooldown-reactivation",
+      "L_business_ref": 62226,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-2-09",
+      "band": "64k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 3709220018,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709220018-2c-2w-cooldown-reactivation",
+      "L_business_ref": 63570,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-2-10",
+      "band": "64k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 3709210019,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709210019-2c-2w-cooldown-reactivation",
+      "L_business_ref": 63023,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-3-01",
+      "band": "64k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200020,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200020-2c-2w-overlap-reactivation",
+      "L_business_ref": 62552,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-3-02",
+      "band": "64k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200021,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 140,
+      "business_calls": 117,
+      "task_id": "c06-exposure-2709200021-2c-2w-overlap-reactivation",
+      "L_business_ref": 64809,
+      "B": 199
+    },
+    {
+      "id": "socialops-v3-64k-3-03",
+      "band": "64k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200022,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200022-2c-2w-overlap-reactivation",
+      "L_business_ref": 63014,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-3-04",
+      "band": "64k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200023,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200023-2c-2w-overlap-reactivation",
+      "L_business_ref": 63921,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-3-05",
+      "band": "64k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200024,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200024-2c-2w-overlap-reactivation",
+      "L_business_ref": 63276,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-3-06",
+      "band": "64k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200025,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200025-2c-2w-overlap-reactivation",
+      "L_business_ref": 64700,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-3-07",
+      "band": "64k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 3709210026,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709210026-2c-2w-overlap-reactivation",
+      "L_business_ref": 64732,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-3-08",
+      "band": "64k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 3709210027,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709210027-2c-2w-overlap-reactivation",
+      "L_business_ref": 64830,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-3-09",
+      "band": "64k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 3709210028,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-3709210028-2c-2w-overlap-reactivation",
+      "L_business_ref": 64465,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-64k-3-10",
+      "band": "64k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200029,
+        "campaigns": 2,
+        "waves": 2,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 132,
+      "business_calls": 109,
+      "task_id": "c06-exposure-2709200029-2c-2w-overlap-reactivation",
+      "L_business_ref": 64949,
+      "B": 187
+    },
+    {
+      "id": "socialops-v3-128k-1-01",
+      "band": "128k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200030,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200030-2c-3w-overlapping-conversions",
+      "L_business_ref": 108903,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-1-02",
+      "band": "128k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200031,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 220,
+      "business_calls": 188,
+      "task_id": "c06-exposure-2709200031-2c-3w-overlapping-conversions",
+      "L_business_ref": 114916,
+      "B": 314
+    },
+    {
+      "id": "socialops-v3-128k-1-03",
+      "band": "128k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200032,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 220,
+      "business_calls": 188,
+      "task_id": "c06-exposure-2709200032-2c-3w-overlapping-conversions",
+      "L_business_ref": 115745,
+      "B": 314
+    },
+    {
+      "id": "socialops-v3-128k-1-04",
+      "band": "128k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200033,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 216,
+      "business_calls": 184,
+      "task_id": "c06-exposure-2709200033-2c-3w-overlapping-conversions",
+      "L_business_ref": 112748,
+      "B": 308
+    },
+    {
+      "id": "socialops-v3-128k-1-05",
+      "band": "128k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200034,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200034-2c-3w-overlapping-conversions",
+      "L_business_ref": 109042,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-1-06",
+      "band": "128k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200035,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200035-2c-3w-overlapping-conversions",
+      "L_business_ref": 111496,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-1-07",
+      "band": "128k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200036,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 216,
+      "business_calls": 184,
+      "task_id": "c06-exposure-2709200036-2c-3w-overlapping-conversions",
+      "L_business_ref": 112606,
+      "B": 308
+    },
+    {
+      "id": "socialops-v3-128k-1-08",
+      "band": "128k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200037,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200037-2c-3w-overlapping-conversions",
+      "L_business_ref": 109994,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-1-09",
+      "band": "128k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200038,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 216,
+      "business_calls": 184,
+      "task_id": "c06-exposure-2709200038-2c-3w-overlapping-conversions",
+      "L_business_ref": 111182,
+      "B": 308
+    },
+    {
+      "id": "socialops-v3-128k-1-10",
+      "band": "128k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200039,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200039-2c-3w-overlapping-conversions",
+      "L_business_ref": 110148,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-2-01",
+      "band": "128k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200040,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200040-2c-3w-cooldown-reactivation",
+      "L_business_ref": 110400,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-2-02",
+      "band": "128k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200041,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 220,
+      "business_calls": 188,
+      "task_id": "c06-exposure-2709200041-2c-3w-cooldown-reactivation",
+      "L_business_ref": 114250,
+      "B": 314
+    },
+    {
+      "id": "socialops-v3-128k-2-03",
+      "band": "128k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200042,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 220,
+      "business_calls": 188,
+      "task_id": "c06-exposure-2709200042-2c-3w-cooldown-reactivation",
+      "L_business_ref": 112185,
+      "B": 314
+    },
+    {
+      "id": "socialops-v3-128k-2-04",
+      "band": "128k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200043,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200043-2c-3w-cooldown-reactivation",
+      "L_business_ref": 109431,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-2-05",
+      "band": "128k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200044,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200044-2c-3w-cooldown-reactivation",
+      "L_business_ref": 109520,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-2-06",
+      "band": "128k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200045,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200045-2c-3w-cooldown-reactivation",
+      "L_business_ref": 105745,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-2-07",
+      "band": "128k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200046,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 220,
+      "business_calls": 188,
+      "task_id": "c06-exposure-2709200046-2c-3w-cooldown-reactivation",
+      "L_business_ref": 117622,
+      "B": 314
+    },
+    {
+      "id": "socialops-v3-128k-2-08",
+      "band": "128k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200047,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200047-2c-3w-cooldown-reactivation",
+      "L_business_ref": 111428,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-2-09",
+      "band": "128k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200048,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200048-2c-3w-cooldown-reactivation",
+      "L_business_ref": 111494,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-2-10",
+      "band": "128k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200049,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 216,
+      "business_calls": 184,
+      "task_id": "c06-exposure-2709200049-2c-3w-cooldown-reactivation",
+      "L_business_ref": 113925,
+      "B": 308
+    },
+    {
+      "id": "socialops-v3-128k-3-01",
+      "band": "128k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200050,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 220,
+      "business_calls": 188,
+      "task_id": "c06-exposure-2709200050-2c-3w-overlap-reactivation",
+      "L_business_ref": 114837,
+      "B": 314
+    },
+    {
+      "id": "socialops-v3-128k-3-02",
+      "band": "128k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200051,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200051-2c-3w-overlap-reactivation",
+      "L_business_ref": 112681,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-3-03",
+      "band": "128k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200052,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 216,
+      "business_calls": 184,
+      "task_id": "c06-exposure-2709200052-2c-3w-overlap-reactivation",
+      "L_business_ref": 114119,
+      "B": 308
+    },
+    {
+      "id": "socialops-v3-128k-3-04",
+      "band": "128k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200053,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 216,
+      "business_calls": 184,
+      "task_id": "c06-exposure-2709200053-2c-3w-overlap-reactivation",
+      "L_business_ref": 114603,
+      "B": 308
+    },
+    {
+      "id": "socialops-v3-128k-3-05",
+      "band": "128k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200054,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200054-2c-3w-overlap-reactivation",
+      "L_business_ref": 111021,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-3-06",
+      "band": "128k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200055,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 216,
+      "business_calls": 184,
+      "task_id": "c06-exposure-2709200055-2c-3w-overlap-reactivation",
+      "L_business_ref": 115172,
+      "B": 308
+    },
+    {
+      "id": "socialops-v3-128k-3-07",
+      "band": "128k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200056,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200056-2c-3w-overlap-reactivation",
+      "L_business_ref": 111922,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-3-08",
+      "band": "128k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200057,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 216,
+      "business_calls": 184,
+      "task_id": "c06-exposure-2709200057-2c-3w-overlap-reactivation",
+      "L_business_ref": 113116,
+      "B": 308
+    },
+    {
+      "id": "socialops-v3-128k-3-09",
+      "band": "128k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200058,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200058-2c-3w-overlap-reactivation",
+      "L_business_ref": 109395,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-128k-3-10",
+      "band": "128k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200059,
+        "campaigns": 2,
+        "waves": 3,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 212,
+      "business_calls": 180,
+      "task_id": "c06-exposure-2709200059-2c-3w-overlap-reactivation",
+      "L_business_ref": 110016,
+      "B": 302
+    },
+    {
+      "id": "socialops-v3-256k-1-01",
+      "band": "256k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200060,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 372,
+      "business_calls": 324,
+      "task_id": "c06-exposure-2709200060-3c-3w-overlapping-conversions",
+      "L_business_ref": 222542,
+      "B": 534
+    },
+    {
+      "id": "socialops-v3-256k-1-02",
+      "band": "256k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200061,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 372,
+      "business_calls": 324,
+      "task_id": "c06-exposure-2709200061-3c-3w-overlapping-conversions",
+      "L_business_ref": 223738,
+      "B": 534
+    },
+    {
+      "id": "socialops-v3-256k-1-03",
+      "band": "256k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200062,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 368,
+      "business_calls": 320,
+      "task_id": "c06-exposure-2709200062-3c-3w-overlapping-conversions",
+      "L_business_ref": 216106,
+      "B": 528
+    },
+    {
+      "id": "socialops-v3-256k-1-04",
+      "band": "256k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200063,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200063-3c-3w-overlapping-conversions",
+      "L_business_ref": 223106,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-256k-1-05",
+      "band": "256k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200064,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 372,
+      "business_calls": 324,
+      "task_id": "c06-exposure-2709200064-3c-3w-overlapping-conversions",
+      "L_business_ref": 222983,
+      "B": 534
+    },
+    {
+      "id": "socialops-v3-256k-1-06",
+      "band": "256k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200065,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 368,
+      "business_calls": 320,
+      "task_id": "c06-exposure-2709200065-3c-3w-overlapping-conversions",
+      "L_business_ref": 216110,
+      "B": 528
+    },
+    {
+      "id": "socialops-v3-256k-1-07",
+      "band": "256k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200066,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200066-3c-3w-overlapping-conversions",
+      "L_business_ref": 221555,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-256k-1-08",
+      "band": "256k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200067,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200067-3c-3w-overlapping-conversions",
+      "L_business_ref": 219086,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-256k-1-09",
+      "band": "256k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200068,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 372,
+      "business_calls": 324,
+      "task_id": "c06-exposure-2709200068-3c-3w-overlapping-conversions",
+      "L_business_ref": 224938,
+      "B": 534
+    },
+    {
+      "id": "socialops-v3-256k-1-10",
+      "band": "256k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200069,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200069-3c-3w-overlapping-conversions",
+      "L_business_ref": 221832,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-256k-2-01",
+      "band": "256k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200070,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200070-3c-3w-cooldown-reactivation",
+      "L_business_ref": 219157,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-256k-2-02",
+      "band": "256k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200071,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 372,
+      "business_calls": 324,
+      "task_id": "c06-exposure-2709200071-3c-3w-cooldown-reactivation",
+      "L_business_ref": 221577,
+      "B": 534
+    },
+    {
+      "id": "socialops-v3-256k-2-03",
+      "band": "256k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200072,
+        "campaigns": 3,
+        "waves": 4,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 406,
+      "business_calls": 353,
+      "task_id": "c06-exposure-2709200072-3c-4w-cooldown-reactivation",
+      "L_business_ref": 235149,
+      "B": 583
+    },
+    {
+      "id": "socialops-v3-256k-2-04",
+      "band": "256k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200073,
+        "campaigns": 3,
+        "waves": 4,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 406,
+      "business_calls": 353,
+      "task_id": "c06-exposure-2709200073-3c-4w-cooldown-reactivation",
+      "L_business_ref": 237699,
+      "B": 583
+    },
+    {
+      "id": "socialops-v3-256k-2-05",
+      "band": "256k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200074,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200074-3c-3w-cooldown-reactivation",
+      "L_business_ref": 215257,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-256k-2-06",
+      "band": "256k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200075,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 372,
+      "business_calls": 324,
+      "task_id": "c06-exposure-2709200075-3c-3w-cooldown-reactivation",
+      "L_business_ref": 222601,
+      "B": 534
+    },
+    {
+      "id": "socialops-v3-256k-2-07",
+      "band": "256k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200076,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 372,
+      "business_calls": 324,
+      "task_id": "c06-exposure-2709200076-3c-3w-cooldown-reactivation",
+      "L_business_ref": 216159,
+      "B": 534
+    },
+    {
+      "id": "socialops-v3-256k-2-08",
+      "band": "256k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200077,
+        "campaigns": 3,
+        "waves": 4,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 414,
+      "business_calls": 361,
+      "task_id": "c06-exposure-2709200077-3c-4w-cooldown-reactivation",
+      "L_business_ref": 239990,
+      "B": 595
+    },
+    {
+      "id": "socialops-v3-256k-2-09",
+      "band": "256k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200078,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 368,
+      "business_calls": 320,
+      "task_id": "c06-exposure-2709200078-3c-3w-cooldown-reactivation",
+      "L_business_ref": 213165,
+      "B": 528
+    },
+    {
+      "id": "socialops-v3-256k-2-10",
+      "band": "256k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200079,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 368,
+      "business_calls": 320,
+      "task_id": "c06-exposure-2709200079-3c-3w-cooldown-reactivation",
+      "L_business_ref": 218922,
+      "B": 528
+    },
+    {
+      "id": "socialops-v3-256k-3-01",
+      "band": "256k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200080,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200080-3c-3w-overlap-reactivation",
+      "L_business_ref": 221972,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-256k-3-02",
+      "band": "256k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200081,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 368,
+      "business_calls": 320,
+      "task_id": "c06-exposure-2709200081-3c-3w-overlap-reactivation",
+      "L_business_ref": 221876,
+      "B": 528
+    },
+    {
+      "id": "socialops-v3-256k-3-03",
+      "band": "256k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200082,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 372,
+      "business_calls": 324,
+      "task_id": "c06-exposure-2709200082-3c-3w-overlap-reactivation",
+      "L_business_ref": 222617,
+      "B": 534
+    },
+    {
+      "id": "socialops-v3-256k-3-04",
+      "band": "256k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200083,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200083-3c-3w-overlap-reactivation",
+      "L_business_ref": 221355,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-256k-3-05",
+      "band": "256k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200084,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 372,
+      "business_calls": 324,
+      "task_id": "c06-exposure-2709200084-3c-3w-overlap-reactivation",
+      "L_business_ref": 219182,
+      "B": 534
+    },
+    {
+      "id": "socialops-v3-256k-3-06",
+      "band": "256k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200085,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 368,
+      "business_calls": 320,
+      "task_id": "c06-exposure-2709200085-3c-3w-overlap-reactivation",
+      "L_business_ref": 219664,
+      "B": 528
+    },
+    {
+      "id": "socialops-v3-256k-3-07",
+      "band": "256k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200086,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200086-3c-3w-overlap-reactivation",
+      "L_business_ref": 218992,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-256k-3-08",
+      "band": "256k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200087,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200087-3c-3w-overlap-reactivation",
+      "L_business_ref": 215441,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-256k-3-09",
+      "band": "256k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200088,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 372,
+      "business_calls": 324,
+      "task_id": "c06-exposure-2709200088-3c-3w-overlap-reactivation",
+      "L_business_ref": 220510,
+      "B": 534
+    },
+    {
+      "id": "socialops-v3-256k-3-10",
+      "band": "256k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200089,
+        "campaigns": 3,
+        "waves": 3,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 364,
+      "business_calls": 316,
+      "task_id": "c06-exposure-2709200089-3c-3w-overlap-reactivation",
+      "L_business_ref": 215659,
+      "B": 522
+    },
+    {
+      "id": "socialops-v3-512k-1-01",
+      "band": "512k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200090,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 722,
+      "business_calls": 635,
+      "task_id": "c06-exposure-2709200090-3c-6w-overlapping-conversions",
+      "L_business_ref": 473693,
+      "B": 1040
+    },
+    {
+      "id": "socialops-v3-512k-1-02",
+      "band": "512k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200091,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 2,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 688,
+      "business_calls": 605,
+      "task_id": "c06-exposure-2709200091-3c-6w-overlapping-conversions",
+      "L_business_ref": 456106,
+      "B": 991
+    },
+    {
+      "id": "socialops-v3-512k-1-03",
+      "band": "512k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200092,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 722,
+      "business_calls": 635,
+      "task_id": "c06-exposure-2709200092-3c-6w-overlapping-conversions",
+      "L_business_ref": 464251,
+      "B": 1040
+    },
+    {
+      "id": "socialops-v3-512k-1-04",
+      "band": "512k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200093,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 2,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 680,
+      "business_calls": 597,
+      "task_id": "c06-exposure-2709200093-3c-6w-overlapping-conversions",
+      "L_business_ref": 457017,
+      "B": 979
+    },
+    {
+      "id": "socialops-v3-512k-1-05",
+      "band": "512k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200094,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 646,
+      "business_calls": 567,
+      "task_id": "c06-exposure-2709200094-3c-6w-overlapping-conversions",
+      "L_business_ref": 456577,
+      "B": 930
+    },
+    {
+      "id": "socialops-v3-512k-1-06",
+      "band": "512k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200095,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 650,
+      "business_calls": 571,
+      "task_id": "c06-exposure-2709200095-3c-6w-overlapping-conversions",
+      "L_business_ref": 444232,
+      "B": 936
+    },
+    {
+      "id": "socialops-v3-512k-1-07",
+      "band": "512k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200096,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 2,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 688,
+      "business_calls": 605,
+      "task_id": "c06-exposure-2709200096-3c-6w-overlapping-conversions",
+      "L_business_ref": 468701,
+      "B": 991
+    },
+    {
+      "id": "socialops-v3-512k-1-08",
+      "band": "512k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200097,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 646,
+      "business_calls": 567,
+      "task_id": "c06-exposure-2709200097-3c-6w-overlapping-conversions",
+      "L_business_ref": 448086,
+      "B": 930
+    },
+    {
+      "id": "socialops-v3-512k-1-09",
+      "band": "512k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200098,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 642,
+      "business_calls": 563,
+      "task_id": "c06-exposure-2709200098-3c-6w-overlapping-conversions",
+      "L_business_ref": 451093,
+      "B": 924
+    },
+    {
+      "id": "socialops-v3-512k-1-10",
+      "band": "512k",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200099,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 2,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 688,
+      "business_calls": 605,
+      "task_id": "c06-exposure-2709200099-3c-6w-overlapping-conversions",
+      "L_business_ref": 457626,
+      "B": 991
+    },
+    {
+      "id": "socialops-v3-512k-2-01",
+      "band": "512k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200100,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 726,
+      "business_calls": 639,
+      "task_id": "c06-exposure-2709200100-3c-6w-cooldown-reactivation",
+      "L_business_ref": 478953,
+      "B": 1046
+    },
+    {
+      "id": "socialops-v3-512k-2-02",
+      "band": "512k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200101,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 726,
+      "business_calls": 639,
+      "task_id": "c06-exposure-2709200101-3c-6w-cooldown-reactivation",
+      "L_business_ref": 466750,
+      "B": 1046
+    },
+    {
+      "id": "socialops-v3-512k-2-03",
+      "band": "512k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200102,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 2,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 680,
+      "business_calls": 597,
+      "task_id": "c06-exposure-2709200102-3c-6w-cooldown-reactivation",
+      "L_business_ref": 466384,
+      "B": 979
+    },
+    {
+      "id": "socialops-v3-512k-2-04",
+      "band": "512k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200103,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 718,
+      "business_calls": 631,
+      "task_id": "c06-exposure-2709200103-3c-6w-cooldown-reactivation",
+      "L_business_ref": 485273,
+      "B": 1034
+    },
+    {
+      "id": "socialops-v3-512k-2-05",
+      "band": "512k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200104,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 718,
+      "business_calls": 631,
+      "task_id": "c06-exposure-2709200104-3c-6w-cooldown-reactivation",
+      "L_business_ref": 475744,
+      "B": 1034
+    },
+    {
+      "id": "socialops-v3-512k-2-06",
+      "band": "512k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200105,
+        "campaigns": 3,
+        "waves": 7,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 760,
+      "business_calls": 668,
+      "task_id": "c06-exposure-2709200105-3c-7w-cooldown-reactivation",
+      "L_business_ref": 480369,
+      "B": 1094
+    },
+    {
+      "id": "socialops-v3-512k-2-07",
+      "band": "512k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200106,
+        "campaigns": 3,
+        "waves": 7,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 764,
+      "business_calls": 672,
+      "task_id": "c06-exposure-2709200106-3c-7w-cooldown-reactivation",
+      "L_business_ref": 481177,
+      "B": 1100
+    },
+    {
+      "id": "socialops-v3-512k-2-08",
+      "band": "512k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200107,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 718,
+      "business_calls": 631,
+      "task_id": "c06-exposure-2709200107-3c-6w-cooldown-reactivation",
+      "L_business_ref": 483548,
+      "B": 1034
+    },
+    {
+      "id": "socialops-v3-512k-2-09",
+      "band": "512k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200108,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 726,
+      "business_calls": 639,
+      "task_id": "c06-exposure-2709200108-3c-6w-cooldown-reactivation",
+      "L_business_ref": 472746,
+      "B": 1046
+    },
+    {
+      "id": "socialops-v3-512k-2-10",
+      "band": "512k",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200109,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 2,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 688,
+      "business_calls": 605,
+      "task_id": "c06-exposure-2709200109-3c-6w-cooldown-reactivation",
+      "L_business_ref": 455304,
+      "B": 991
+    },
+    {
+      "id": "socialops-v3-512k-3-01",
+      "band": "512k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200110,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 2,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 680,
+      "business_calls": 597,
+      "task_id": "c06-exposure-2709200110-3c-6w-overlap-reactivation",
+      "L_business_ref": 460130,
+      "B": 979
+    },
+    {
+      "id": "socialops-v3-512k-3-02",
+      "band": "512k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200111,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 726,
+      "business_calls": 639,
+      "task_id": "c06-exposure-2709200111-3c-6w-overlap-reactivation",
+      "L_business_ref": 482124,
+      "B": 1046
+    },
+    {
+      "id": "socialops-v3-512k-3-03",
+      "band": "512k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200112,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 718,
+      "business_calls": 631,
+      "task_id": "c06-exposure-2709200112-3c-6w-overlap-reactivation",
+      "L_business_ref": 457895,
+      "B": 1034
+    },
+    {
+      "id": "socialops-v3-512k-3-04",
+      "band": "512k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200113,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 722,
+      "business_calls": 635,
+      "task_id": "c06-exposure-2709200113-3c-6w-overlap-reactivation",
+      "L_business_ref": 475853,
+      "B": 1040
+    },
+    {
+      "id": "socialops-v3-512k-3-05",
+      "band": "512k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200114,
+        "campaigns": 3,
+        "waves": 7,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 760,
+      "business_calls": 668,
+      "task_id": "c06-exposure-2709200114-3c-7w-overlap-reactivation",
+      "L_business_ref": 480961,
+      "B": 1094
+    },
+    {
+      "id": "socialops-v3-512k-3-06",
+      "band": "512k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200115,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 718,
+      "business_calls": 631,
+      "task_id": "c06-exposure-2709200115-3c-6w-overlap-reactivation",
+      "L_business_ref": 475659,
+      "B": 1034
+    },
+    {
+      "id": "socialops-v3-512k-3-07",
+      "band": "512k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200116,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 2,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 680,
+      "business_calls": 597,
+      "task_id": "c06-exposure-2709200116-3c-6w-overlap-reactivation",
+      "L_business_ref": 460666,
+      "B": 979
+    },
+    {
+      "id": "socialops-v3-512k-3-08",
+      "band": "512k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200117,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 718,
+      "business_calls": 631,
+      "task_id": "c06-exposure-2709200117-3c-6w-overlap-reactivation",
+      "L_business_ref": 478086,
+      "B": 1034
+    },
+    {
+      "id": "socialops-v3-512k-3-09",
+      "band": "512k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200118,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 718,
+      "business_calls": 631,
+      "task_id": "c06-exposure-2709200118-3c-6w-overlap-reactivation",
+      "L_business_ref": 475902,
+      "B": 1034
+    },
+    {
+      "id": "socialops-v3-512k-3-10",
+      "band": "512k",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200119,
+        "campaigns": 3,
+        "waves": 6,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 726,
+      "business_calls": 639,
+      "task_id": "c06-exposure-2709200119-3c-6w-overlap-reactivation",
+      "L_business_ref": 475065,
+      "B": 1046
+    },
+    {
+      "id": "socialops-v3-1m-1-01",
+      "band": "1m",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200120,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 2,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1270,
+      "business_calls": 1122,
+      "task_id": "c06-exposure-2709200120-3c-11w-overlapping-conversions",
+      "L_business_ref": 1016951,
+      "B": 1831
+    },
+    {
+      "id": "socialops-v3-1m-1-02",
+      "band": "1m",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200121,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 2,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1270,
+      "business_calls": 1122,
+      "task_id": "c06-exposure-2709200121-3c-11w-overlapping-conversions",
+      "L_business_ref": 981909,
+      "B": 1831
+    },
+    {
+      "id": "socialops-v3-1m-1-03",
+      "band": "1m",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200122,
+        "campaigns": 3,
+        "waves": 10,
+        "final_wave_campaigns": 3,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1194,
+      "business_calls": 1055,
+      "task_id": "c06-exposure-2709200122-3c-10w-overlapping-conversions",
+      "L_business_ref": 969894,
+      "B": 1722
+    },
+    {
+      "id": "socialops-v3-1m-1-04",
+      "band": "1m",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200123,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1236,
+      "business_calls": 1092,
+      "task_id": "c06-exposure-2709200123-3c-11w-overlapping-conversions",
+      "L_business_ref": 965161,
+      "B": 1782
+    },
+    {
+      "id": "socialops-v3-1m-1-05",
+      "band": "1m",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200124,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 2,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1270,
+      "business_calls": 1122,
+      "task_id": "c06-exposure-2709200124-3c-11w-overlapping-conversions",
+      "L_business_ref": 1013506,
+      "B": 1831
+    },
+    {
+      "id": "socialops-v3-1m-1-06",
+      "band": "1m",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200125,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1232,
+      "business_calls": 1088,
+      "task_id": "c06-exposure-2709200125-3c-11w-overlapping-conversions",
+      "L_business_ref": 1009216,
+      "B": 1776
+    },
+    {
+      "id": "socialops-v3-1m-1-07",
+      "band": "1m",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200126,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1240,
+      "business_calls": 1096,
+      "task_id": "c06-exposure-2709200126-3c-11w-overlapping-conversions",
+      "L_business_ref": 1036721,
+      "B": 1788
+    },
+    {
+      "id": "socialops-v3-1m-1-08",
+      "band": "1m",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200127,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 2,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1278,
+      "business_calls": 1130,
+      "task_id": "c06-exposure-2709200127-3c-11w-overlapping-conversions",
+      "L_business_ref": 1007720,
+      "B": 1843
+    },
+    {
+      "id": "socialops-v3-1m-1-09",
+      "band": "1m",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200128,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 1,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1236,
+      "business_calls": 1092,
+      "task_id": "c06-exposure-2709200128-3c-11w-overlapping-conversions",
+      "L_business_ref": 1009874,
+      "B": 1782
+    },
+    {
+      "id": "socialops-v3-1m-1-10",
+      "band": "1m",
+      "family": "overlapping_conversions",
+      "parameters": {
+        "seed": 2709200129,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 2,
+        "scenario": "overlapping_conversions",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1270,
+      "business_calls": 1122,
+      "task_id": "c06-exposure-2709200129-3c-11w-overlapping-conversions",
+      "L_business_ref": 977964,
+      "B": 1831
+    },
+    {
+      "id": "socialops-v3-1m-2-01",
+      "band": "1m",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200130,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 2,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1388,
+      "business_calls": 1227,
+      "task_id": "c06-exposure-2709200130-3c-12w-cooldown-reactivation",
+      "L_business_ref": 974058,
+      "B": 2002
+    },
+    {
+      "id": "socialops-v3-1m-2-02",
+      "band": "1m",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200131,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1350,
+      "business_calls": 1193,
+      "task_id": "c06-exposure-2709200131-3c-12w-cooldown-reactivation",
+      "L_business_ref": 991983,
+      "B": 1947
+    },
+    {
+      "id": "socialops-v3-1m-2-03",
+      "band": "1m",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200132,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1308,
+      "business_calls": 1156,
+      "task_id": "c06-exposure-2709200132-3c-11w-cooldown-reactivation",
+      "L_business_ref": 955818,
+      "B": 1886
+    },
+    {
+      "id": "socialops-v3-1m-2-04",
+      "band": "1m",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200133,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 2,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1388,
+      "business_calls": 1227,
+      "task_id": "c06-exposure-2709200133-3c-12w-cooldown-reactivation",
+      "L_business_ref": 991692,
+      "B": 2002
+    },
+    {
+      "id": "socialops-v3-1m-2-05",
+      "band": "1m",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200134,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 2,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1388,
+      "business_calls": 1227,
+      "task_id": "c06-exposure-2709200134-3c-12w-cooldown-reactivation",
+      "L_business_ref": 1011906,
+      "B": 2002
+    },
+    {
+      "id": "socialops-v3-1m-2-06",
+      "band": "1m",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200135,
+        "campaigns": 3,
+        "waves": 13,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1476,
+      "business_calls": 1306,
+      "task_id": "c06-exposure-2709200135-3c-13w-cooldown-reactivation",
+      "L_business_ref": 984552,
+      "B": 2129
+    },
+    {
+      "id": "socialops-v3-1m-2-07",
+      "band": "1m",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200136,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 3,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1426,
+      "business_calls": 1261,
+      "task_id": "c06-exposure-2709200136-3c-12w-cooldown-reactivation",
+      "L_business_ref": 976143,
+      "B": 2057
+    },
+    {
+      "id": "socialops-v3-1m-2-08",
+      "band": "1m",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200137,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1350,
+      "business_calls": 1193,
+      "task_id": "c06-exposure-2709200137-3c-12w-cooldown-reactivation",
+      "L_business_ref": 959692,
+      "B": 1947
+    },
+    {
+      "id": "socialops-v3-1m-2-09",
+      "band": "1m",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200138,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1350,
+      "business_calls": 1193,
+      "task_id": "c06-exposure-2709200138-3c-12w-cooldown-reactivation",
+      "L_business_ref": 967581,
+      "B": 1947
+    },
+    {
+      "id": "socialops-v3-1m-2-10",
+      "band": "1m",
+      "family": "cooldown_reactivation",
+      "parameters": {
+        "seed": 2709200139,
+        "campaigns": 3,
+        "waves": 13,
+        "final_wave_campaigns": 1,
+        "scenario": "cooldown_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1472,
+      "business_calls": 1302,
+      "task_id": "c06-exposure-2709200139-3c-13w-cooldown-reactivation",
+      "L_business_ref": 989738,
+      "B": 2123
+    },
+    {
+      "id": "socialops-v3-1m-3-01",
+      "band": "1m",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200140,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 2,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1396,
+      "business_calls": 1235,
+      "task_id": "c06-exposure-2709200140-3c-12w-overlap-reactivation",
+      "L_business_ref": 980180,
+      "B": 2014
+    },
+    {
+      "id": "socialops-v3-1m-3-02",
+      "band": "1m",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200141,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1358,
+      "business_calls": 1201,
+      "task_id": "c06-exposure-2709200141-3c-12w-overlap-reactivation",
+      "L_business_ref": 991142,
+      "B": 1959
+    },
+    {
+      "id": "socialops-v3-1m-3-03",
+      "band": "1m",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200142,
+        "campaigns": 3,
+        "waves": 11,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1316,
+      "business_calls": 1164,
+      "task_id": "c06-exposure-2709200142-3c-11w-overlap-reactivation",
+      "L_business_ref": 973657,
+      "B": 1898
+    },
+    {
+      "id": "socialops-v3-1m-3-04",
+      "band": "1m",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200143,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1434,
+      "business_calls": 1269,
+      "task_id": "c06-exposure-2709200143-3c-12w-overlap-reactivation",
+      "L_business_ref": 985629,
+      "B": 2069
+    },
+    {
+      "id": "socialops-v3-1m-3-05",
+      "band": "1m",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200144,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1430,
+      "business_calls": 1265,
+      "task_id": "c06-exposure-2709200144-3c-12w-overlap-reactivation",
+      "L_business_ref": 1019037,
+      "B": 2063
+    },
+    {
+      "id": "socialops-v3-1m-3-06",
+      "band": "1m",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200145,
+        "campaigns": 3,
+        "waves": 13,
+        "final_wave_campaigns": 1,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1468,
+      "business_calls": 1298,
+      "task_id": "c06-exposure-2709200145-3c-13w-overlap-reactivation",
+      "L_business_ref": 1003797,
+      "B": 2117
+    },
+    {
+      "id": "socialops-v3-1m-3-07",
+      "band": "1m",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200146,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 3,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "staggered"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1426,
+      "business_calls": 1261,
+      "task_id": "c06-exposure-2709200146-3c-12w-overlap-reactivation",
+      "L_business_ref": 988165,
+      "B": 2057
+    },
+    {
+      "id": "socialops-v3-1m-3-08",
+      "band": "1m",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200147,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 2,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "protected_branch"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1396,
+      "business_calls": 1235,
+      "task_id": "c06-exposure-2709200147-3c-12w-overlap-reactivation",
+      "L_business_ref": 974148,
+      "B": 2014
+    },
+    {
+      "id": "socialops-v3-1m-3-09",
+      "band": "1m",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200148,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 2,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "distributed"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1396,
+      "business_calls": 1235,
+      "task_id": "c06-exposure-2709200148-3c-12w-overlap-reactivation",
+      "L_business_ref": 997664,
+      "B": 2014
+    },
+    {
+      "id": "socialops-v3-1m-3-10",
+      "band": "1m",
+      "family": "overlap_reactivation",
+      "parameters": {
+        "seed": 2709200149,
+        "campaigns": 3,
+        "waves": 12,
+        "final_wave_campaigns": 2,
+        "scenario": "overlap_reactivation",
+        "dependency_pattern": "alternating_fork_join"
+      },
+      "reference_policy": "public_campaign_cache_exposure_script_v3",
+      "reference_calls": 1392,
+      "business_calls": 1231,
+      "task_id": "c06-exposure-2709200149-3c-12w-overlap-reactivation",
+      "L_business_ref": 1003939,
+      "B": 2008
+    }
+  ]
+}

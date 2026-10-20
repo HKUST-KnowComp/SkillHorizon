@@ -1,0 +1,3006 @@
+{
+  "environment": "FactoryOps",
+  "dataset_id": "skillhorizon-factoryops150-20260922-v1",
+  "tasks": [
+    {
+      "id": "factoryops-64k-constrained_rework-01",
+      "band": "64k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931200,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 143,
+      "business_calls": 117,
+      "task_id": "factoryops-5ac038d880",
+      "L_business_ref": 52509,
+      "B": 202
+    },
+    {
+      "id": "factoryops-64k-constrained_rework-02",
+      "band": "64k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931201,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 149,
+      "business_calls": 123,
+      "task_id": "factoryops-d5dfd6c80d",
+      "L_business_ref": 54369,
+      "B": 211
+    },
+    {
+      "id": "factoryops-64k-constrained_rework-03",
+      "band": "64k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931202,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 144,
+      "business_calls": 118,
+      "task_id": "factoryops-ef1224f6cb",
+      "L_business_ref": 52391,
+      "B": 203
+    },
+    {
+      "id": "factoryops-64k-constrained_rework-04",
+      "band": "64k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931203,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 2,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 144,
+      "business_calls": 118,
+      "task_id": "factoryops-9d7640c165",
+      "L_business_ref": 58130,
+      "B": 203
+    },
+    {
+      "id": "factoryops-64k-constrained_rework-05",
+      "band": "64k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931204,
+        "levels": 2,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 159,
+      "business_calls": 130,
+      "task_id": "factoryops-80eea8c3ca",
+      "L_business_ref": 55901,
+      "B": 224
+    },
+    {
+      "id": "factoryops-64k-constrained_rework-06",
+      "band": "64k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931205,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 148,
+      "business_calls": 122,
+      "task_id": "factoryops-687f0a5485",
+      "L_business_ref": 53629,
+      "B": 209
+    },
+    {
+      "id": "factoryops-64k-constrained_rework-07",
+      "band": "64k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931206,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 145,
+      "business_calls": 119,
+      "task_id": "factoryops-1c541cd75e",
+      "L_business_ref": 53877,
+      "B": 205
+    },
+    {
+      "id": "factoryops-64k-constrained_rework-08",
+      "band": "64k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931207,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 2,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 145,
+      "business_calls": 119,
+      "task_id": "factoryops-abe9bf5a95",
+      "L_business_ref": 57640,
+      "B": 205
+    },
+    {
+      "id": "factoryops-64k-constrained_rework-09",
+      "band": "64k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931208,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 144,
+      "business_calls": 118,
+      "task_id": "factoryops-8f7b095477",
+      "L_business_ref": 51824,
+      "B": 203
+    },
+    {
+      "id": "factoryops-64k-constrained_rework-10",
+      "band": "64k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931209,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 150,
+      "business_calls": 124,
+      "task_id": "factoryops-a09cb6a0c9",
+      "L_business_ref": 53591,
+      "B": 212
+    },
+    {
+      "id": "factoryops-64k-equipment_windows-01",
+      "band": "64k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931000,
+        "levels": 2,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 155,
+      "business_calls": 126,
+      "task_id": "factoryops-09d7226db6",
+      "L_business_ref": 56507,
+      "B": 218
+    },
+    {
+      "id": "factoryops-64k-equipment_windows-02",
+      "band": "64k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931001,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 137,
+      "business_calls": 111,
+      "task_id": "factoryops-f5c8b26ad3",
+      "L_business_ref": 51251,
+      "B": 193
+    },
+    {
+      "id": "factoryops-64k-equipment_windows-03",
+      "band": "64k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931002,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 135,
+      "business_calls": 109,
+      "task_id": "factoryops-ea939167e8",
+      "L_business_ref": 51218,
+      "B": 190
+    },
+    {
+      "id": "factoryops-64k-equipment_windows-04",
+      "band": "64k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931003,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 2,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 137,
+      "business_calls": 111,
+      "task_id": "factoryops-c75381d793",
+      "L_business_ref": 55239,
+      "B": 193
+    },
+    {
+      "id": "factoryops-64k-equipment_windows-05",
+      "band": "64k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931004,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 137,
+      "business_calls": 111,
+      "task_id": "factoryops-fb60ca03d0",
+      "L_business_ref": 51441,
+      "B": 193
+    },
+    {
+      "id": "factoryops-64k-equipment_windows-06",
+      "band": "64k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931005,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 138,
+      "business_calls": 112,
+      "task_id": "factoryops-729af6261e",
+      "L_business_ref": 51402,
+      "B": 194
+    },
+    {
+      "id": "factoryops-64k-equipment_windows-07",
+      "band": "64k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931006,
+        "levels": 2,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 157,
+      "business_calls": 128,
+      "task_id": "factoryops-7ecb7b0f3c",
+      "L_business_ref": 57478,
+      "B": 221
+    },
+    {
+      "id": "factoryops-64k-equipment_windows-08",
+      "band": "64k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931007,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 2,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 150,
+      "business_calls": 124,
+      "task_id": "factoryops-5253a80f06",
+      "L_business_ref": 60767,
+      "B": 212
+    },
+    {
+      "id": "factoryops-64k-equipment_windows-09",
+      "band": "64k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931008,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 142,
+      "business_calls": 116,
+      "task_id": "factoryops-6a3c3731de",
+      "L_business_ref": 52736,
+      "B": 200
+    },
+    {
+      "id": "factoryops-64k-equipment_windows-10",
+      "band": "64k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931009,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 137,
+      "business_calls": 111,
+      "task_id": "factoryops-f389e30589",
+      "L_business_ref": 51577,
+      "B": 193
+    },
+    {
+      "id": "factoryops-64k-selective_rework-01",
+      "band": "64k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931100,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 144,
+      "business_calls": 118,
+      "task_id": "factoryops-5a1ebac0b9",
+      "L_business_ref": 52348,
+      "B": 203
+    },
+    {
+      "id": "factoryops-64k-selective_rework-02",
+      "band": "64k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931101,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 147,
+      "business_calls": 121,
+      "task_id": "factoryops-3c060ad89b",
+      "L_business_ref": 52064,
+      "B": 208
+    },
+    {
+      "id": "factoryops-64k-selective_rework-03",
+      "band": "64k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931102,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 146,
+      "business_calls": 120,
+      "task_id": "factoryops-85dd56cd04",
+      "L_business_ref": 50611,
+      "B": 206
+    },
+    {
+      "id": "factoryops-64k-selective_rework-04",
+      "band": "64k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931103,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 2,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 148,
+      "business_calls": 122,
+      "task_id": "factoryops-6c5052ff03",
+      "L_business_ref": 59074,
+      "B": 209
+    },
+    {
+      "id": "factoryops-64k-selective_rework-05",
+      "band": "64k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931104,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 145,
+      "business_calls": 119,
+      "task_id": "factoryops-98b5d25365",
+      "L_business_ref": 52445,
+      "B": 205
+    },
+    {
+      "id": "factoryops-64k-selective_rework-06",
+      "band": "64k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931105,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 142,
+      "business_calls": 116,
+      "task_id": "factoryops-66e4f1e83f",
+      "L_business_ref": 50624,
+      "B": 200
+    },
+    {
+      "id": "factoryops-64k-selective_rework-07",
+      "band": "64k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931106,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 150,
+      "business_calls": 124,
+      "task_id": "factoryops-e5c8040299",
+      "L_business_ref": 53196,
+      "B": 212
+    },
+    {
+      "id": "factoryops-64k-selective_rework-08",
+      "band": "64k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931107,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 2,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 146,
+      "business_calls": 120,
+      "task_id": "factoryops-40f4cd9932",
+      "L_business_ref": 56935,
+      "B": 206
+    },
+    {
+      "id": "factoryops-64k-selective_rework-09",
+      "band": "64k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931108,
+        "levels": 2,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 161,
+      "business_calls": 132,
+      "task_id": "factoryops-00f3d5e182",
+      "L_business_ref": 56781,
+      "B": 227
+    },
+    {
+      "id": "factoryops-64k-selective_rework-10",
+      "band": "64k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931109,
+        "levels": 2,
+        "width": 6,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 144,
+      "business_calls": 118,
+      "task_id": "factoryops-4391e3c419",
+      "L_business_ref": 51838,
+      "B": 203
+    },
+    {
+      "id": "factoryops-128k-constrained_rework-01",
+      "band": "128k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931500,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 302,
+      "business_calls": 258,
+      "task_id": "factoryops-ffcdfd1eec",
+      "L_business_ref": 113118,
+      "B": 431
+    },
+    {
+      "id": "factoryops-128k-constrained_rework-02",
+      "band": "128k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931501,
+        "levels": 4,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 303,
+      "business_calls": 260,
+      "task_id": "factoryops-96dec011ae",
+      "L_business_ref": 117947,
+      "B": 433
+    },
+    {
+      "id": "factoryops-128k-constrained_rework-03",
+      "band": "128k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931502,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 307,
+      "business_calls": 263,
+      "task_id": "factoryops-915ce11312",
+      "L_business_ref": 108069,
+      "B": 439
+    },
+    {
+      "id": "factoryops-128k-constrained_rework-04",
+      "band": "128k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931503,
+        "levels": 4,
+        "width": 5,
+        "terminal_quantity": 2,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 228,
+      "business_calls": 195,
+      "task_id": "factoryops-734e57eaca",
+      "L_business_ref": 114974,
+      "B": 326
+    },
+    {
+      "id": "factoryops-128k-constrained_rework-05",
+      "band": "128k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931504,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 305,
+      "business_calls": 261,
+      "task_id": "factoryops-556d3b3d48",
+      "L_business_ref": 111398,
+      "B": 436
+    },
+    {
+      "id": "factoryops-128k-constrained_rework-06",
+      "band": "128k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931505,
+        "levels": 4,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 305,
+      "business_calls": 262,
+      "task_id": "factoryops-0a1263869e",
+      "L_business_ref": 113357,
+      "B": 436
+    },
+    {
+      "id": "factoryops-128k-constrained_rework-07",
+      "band": "128k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931506,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 307,
+      "business_calls": 263,
+      "task_id": "factoryops-8b5de90edc",
+      "L_business_ref": 115368,
+      "B": 439
+    },
+    {
+      "id": "factoryops-128k-constrained_rework-08",
+      "band": "128k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931507,
+        "levels": 4,
+        "width": 6,
+        "terminal_quantity": 2,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 272,
+      "business_calls": 234,
+      "task_id": "factoryops-ffac95175e",
+      "L_business_ref": 126312,
+      "B": 389
+    },
+    {
+      "id": "factoryops-128k-constrained_rework-09",
+      "band": "128k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931508,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 307,
+      "business_calls": 263,
+      "task_id": "factoryops-47a4060fa7",
+      "L_business_ref": 109223,
+      "B": 439
+    },
+    {
+      "id": "factoryops-128k-constrained_rework-10",
+      "band": "128k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931509,
+        "levels": 4,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 306,
+      "business_calls": 263,
+      "task_id": "factoryops-dc854ef099",
+      "L_business_ref": 128192,
+      "B": 438
+    },
+    {
+      "id": "factoryops-128k-equipment_windows-01",
+      "band": "128k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931300,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 278,
+      "business_calls": 234,
+      "task_id": "factoryops-4b22704751",
+      "L_business_ref": 109510,
+      "B": 395
+    },
+    {
+      "id": "factoryops-128k-equipment_windows-02",
+      "band": "128k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931301,
+        "levels": 4,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 279,
+      "business_calls": 236,
+      "task_id": "factoryops-49bc7a1970",
+      "L_business_ref": 112221,
+      "B": 397
+    },
+    {
+      "id": "factoryops-128k-equipment_windows-03",
+      "band": "128k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931302,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 277,
+      "business_calls": 233,
+      "task_id": "factoryops-284b10259c",
+      "L_business_ref": 103877,
+      "B": 394
+    },
+    {
+      "id": "factoryops-128k-equipment_windows-04",
+      "band": "128k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931303,
+        "levels": 4,
+        "width": 5,
+        "terminal_quantity": 2,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 206,
+      "business_calls": 173,
+      "task_id": "factoryops-f6ab9f6931",
+      "L_business_ref": 112324,
+      "B": 293
+    },
+    {
+      "id": "factoryops-128k-equipment_windows-05",
+      "band": "128k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931304,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 283,
+      "business_calls": 239,
+      "task_id": "factoryops-03aee8b3c3",
+      "L_business_ref": 109320,
+      "B": 403
+    },
+    {
+      "id": "factoryops-128k-equipment_windows-06",
+      "band": "128k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931305,
+        "levels": 4,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 291,
+      "business_calls": 248,
+      "task_id": "factoryops-7a01218b1e",
+      "L_business_ref": 111121,
+      "B": 415
+    },
+    {
+      "id": "factoryops-128k-equipment_windows-07",
+      "band": "128k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931306,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 274,
+      "business_calls": 230,
+      "task_id": "factoryops-320fecb9ba",
+      "L_business_ref": 109407,
+      "B": 389
+    },
+    {
+      "id": "factoryops-128k-equipment_windows-08",
+      "band": "128k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931307,
+        "levels": 4,
+        "width": 6,
+        "terminal_quantity": 2,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 248,
+      "business_calls": 210,
+      "task_id": "factoryops-790eebc637",
+      "L_business_ref": 119031,
+      "B": 353
+    },
+    {
+      "id": "factoryops-128k-equipment_windows-09",
+      "band": "128k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931308,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 275,
+      "business_calls": 231,
+      "task_id": "factoryops-36ad0166d9",
+      "L_business_ref": 102464,
+      "B": 391
+    },
+    {
+      "id": "factoryops-128k-equipment_windows-10",
+      "band": "128k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931309,
+        "levels": 4,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 293,
+      "business_calls": 250,
+      "task_id": "factoryops-6f4d6b4011",
+      "L_business_ref": 126508,
+      "B": 418
+    },
+    {
+      "id": "factoryops-128k-selective_rework-01",
+      "band": "128k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931400,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 307,
+      "business_calls": 263,
+      "task_id": "factoryops-3a4591fdb6",
+      "L_business_ref": 115422,
+      "B": 439
+    },
+    {
+      "id": "factoryops-128k-selective_rework-02",
+      "band": "128k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931401,
+        "levels": 4,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 291,
+      "business_calls": 248,
+      "task_id": "factoryops-fac2577c2e",
+      "L_business_ref": 113495,
+      "B": 415
+    },
+    {
+      "id": "factoryops-128k-selective_rework-03",
+      "band": "128k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931402,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 305,
+      "business_calls": 261,
+      "task_id": "factoryops-919e9d0cb7",
+      "L_business_ref": 110001,
+      "B": 436
+    },
+    {
+      "id": "factoryops-128k-selective_rework-04",
+      "band": "128k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931403,
+        "levels": 4,
+        "width": 5,
+        "terminal_quantity": 2,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 233,
+      "business_calls": 200,
+      "task_id": "factoryops-bd111ae84c",
+      "L_business_ref": 118373,
+      "B": 333
+    },
+    {
+      "id": "factoryops-128k-selective_rework-05",
+      "band": "128k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931404,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 320,
+      "business_calls": 276,
+      "task_id": "factoryops-897081e2da",
+      "L_business_ref": 117134,
+      "B": 458
+    },
+    {
+      "id": "factoryops-128k-selective_rework-06",
+      "band": "128k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931405,
+        "levels": 4,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 302,
+      "business_calls": 259,
+      "task_id": "factoryops-3dfa060162",
+      "L_business_ref": 112530,
+      "B": 432
+    },
+    {
+      "id": "factoryops-128k-selective_rework-07",
+      "band": "128k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931406,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 303,
+      "business_calls": 259,
+      "task_id": "factoryops-c6dcc28166",
+      "L_business_ref": 112861,
+      "B": 433
+    },
+    {
+      "id": "factoryops-128k-selective_rework-08",
+      "band": "128k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931407,
+        "levels": 4,
+        "width": 6,
+        "terminal_quantity": 2,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 279,
+      "business_calls": 241,
+      "task_id": "factoryops-c2f2218af9",
+      "L_business_ref": 126153,
+      "B": 400
+    },
+    {
+      "id": "factoryops-128k-selective_rework-09",
+      "band": "128k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931408,
+        "levels": 3,
+        "width": 9,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 299,
+      "business_calls": 255,
+      "task_id": "factoryops-251c08f5b2",
+      "L_business_ref": 109157,
+      "B": 427
+    },
+    {
+      "id": "factoryops-128k-selective_rework-10",
+      "band": "128k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931409,
+        "levels": 4,
+        "width": 7,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 303,
+      "business_calls": 260,
+      "task_id": "factoryops-437c9c0323",
+      "L_business_ref": 124888,
+      "B": 433
+    },
+    {
+      "id": "factoryops-256k-constrained_rework-01",
+      "band": "256k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931800,
+        "levels": 3,
+        "width": 19,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 631,
+      "business_calls": 547,
+      "task_id": "factoryops-a3987eae30",
+      "L_business_ref": 235573,
+      "B": 905
+    },
+    {
+      "id": "factoryops-256k-constrained_rework-02",
+      "band": "256k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931801,
+        "levels": 4,
+        "width": 14,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 614,
+      "business_calls": 536,
+      "task_id": "factoryops-3cd562ea71",
+      "L_business_ref": 228418,
+      "B": 882
+    },
+    {
+      "id": "factoryops-256k-constrained_rework-03",
+      "band": "256k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931802,
+        "levels": 5,
+        "width": 12,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 662,
+      "business_calls": 582,
+      "task_id": "factoryops-02e75047f6",
+      "L_business_ref": 241934,
+      "B": 953
+    },
+    {
+      "id": "factoryops-256k-constrained_rework-04",
+      "band": "256k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931803,
+        "levels": 3,
+        "width": 16,
+        "terminal_quantity": 2,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 546,
+      "business_calls": 474,
+      "task_id": "factoryops-e720108b1d",
+      "L_business_ref": 237280,
+      "B": 783
+    },
+    {
+      "id": "factoryops-256k-constrained_rework-05",
+      "band": "256k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931804,
+        "levels": 4,
+        "width": 14,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 621,
+      "business_calls": 543,
+      "task_id": "factoryops-a092c674d3",
+      "L_business_ref": 232905,
+      "B": 893
+    },
+    {
+      "id": "factoryops-256k-constrained_rework-06",
+      "band": "256k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931805,
+        "levels": 5,
+        "width": 12,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 678,
+      "business_calls": 598,
+      "task_id": "factoryops-82fd1aeede",
+      "L_business_ref": 245948,
+      "B": 977
+    },
+    {
+      "id": "factoryops-256k-constrained_rework-07",
+      "band": "256k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931806,
+        "levels": 3,
+        "width": 19,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 630,
+      "business_calls": 546,
+      "task_id": "factoryops-87488458e6",
+      "L_business_ref": 235600,
+      "B": 903
+    },
+    {
+      "id": "factoryops-256k-constrained_rework-08",
+      "band": "256k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931807,
+        "levels": 4,
+        "width": 12,
+        "terminal_quantity": 2,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 534,
+      "business_calls": 466,
+      "task_id": "factoryops-7073103000",
+      "L_business_ref": 244385,
+      "B": 767
+    },
+    {
+      "id": "factoryops-256k-constrained_rework-09",
+      "band": "256k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931808,
+        "levels": 5,
+        "width": 12,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 660,
+      "business_calls": 580,
+      "task_id": "factoryops-2e3e599f6f",
+      "L_business_ref": 241460,
+      "B": 950
+    },
+    {
+      "id": "factoryops-256k-constrained_rework-10",
+      "band": "256k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 931809,
+        "levels": 3,
+        "width": 19,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 629,
+      "business_calls": 545,
+      "task_id": "factoryops-886cc19201",
+      "L_business_ref": 234387,
+      "B": 902
+    },
+    {
+      "id": "factoryops-256k-equipment_windows-01",
+      "band": "256k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931600,
+        "levels": 3,
+        "width": 19,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 570,
+      "business_calls": 486,
+      "task_id": "factoryops-63e2882025",
+      "L_business_ref": 224565,
+      "B": 813
+    },
+    {
+      "id": "factoryops-256k-equipment_windows-02",
+      "band": "256k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931601,
+        "levels": 4,
+        "width": 14,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 564,
+      "business_calls": 486,
+      "task_id": "factoryops-109227408b",
+      "L_business_ref": 228865,
+      "B": 807
+    },
+    {
+      "id": "factoryops-256k-equipment_windows-03",
+      "band": "256k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931602,
+        "levels": 5,
+        "width": 12,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 592,
+      "business_calls": 512,
+      "task_id": "factoryops-4e881a9ee3",
+      "L_business_ref": 230251,
+      "B": 848
+    },
+    {
+      "id": "factoryops-256k-equipment_windows-04",
+      "band": "256k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931603,
+        "levels": 3,
+        "width": 17,
+        "terminal_quantity": 2,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 509,
+      "business_calls": 433,
+      "task_id": "factoryops-3eb841e2b8",
+      "L_business_ref": 237087,
+      "B": 726
+    },
+    {
+      "id": "factoryops-256k-equipment_windows-05",
+      "band": "256k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931604,
+        "levels": 4,
+        "width": 14,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 548,
+      "business_calls": 470,
+      "task_id": "factoryops-aabfe898cf",
+      "L_business_ref": 216349,
+      "B": 783
+    },
+    {
+      "id": "factoryops-256k-equipment_windows-06",
+      "band": "256k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931605,
+        "levels": 5,
+        "width": 12,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 595,
+      "business_calls": 515,
+      "task_id": "factoryops-bb176a6941",
+      "L_business_ref": 227969,
+      "B": 853
+    },
+    {
+      "id": "factoryops-256k-equipment_windows-07",
+      "band": "256k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931606,
+        "levels": 3,
+        "width": 19,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 564,
+      "business_calls": 480,
+      "task_id": "factoryops-cd9625e90a",
+      "L_business_ref": 222202,
+      "B": 804
+    },
+    {
+      "id": "factoryops-256k-equipment_windows-08",
+      "band": "256k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931607,
+        "levels": 4,
+        "width": 12,
+        "terminal_quantity": 2,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 481,
+      "business_calls": 413,
+      "task_id": "factoryops-559844a1ba",
+      "L_business_ref": 226637,
+      "B": 688
+    },
+    {
+      "id": "factoryops-256k-equipment_windows-09",
+      "band": "256k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931608,
+        "levels": 5,
+        "width": 12,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 596,
+      "business_calls": 516,
+      "task_id": "factoryops-cd00b20e63",
+      "L_business_ref": 228397,
+      "B": 854
+    },
+    {
+      "id": "factoryops-256k-equipment_windows-10",
+      "band": "256k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931609,
+        "levels": 3,
+        "width": 19,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 576,
+      "business_calls": 492,
+      "task_id": "factoryops-6cecbb97bf",
+      "L_business_ref": 227928,
+      "B": 822
+    },
+    {
+      "id": "factoryops-256k-selective_rework-01",
+      "band": "256k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931700,
+        "levels": 3,
+        "width": 19,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 619,
+      "business_calls": 535,
+      "task_id": "factoryops-c2702007c7",
+      "L_business_ref": 233386,
+      "B": 887
+    },
+    {
+      "id": "factoryops-256k-selective_rework-02",
+      "band": "256k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931701,
+        "levels": 4,
+        "width": 14,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 606,
+      "business_calls": 528,
+      "task_id": "factoryops-44beb9accf",
+      "L_business_ref": 238461,
+      "B": 870
+    },
+    {
+      "id": "factoryops-256k-selective_rework-03",
+      "band": "256k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931702,
+        "levels": 5,
+        "width": 12,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 648,
+      "business_calls": 568,
+      "task_id": "factoryops-1e9c74c7f0",
+      "L_business_ref": 236241,
+      "B": 932
+    },
+    {
+      "id": "factoryops-256k-selective_rework-04",
+      "band": "256k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931703,
+        "levels": 3,
+        "width": 16,
+        "terminal_quantity": 2,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 536,
+      "business_calls": 464,
+      "task_id": "factoryops-7fa713ee2f",
+      "L_business_ref": 235463,
+      "B": 768
+    },
+    {
+      "id": "factoryops-256k-selective_rework-05",
+      "band": "256k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931704,
+        "levels": 4,
+        "width": 14,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 614,
+      "business_calls": 536,
+      "task_id": "factoryops-a357b713ca",
+      "L_business_ref": 238216,
+      "B": 882
+    },
+    {
+      "id": "factoryops-256k-selective_rework-06",
+      "band": "256k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931705,
+        "levels": 5,
+        "width": 12,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 660,
+      "business_calls": 580,
+      "task_id": "factoryops-e2fe968f0c",
+      "L_business_ref": 239571,
+      "B": 950
+    },
+    {
+      "id": "factoryops-256k-selective_rework-07",
+      "band": "256k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931706,
+        "levels": 3,
+        "width": 19,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 627,
+      "business_calls": 543,
+      "task_id": "factoryops-7d15252633",
+      "L_business_ref": 234485,
+      "B": 899
+    },
+    {
+      "id": "factoryops-256k-selective_rework-08",
+      "band": "256k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931707,
+        "levels": 4,
+        "width": 12,
+        "terminal_quantity": 2,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 534,
+      "business_calls": 466,
+      "task_id": "factoryops-eddfd5ad02",
+      "L_business_ref": 242234,
+      "B": 767
+    },
+    {
+      "id": "factoryops-256k-selective_rework-09",
+      "band": "256k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931708,
+        "levels": 5,
+        "width": 12,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 660,
+      "business_calls": 580,
+      "task_id": "factoryops-0e06f6fe75",
+      "L_business_ref": 242249,
+      "B": 950
+    },
+    {
+      "id": "factoryops-256k-selective_rework-10",
+      "band": "256k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 931709,
+        "levels": 3,
+        "width": 19,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 612,
+      "business_calls": 528,
+      "task_id": "factoryops-badd1e67ce",
+      "L_business_ref": 228244,
+      "B": 876
+    },
+    {
+      "id": "factoryops-512k-constrained_rework-01",
+      "band": "512k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932100,
+        "levels": 4,
+        "width": 26,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1136,
+      "business_calls": 998,
+      "task_id": "factoryops-3bc2658a59",
+      "L_business_ref": 475013,
+      "B": 1635
+    },
+    {
+      "id": "factoryops-512k-constrained_rework-02",
+      "band": "512k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932101,
+        "levels": 5,
+        "width": 22,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1192,
+      "business_calls": 1052,
+      "task_id": "factoryops-f51393cea8",
+      "L_business_ref": 483423,
+      "B": 1718
+    },
+    {
+      "id": "factoryops-512k-constrained_rework-03",
+      "band": "512k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932102,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1295,
+      "business_calls": 1137,
+      "task_id": "factoryops-b73ea0f7da",
+      "L_business_ref": 466824,
+      "B": 1864
+    },
+    {
+      "id": "factoryops-512k-constrained_rework-04",
+      "band": "512k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932103,
+        "levels": 5,
+        "width": 13,
+        "terminal_quantity": 2,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 707,
+      "business_calls": 621,
+      "task_id": "factoryops-e4b1fa75e3",
+      "L_business_ref": 465936,
+      "B": 1018
+    },
+    {
+      "id": "factoryops-512k-constrained_rework-05",
+      "band": "512k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932104,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1321,
+      "business_calls": 1163,
+      "task_id": "factoryops-b12e7d9106",
+      "L_business_ref": 509138,
+      "B": 1903
+    },
+    {
+      "id": "factoryops-512k-constrained_rework-06",
+      "band": "512k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932105,
+        "levels": 5,
+        "width": 24,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1310,
+      "business_calls": 1158,
+      "task_id": "factoryops-edf27d78f7",
+      "L_business_ref": 479805,
+      "B": 1889
+    },
+    {
+      "id": "factoryops-512k-constrained_rework-07",
+      "band": "512k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932106,
+        "levels": 4,
+        "width": 26,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1132,
+      "business_calls": 994,
+      "task_id": "factoryops-1efea347da",
+      "L_business_ref": 471045,
+      "B": 1629
+    },
+    {
+      "id": "factoryops-512k-constrained_rework-08",
+      "band": "512k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932107,
+        "levels": 5,
+        "width": 18,
+        "terminal_quantity": 2,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 972,
+      "business_calls": 856,
+      "task_id": "factoryops-049134e5cf",
+      "L_business_ref": 491993,
+      "B": 1400
+    },
+    {
+      "id": "factoryops-512k-constrained_rework-09",
+      "band": "512k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932108,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1303,
+      "business_calls": 1145,
+      "task_id": "factoryops-1d13be17d8",
+      "L_business_ref": 473779,
+      "B": 1876
+    },
+    {
+      "id": "factoryops-512k-constrained_rework-10",
+      "band": "512k",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932109,
+        "levels": 5,
+        "width": 18,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 983,
+      "business_calls": 867,
+      "task_id": "factoryops-81d17b8a67",
+      "L_business_ref": 475527,
+      "B": 1417
+    },
+    {
+      "id": "factoryops-512k-equipment_windows-01",
+      "band": "512k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931900,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1155,
+      "business_calls": 997,
+      "task_id": "factoryops-e6faa9669f",
+      "L_business_ref": 509221,
+      "B": 1654
+    },
+    {
+      "id": "factoryops-512k-equipment_windows-02",
+      "band": "512k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931901,
+        "levels": 5,
+        "width": 24,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1167,
+      "business_calls": 1015,
+      "task_id": "factoryops-8111e363b5",
+      "L_business_ref": 500637,
+      "B": 1675
+    },
+    {
+      "id": "factoryops-512k-equipment_windows-03",
+      "band": "512k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931902,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1157,
+      "business_calls": 999,
+      "task_id": "factoryops-d2207f5b42",
+      "L_business_ref": 442563,
+      "B": 1657
+    },
+    {
+      "id": "factoryops-512k-equipment_windows-04",
+      "band": "512k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931903,
+        "levels": 5,
+        "width": 14,
+        "terminal_quantity": 2,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 678,
+      "business_calls": 586,
+      "task_id": "factoryops-d483b2480d",
+      "L_business_ref": 477922,
+      "B": 971
+    },
+    {
+      "id": "factoryops-512k-equipment_windows-05",
+      "band": "512k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931904,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1149,
+      "business_calls": 991,
+      "task_id": "factoryops-f21cf197d5",
+      "L_business_ref": 463756,
+      "B": 1645
+    },
+    {
+      "id": "factoryops-512k-equipment_windows-06",
+      "band": "512k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931905,
+        "levels": 5,
+        "width": 24,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1162,
+      "business_calls": 1010,
+      "task_id": "factoryops-0bf70a0d2f",
+      "L_business_ref": 451139,
+      "B": 1667
+    },
+    {
+      "id": "factoryops-512k-equipment_windows-07",
+      "band": "512k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931906,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1157,
+      "business_calls": 999,
+      "task_id": "factoryops-415557c172",
+      "L_business_ref": 513209,
+      "B": 1657
+    },
+    {
+      "id": "factoryops-512k-equipment_windows-08",
+      "band": "512k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931907,
+        "levels": 5,
+        "width": 19,
+        "terminal_quantity": 2,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 919,
+      "business_calls": 797,
+      "task_id": "factoryops-e3816c6543",
+      "L_business_ref": 513255,
+      "B": 1318
+    },
+    {
+      "id": "factoryops-512k-equipment_windows-09",
+      "band": "512k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931908,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1165,
+      "business_calls": 1007,
+      "task_id": "factoryops-fef77819aa",
+      "L_business_ref": 440880,
+      "B": 1669
+    },
+    {
+      "id": "factoryops-512k-equipment_windows-10",
+      "band": "512k",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 931909,
+        "levels": 5,
+        "width": 19,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 918,
+      "business_calls": 796,
+      "task_id": "factoryops-08d31277a5",
+      "L_business_ref": 476314,
+      "B": 1316
+    },
+    {
+      "id": "factoryops-512k-selective_rework-01",
+      "band": "512k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932000,
+        "levels": 4,
+        "width": 27,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1170,
+      "business_calls": 1027,
+      "task_id": "factoryops-a288be9bf4",
+      "L_business_ref": 487726,
+      "B": 1684
+    },
+    {
+      "id": "factoryops-512k-selective_rework-02",
+      "band": "512k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932001,
+        "levels": 5,
+        "width": 22,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1193,
+      "business_calls": 1053,
+      "task_id": "factoryops-328687b357",
+      "L_business_ref": 488063,
+      "B": 1720
+    },
+    {
+      "id": "factoryops-512k-selective_rework-03",
+      "band": "512k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932002,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1307,
+      "business_calls": 1149,
+      "task_id": "factoryops-5bbdca2e20",
+      "L_business_ref": 477498,
+      "B": 1882
+    },
+    {
+      "id": "factoryops-512k-selective_rework-04",
+      "band": "512k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932003,
+        "levels": 5,
+        "width": 13,
+        "terminal_quantity": 2,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 702,
+      "business_calls": 616,
+      "task_id": "factoryops-c85e3eaa70",
+      "L_business_ref": 469164,
+      "B": 1010
+    },
+    {
+      "id": "factoryops-512k-selective_rework-05",
+      "band": "512k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932004,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1273,
+      "business_calls": 1115,
+      "task_id": "factoryops-89d9fd95f2",
+      "L_business_ref": 487316,
+      "B": 1831
+    },
+    {
+      "id": "factoryops-512k-selective_rework-06",
+      "band": "512k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932005,
+        "levels": 5,
+        "width": 24,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1309,
+      "business_calls": 1157,
+      "task_id": "factoryops-0d86fd453f",
+      "L_business_ref": 476229,
+      "B": 1888
+    },
+    {
+      "id": "factoryops-512k-selective_rework-07",
+      "band": "512k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932006,
+        "levels": 4,
+        "width": 27,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1161,
+      "business_calls": 1018,
+      "task_id": "factoryops-ee38b8dcbb",
+      "L_business_ref": 487387,
+      "B": 1670
+    },
+    {
+      "id": "factoryops-512k-selective_rework-08",
+      "band": "512k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932007,
+        "levels": 5,
+        "width": 18,
+        "terminal_quantity": 2,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 963,
+      "business_calls": 847,
+      "task_id": "factoryops-94be45d36b",
+      "L_business_ref": 484883,
+      "B": 1387
+    },
+    {
+      "id": "factoryops-512k-selective_rework-09",
+      "band": "512k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932008,
+        "levels": 4,
+        "width": 30,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1300,
+      "business_calls": 1142,
+      "task_id": "factoryops-2cd1289a1e",
+      "L_business_ref": 474723,
+      "B": 1871
+    },
+    {
+      "id": "factoryops-512k-selective_rework-10",
+      "band": "512k",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932009,
+        "levels": 5,
+        "width": 18,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 952,
+      "business_calls": 836,
+      "task_id": "factoryops-66ffc52be3",
+      "L_business_ref": 466103,
+      "B": 1370
+    },
+    {
+      "id": "factoryops-1m-constrained_rework-01",
+      "band": "1m",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932400,
+        "levels": 4,
+        "width": 56,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2434,
+      "business_calls": 2146,
+      "task_id": "factoryops-661930ca44",
+      "L_business_ref": 1010337,
+      "B": 3507
+    },
+    {
+      "id": "factoryops-1m-constrained_rework-02",
+      "band": "1m",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932401,
+        "levels": 5,
+        "width": 45,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2443,
+      "business_calls": 2165,
+      "task_id": "factoryops-de8aae8124",
+      "L_business_ref": 989950,
+      "B": 3526
+    },
+    {
+      "id": "factoryops-1m-constrained_rework-03",
+      "band": "1m",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932402,
+        "levels": 4,
+        "width": 62,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2690,
+      "business_calls": 2372,
+      "task_id": "factoryops-befe56c244",
+      "L_business_ref": 969077,
+      "B": 3876
+    },
+    {
+      "id": "factoryops-1m-constrained_rework-04",
+      "band": "1m",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932403,
+        "levels": 5,
+        "width": 28,
+        "terminal_quantity": 2,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1524,
+      "business_calls": 1348,
+      "task_id": "factoryops-29516f2b59",
+      "L_business_ref": 1009928,
+      "B": 2198
+    },
+    {
+      "id": "factoryops-1m-constrained_rework-05",
+      "band": "1m",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932404,
+        "levels": 4,
+        "width": 62,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2683,
+      "business_calls": 2365,
+      "task_id": "factoryops-a5be81f615",
+      "L_business_ref": 1029448,
+      "B": 3866
+    },
+    {
+      "id": "factoryops-1m-constrained_rework-06",
+      "band": "1m",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932405,
+        "levels": 5,
+        "width": 50,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2681,
+      "business_calls": 2373,
+      "task_id": "factoryops-dd266b5603",
+      "L_business_ref": 978345,
+      "B": 3868
+    },
+    {
+      "id": "factoryops-1m-constrained_rework-07",
+      "band": "1m",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932406,
+        "levels": 4,
+        "width": 55,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2376,
+      "business_calls": 2093,
+      "task_id": "factoryops-ecdcbdf6c4",
+      "L_business_ref": 992967,
+      "B": 3423
+    },
+    {
+      "id": "factoryops-1m-constrained_rework-08",
+      "band": "1m",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932407,
+        "levels": 5,
+        "width": 37,
+        "terminal_quantity": 2,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2034,
+      "business_calls": 1804,
+      "task_id": "factoryops-fd7d7fa975",
+      "L_business_ref": 1004138,
+      "B": 2936
+    },
+    {
+      "id": "factoryops-1m-constrained_rework-09",
+      "band": "1m",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932408,
+        "levels": 4,
+        "width": 62,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2691,
+      "business_calls": 2373,
+      "task_id": "factoryops-0a90d2e4f6",
+      "L_business_ref": 989853,
+      "B": 3878
+    },
+    {
+      "id": "factoryops-1m-constrained_rework-10",
+      "band": "1m",
+      "family": "constrained_rework",
+      "parameters": {
+        "seed": 932409,
+        "levels": 5,
+        "width": 38,
+        "terminal_quantity": 1,
+        "scenario": "constrained_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2043,
+      "business_calls": 1807,
+      "task_id": "factoryops-0f81514352",
+      "L_business_ref": 995234,
+      "B": 2947
+    },
+    {
+      "id": "factoryops-1m-equipment_windows-01",
+      "band": "1m",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 932200,
+        "levels": 4,
+        "width": 59,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2264,
+      "business_calls": 1961,
+      "task_id": "factoryops-71d1d72e94",
+      "L_business_ref": 1005613,
+      "B": 3245
+    },
+    {
+      "id": "factoryops-1m-equipment_windows-02",
+      "band": "1m",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 932201,
+        "levels": 5,
+        "width": 47,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2242,
+      "business_calls": 1952,
+      "task_id": "factoryops-e3c21912a8",
+      "L_business_ref": 977742,
+      "B": 3218
+    },
+    {
+      "id": "factoryops-1m-equipment_windows-03",
+      "band": "1m",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 932202,
+        "levels": 4,
+        "width": 68,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2613,
+      "business_calls": 2265,
+      "task_id": "factoryops-c721da051a",
+      "L_business_ref": 994825,
+      "B": 3746
+    },
+    {
+      "id": "factoryops-1m-equipment_windows-04",
+      "band": "1m",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 932203,
+        "levels": 5,
+        "width": 29,
+        "terminal_quantity": 2,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1396,
+      "business_calls": 1214,
+      "task_id": "factoryops-00956b39d8",
+      "L_business_ref": 1000503,
+      "B": 2003
+    },
+    {
+      "id": "factoryops-1m-equipment_windows-05",
+      "band": "1m",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 932204,
+        "levels": 4,
+        "width": 62,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2391,
+      "business_calls": 2073,
+      "task_id": "factoryops-698bfab70e",
+      "L_business_ref": 973710,
+      "B": 3428
+    },
+    {
+      "id": "factoryops-1m-equipment_windows-06",
+      "band": "1m",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 932205,
+        "levels": 5,
+        "width": 54,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2578,
+      "business_calls": 2246,
+      "task_id": "factoryops-73398108eb",
+      "L_business_ref": 992618,
+      "B": 3701
+    },
+    {
+      "id": "factoryops-1m-equipment_windows-07",
+      "band": "1m",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 932206,
+        "levels": 4,
+        "width": 59,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2252,
+      "business_calls": 1949,
+      "task_id": "factoryops-14b5e03f08",
+      "L_business_ref": 1003060,
+      "B": 3227
+    },
+    {
+      "id": "factoryops-1m-equipment_windows-08",
+      "band": "1m",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 932207,
+        "levels": 5,
+        "width": 39,
+        "terminal_quantity": 2,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1855,
+      "business_calls": 1613,
+      "task_id": "factoryops-74eeaaac77",
+      "L_business_ref": 985543,
+      "B": 2662
+    },
+    {
+      "id": "factoryops-1m-equipment_windows-09",
+      "band": "1m",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 932208,
+        "levels": 4,
+        "width": 68,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2587,
+      "business_calls": 2239,
+      "task_id": "factoryops-8f1aa9a84a",
+      "L_business_ref": 999221,
+      "B": 3707
+    },
+    {
+      "id": "factoryops-1m-equipment_windows-10",
+      "band": "1m",
+      "family": "equipment_windows",
+      "parameters": {
+        "seed": 932209,
+        "levels": 5,
+        "width": 40,
+        "terminal_quantity": 1,
+        "scenario": "equipment_windows",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1905,
+      "business_calls": 1657,
+      "task_id": "factoryops-89a87017ae",
+      "L_business_ref": 993963,
+      "B": 2734
+    },
+    {
+      "id": "factoryops-1m-selective_rework-01",
+      "band": "1m",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932300,
+        "levels": 4,
+        "width": 55,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2372,
+      "business_calls": 2089,
+      "task_id": "factoryops-1cdbd9bed3",
+      "L_business_ref": 1002472,
+      "B": 3417
+    },
+    {
+      "id": "factoryops-1m-selective_rework-02",
+      "band": "1m",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932301,
+        "levels": 5,
+        "width": 46,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2488,
+      "business_calls": 2204,
+      "task_id": "factoryops-843178cd0d",
+      "L_business_ref": 1016558,
+      "B": 3590
+    },
+    {
+      "id": "factoryops-1m-selective_rework-03",
+      "band": "1m",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932302,
+        "levels": 4,
+        "width": 62,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2681,
+      "business_calls": 2363,
+      "task_id": "factoryops-2ca92637ff",
+      "L_business_ref": 974653,
+      "B": 3863
+    },
+    {
+      "id": "factoryops-1m-selective_rework-04",
+      "band": "1m",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932303,
+        "levels": 5,
+        "width": 28,
+        "terminal_quantity": 2,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 1523,
+      "business_calls": 1347,
+      "task_id": "factoryops-a4b06e5b10",
+      "L_business_ref": 1004271,
+      "B": 2197
+    },
+    {
+      "id": "factoryops-1m-selective_rework-05",
+      "band": "1m",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932304,
+        "levels": 4,
+        "width": 62,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2667,
+      "business_calls": 2349,
+      "task_id": "factoryops-ac292e9469",
+      "L_business_ref": 1016655,
+      "B": 3842
+    },
+    {
+      "id": "factoryops-1m-selective_rework-06",
+      "band": "1m",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932305,
+        "levels": 5,
+        "width": 50,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2676,
+      "business_calls": 2368,
+      "task_id": "factoryops-c5e56a0467",
+      "L_business_ref": 985138,
+      "B": 3860
+    },
+    {
+      "id": "factoryops-1m-selective_rework-07",
+      "band": "1m",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932306,
+        "levels": 4,
+        "width": 55,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2374,
+      "business_calls": 2091,
+      "task_id": "factoryops-dfa9791ea5",
+      "L_business_ref": 996866,
+      "B": 3420
+    },
+    {
+      "id": "factoryops-1m-selective_rework-08",
+      "band": "1m",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932307,
+        "levels": 5,
+        "width": 37,
+        "terminal_quantity": 2,
+        "scenario": "selective_rework",
+        "dependency_pattern": "mixed_age",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2008,
+      "business_calls": 1778,
+      "task_id": "factoryops-940bf7942f",
+      "L_business_ref": 980165,
+      "B": 2897
+    },
+    {
+      "id": "factoryops-1m-selective_rework-09",
+      "band": "1m",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932308,
+        "levels": 4,
+        "width": 62,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "shared_root",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2680,
+      "business_calls": 2362,
+      "task_id": "factoryops-dc82a77ae2",
+      "L_business_ref": 976178,
+      "B": 3861
+    },
+    {
+      "id": "factoryops-1m-selective_rework-10",
+      "band": "1m",
+      "family": "selective_rework",
+      "parameters": {
+        "seed": 932309,
+        "levels": 5,
+        "width": 38,
+        "terminal_quantity": 1,
+        "scenario": "selective_rework",
+        "dependency_pattern": "adjacent_join",
+        "background": false
+      },
+      "reference_policy": "public_factory_material_cache_compact_v1",
+      "reference_calls": 2042,
+      "business_calls": 1806,
+      "task_id": "factoryops-a7d74ac50d",
+      "L_business_ref": 997528,
+      "B": 2945
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "format": "skillhorizon.scenario_catalog.v1",
+  "scope": "construction_development",
+  "model_behavior_evidence": false,
+  "richness_extensions": "integrations/internal_mcp/richness_catalog.json",
+  "provider_calls": 0,
+  "maximum_total_context_tokens": 524288,
+  "output_reserve_tokens": 32768,
+  "environments": [
+    {"environment_id": "C09", "families": ["handling_restricted", "carrier_disruption"], "seeds": [9, 21, 37],
+      "parameters": {"cohorts": 3, "legs": 4, "custody_span": 3},
+      "qualification": "experiments/scenario_expansion_20260910/C09_v2", "native": "experiments/scenario_expansion_20260910/C09_native_v2"},
+    {"environment_id": "C25", "families": ["expiring_reservations", "independent_amendments"], "seeds": [25, 31, 43],
+      "parameters": {"width": 3, "depth": 4},
+      "qualification": "experiments/scenario_expansion_20260910/C25_v3", "native": "experiments/scenario_expansion_20260910/C25_native_v3"},
+    {"environment_id": "C06", "families": ["overlapping_conversions", "cooldown_reactivation"], "seeds": [6, 19, 41],
+      "parameters": {"campaigns": 2, "waves": 3},
+      "qualification": "experiments/scenario_expansion_20260910/C06_v3", "native": "experiments/scenario_expansion_20260910/C06_native_v3"},
+    {"environment_id": "C47", "families": ["heterogeneous_links", "staged_commitments"], "seeds": [47, 53, 67],
+      "parameters": {"units": 2, "periods": 4, "resources_per_unit": 2},
+      "qualification": "experiments/scenario_expansion_20260910/C47", "native": "experiments/scenario_expansion_20260910/C47_native"},
+    {"environment_id": "C50", "families": ["equipment_windows", "partial_rework"], "seeds": [50, 57, 71],
+      "parameters": {"levels": 3, "terminal_quantity": 1},
+      "qualification": "experiments/scenario_expansion_20260910/C50", "native": "experiments/scenario_expansion_20260910/C50_native"},
+    {"environment_id": "C01", "families": ["scoped_installments", "deferred_commitment"], "seeds": [1, 13, 29],
+      "parameters": {"cases": 2, "phases": 3},
+      "qualification": "experiments/scenario_expansion_20260910/C01_v2", "native": "experiments/scenario_expansion_20260910/C01_native"},
+    {"environment_id": "C11", "families": ["identity_compatibility", "study_retraction"], "seeds": [11, 23, 37],
+      "parameters": {"sections": 2, "rounds": 3, "studies_per_section": 1, "alias_copies": 1, "distractors_per_section": 1},
+      "qualification": "experiments/scenario_expansion_20260910/C11_v2", "native": "experiments/scenario_expansion_20260910/C11_native_v2"}
+  ]
+}

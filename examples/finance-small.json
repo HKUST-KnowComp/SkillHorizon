@@ -1,0 +1,7 @@
+{
+  "family": "heterogeneous_integration",
+  "variant": "branch_specific_transforms",
+  "seed": 17,
+  "stages": 1,
+  "width": 1
+}

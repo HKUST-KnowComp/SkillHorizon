@@ -1,0 +1,2706 @@
+{
+  "environment": "FinanceOps",
+  "dataset_id": "skillhorizon-dataops-v6-shortcut-repaired150-20260920",
+  "tasks": [
+    {
+      "id": "v6-formal-64k-heterogeneous_integration-01",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292900-p4-w16-v6-formal-64k-heterogeneous_integration-01",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292900,
+        "stages": 4,
+        "width": 16
+      },
+      "band": "64k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 58679,
+      "reference_calls": 145,
+      "business_calls": 134,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-heterogeneous_integration-02",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292901-p4-w16-v6-formal-64k-heterogeneous_integration-02",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292901,
+        "stages": 4,
+        "width": 16
+      },
+      "band": "64k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 58471,
+      "reference_calls": 145,
+      "business_calls": 134,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-heterogeneous_integration-03",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292902-p4-w14-v6-formal-64k-heterogeneous_integration-03",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292902,
+        "stages": 4,
+        "width": 14
+      },
+      "band": "64k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 56875,
+      "reference_calls": 139,
+      "business_calls": 126,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-heterogeneous_integration-04",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292903-p4-w16-v6-formal-64k-heterogeneous_integration-04",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292903,
+        "stages": 4,
+        "width": 16
+      },
+      "band": "64k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 58662,
+      "reference_calls": 145,
+      "business_calls": 134,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-heterogeneous_integration-05",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292904-p4-w16-v6-formal-64k-heterogeneous_integration-05",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292904,
+        "stages": 4,
+        "width": 16
+      },
+      "band": "64k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 58497,
+      "reference_calls": 145,
+      "business_calls": 134,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-heterogeneous_integration-06",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292905-p4-w14-v6-formal-64k-heterogeneous_integration-06",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292905,
+        "stages": 4,
+        "width": 14
+      },
+      "band": "64k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 57566,
+      "reference_calls": 141,
+      "business_calls": 128,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-heterogeneous_integration-07",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292906-p4-w16-v6-formal-64k-heterogeneous_integration-07",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292906,
+        "stages": 4,
+        "width": 16
+      },
+      "band": "64k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 58688,
+      "reference_calls": 145,
+      "business_calls": 134,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-heterogeneous_integration-08",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292907-p4-w16-v6-formal-64k-heterogeneous_integration-08",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292907,
+        "stages": 4,
+        "width": 16
+      },
+      "band": "64k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 58428,
+      "reference_calls": 145,
+      "business_calls": 134,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-heterogeneous_integration-09",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292908-p4-w14-v6-formal-64k-heterogeneous_integration-09",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292908,
+        "stages": 4,
+        "width": 14
+      },
+      "band": "64k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 57640,
+      "reference_calls": 141,
+      "business_calls": 128,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-heterogeneous_integration-10",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292909-p4-w16-v6-formal-64k-heterogeneous_integration-10",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292909,
+        "stages": 4,
+        "width": 16
+      },
+      "band": "64k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 58694,
+      "reference_calls": 145,
+      "business_calls": 134,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-receivables_reconciliation-01",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026292920-p4-w13-v6-formal-64k-receivables_reconciliation-01",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026292920,
+        "stages": 4,
+        "width": 13
+      },
+      "band": "64k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 59569,
+      "reference_calls": 226,
+      "business_calls": 162,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-receivables_reconciliation-02",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026292921-p4-w13-v6-formal-64k-receivables_reconciliation-02",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026292921,
+        "stages": 4,
+        "width": 13
+      },
+      "band": "64k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 57503,
+      "reference_calls": 226,
+      "business_calls": 162,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-receivables_reconciliation-03",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026292922-p4-w12-v6-formal-64k-receivables_reconciliation-03",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026292922,
+        "stages": 4,
+        "width": 12
+      },
+      "band": "64k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 56960,
+      "reference_calls": 219,
+      "business_calls": 157,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-receivables_reconciliation-04",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026292923-p4-w13-v6-formal-64k-receivables_reconciliation-04",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026292923,
+        "stages": 4,
+        "width": 13
+      },
+      "band": "64k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 58988,
+      "reference_calls": 226,
+      "business_calls": 162,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-receivables_reconciliation-05",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026292924-p4-w13-v6-formal-64k-receivables_reconciliation-05",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026292924,
+        "stages": 4,
+        "width": 13
+      },
+      "band": "64k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 57612,
+      "reference_calls": 226,
+      "business_calls": 162,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-receivables_reconciliation-06",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026292925-p4-w12-v6-formal-64k-receivables_reconciliation-06",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026292925,
+        "stages": 4,
+        "width": 12
+      },
+      "band": "64k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 56667,
+      "reference_calls": 219,
+      "business_calls": 157,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-receivables_reconciliation-07",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026292926-p4-w13-v6-formal-64k-receivables_reconciliation-07",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026292926,
+        "stages": 4,
+        "width": 13
+      },
+      "band": "64k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 59339,
+      "reference_calls": 226,
+      "business_calls": 162,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-receivables_reconciliation-08",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026292927-p4-w13-v6-formal-64k-receivables_reconciliation-08",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026292927,
+        "stages": 4,
+        "width": 13
+      },
+      "band": "64k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 57158,
+      "reference_calls": 226,
+      "business_calls": 162,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-receivables_reconciliation-09",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026292928-p4-w12-v6-formal-64k-receivables_reconciliation-09",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026292928,
+        "stages": 4,
+        "width": 12
+      },
+      "band": "64k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 57011,
+      "reference_calls": 219,
+      "business_calls": 157,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-receivables_reconciliation-10",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026292929-p4-w13-v6-formal-64k-receivables_reconciliation-10",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026292929,
+        "stages": 4,
+        "width": 13
+      },
+      "band": "64k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 58944,
+      "reference_calls": 226,
+      "business_calls": 162,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-release_maintenance-01",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026292910-p4-w7-v6-formal-64k-release_maintenance-01",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026292910,
+        "stages": 4,
+        "width": 7
+      },
+      "band": "64k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 57393,
+      "reference_calls": 327,
+      "business_calls": 286,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-release_maintenance-02",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026292911-p4-w7-v6-formal-64k-release_maintenance-02",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026292911,
+        "stages": 4,
+        "width": 7
+      },
+      "band": "64k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 61288,
+      "reference_calls": 343,
+      "business_calls": 300,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-release_maintenance-03",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026292912-p4-w6-v6-formal-64k-release_maintenance-03",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026292912,
+        "stages": 4,
+        "width": 6
+      },
+      "band": "64k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 57219,
+      "reference_calls": 299,
+      "business_calls": 260,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-release_maintenance-04",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026292913-p4-w7-v6-formal-64k-release_maintenance-04",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026292913,
+        "stages": 4,
+        "width": 7
+      },
+      "band": "64k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 57396,
+      "reference_calls": 327,
+      "business_calls": 286,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-release_maintenance-05",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026292914-p4-w7-v6-formal-64k-release_maintenance-05",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026292914,
+        "stages": 4,
+        "width": 7
+      },
+      "band": "64k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 61305,
+      "reference_calls": 343,
+      "business_calls": 300,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-release_maintenance-06",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026292915-p4-w6-v6-formal-64k-release_maintenance-06",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026292915,
+        "stages": 4,
+        "width": 6
+      },
+      "band": "64k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 57206,
+      "reference_calls": 299,
+      "business_calls": 260,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-release_maintenance-07",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026292916-p4-w7-v6-formal-64k-release_maintenance-07",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026292916,
+        "stages": 4,
+        "width": 7
+      },
+      "band": "64k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 57406,
+      "reference_calls": 327,
+      "business_calls": 286,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-release_maintenance-08",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026292917-p4-w7-v6-formal-64k-release_maintenance-08",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026292917,
+        "stages": 4,
+        "width": 7
+      },
+      "band": "64k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 61283,
+      "reference_calls": 343,
+      "business_calls": 300,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-release_maintenance-09",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026292918-p4-w6-v6-formal-64k-release_maintenance-09",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026292918,
+        "stages": 4,
+        "width": 6
+      },
+      "band": "64k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 57209,
+      "reference_calls": 299,
+      "business_calls": 260,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-64k-release_maintenance-10",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026292919-p4-w7-v6-formal-64k-release_maintenance-10",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026292919,
+        "stages": 4,
+        "width": 7
+      },
+      "band": "64k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 57427,
+      "reference_calls": 327,
+      "business_calls": 286,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-heterogeneous_integration-01",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292930-p6-w22-v6-formal-128k-heterogeneous_integration-01",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292930,
+        "stages": 6,
+        "width": 22
+      },
+      "band": "128k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 117307,
+      "reference_calls": 285,
+      "business_calls": 272,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-heterogeneous_integration-02",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292931-p6-w19-v6-formal-128k-heterogeneous_integration-02",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292931,
+        "stages": 6,
+        "width": 19
+      },
+      "band": "128k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 113969,
+      "reference_calls": 264,
+      "business_calls": 249,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-heterogeneous_integration-03",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292932-p6-w22-v6-formal-128k-heterogeneous_integration-03",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292932,
+        "stages": 6,
+        "width": 22
+      },
+      "band": "128k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 117845,
+      "reference_calls": 285,
+      "business_calls": 272,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-heterogeneous_integration-04",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292933-p6-w22-v6-formal-128k-heterogeneous_integration-04",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292933,
+        "stages": 6,
+        "width": 22
+      },
+      "band": "128k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 117189,
+      "reference_calls": 285,
+      "business_calls": 272,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-heterogeneous_integration-05",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292934-p6-w19-v6-formal-128k-heterogeneous_integration-05",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292934,
+        "stages": 6,
+        "width": 19
+      },
+      "band": "128k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 113887,
+      "reference_calls": 264,
+      "business_calls": 249,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-heterogeneous_integration-06",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292935-p6-w22-v6-formal-128k-heterogeneous_integration-06",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292935,
+        "stages": 6,
+        "width": 22
+      },
+      "band": "128k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 117850,
+      "reference_calls": 285,
+      "business_calls": 272,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-heterogeneous_integration-07",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292936-p6-w22-v6-formal-128k-heterogeneous_integration-07",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292936,
+        "stages": 6,
+        "width": 22
+      },
+      "band": "128k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 117273,
+      "reference_calls": 285,
+      "business_calls": 272,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-heterogeneous_integration-08",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292937-p6-w19-v6-formal-128k-heterogeneous_integration-08",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292937,
+        "stages": 6,
+        "width": 19
+      },
+      "band": "128k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 114856,
+      "reference_calls": 266,
+      "business_calls": 251,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-heterogeneous_integration-09",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292938-p6-w22-v6-formal-128k-heterogeneous_integration-09",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292938,
+        "stages": 6,
+        "width": 22
+      },
+      "band": "128k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 117895,
+      "reference_calls": 285,
+      "business_calls": 272,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-heterogeneous_integration-10",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292939-p6-w22-v6-formal-128k-heterogeneous_integration-10",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292939,
+        "stages": 6,
+        "width": 22
+      },
+      "band": "128k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 117429,
+      "reference_calls": 285,
+      "business_calls": 272,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-receivables_reconciliation-01",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026292950-p6-w18-v6-formal-128k-receivables_reconciliation-01",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026292950,
+        "stages": 6,
+        "width": 18
+      },
+      "band": "128k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 119704,
+      "reference_calls": 454,
+      "business_calls": 332,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-receivables_reconciliation-02",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026292951-p6-w17-v6-formal-128k-receivables_reconciliation-02",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026292951,
+        "stages": 6,
+        "width": 17
+      },
+      "band": "128k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 116616,
+      "reference_calls": 442,
+      "business_calls": 324,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-receivables_reconciliation-03",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026292952-p6-w17-v6-formal-128k-receivables_reconciliation-03",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026292952,
+        "stages": 6,
+        "width": 17
+      },
+      "band": "128k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 116271,
+      "reference_calls": 430,
+      "business_calls": 314,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-receivables_reconciliation-04",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026292953-p6-w18-v6-formal-128k-receivables_reconciliation-04",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026292953,
+        "stages": 6,
+        "width": 18
+      },
+      "band": "128k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 120056,
+      "reference_calls": 454,
+      "business_calls": 332,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-receivables_reconciliation-05",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026292954-p6-w17-v6-formal-128k-receivables_reconciliation-05",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026292954,
+        "stages": 6,
+        "width": 17
+      },
+      "band": "128k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 118402,
+      "reference_calls": 444,
+      "business_calls": 326,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-receivables_reconciliation-06",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026292955-p6-w17-v6-formal-128k-receivables_reconciliation-06",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026292955,
+        "stages": 6,
+        "width": 17
+      },
+      "band": "128k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 116289,
+      "reference_calls": 430,
+      "business_calls": 314,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-receivables_reconciliation-07",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026292956-p6-w18-v6-formal-128k-receivables_reconciliation-07",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026292956,
+        "stages": 6,
+        "width": 18
+      },
+      "band": "128k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 119623,
+      "reference_calls": 454,
+      "business_calls": 332,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-receivables_reconciliation-08",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026292957-p6-w17-v6-formal-128k-receivables_reconciliation-08",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026292957,
+        "stages": 6,
+        "width": 17
+      },
+      "band": "128k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 117101,
+      "reference_calls": 442,
+      "business_calls": 324,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-receivables_reconciliation-09",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026292958-p6-w17-v6-formal-128k-receivables_reconciliation-09",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026292958,
+        "stages": 6,
+        "width": 17
+      },
+      "band": "128k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 116594,
+      "reference_calls": 430,
+      "business_calls": 314,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-receivables_reconciliation-10",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026292959-p6-w18-v6-formal-128k-receivables_reconciliation-10",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026292959,
+        "stages": 6,
+        "width": 18
+      },
+      "band": "128k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 119325,
+      "reference_calls": 454,
+      "business_calls": 332,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-release_maintenance-01",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026292940-p6-w10-v6-formal-128k-release_maintenance-01",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026292940,
+        "stages": 6,
+        "width": 10
+      },
+      "band": "128k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 123209,
+      "reference_calls": 699,
+      "business_calls": 622,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-release_maintenance-02",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026292941-p6-w9-v6-formal-128k-release_maintenance-02",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026292941,
+        "stages": 6,
+        "width": 9
+      },
+      "band": "128k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 118614,
+      "reference_calls": 633,
+      "business_calls": 562,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-release_maintenance-03",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026292942-p6-w10-v6-formal-128k-release_maintenance-03",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026292942,
+        "stages": 6,
+        "width": 10
+      },
+      "band": "128k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 119446,
+      "reference_calls": 683,
+      "business_calls": 608,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-release_maintenance-04",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026292943-p6-w10-v6-formal-128k-release_maintenance-04",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026292943,
+        "stages": 6,
+        "width": 10
+      },
+      "band": "128k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 123244,
+      "reference_calls": 699,
+      "business_calls": 622,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-release_maintenance-05",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026292944-p6-w9-v6-formal-128k-release_maintenance-05",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026292944,
+        "stages": 6,
+        "width": 9
+      },
+      "band": "128k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 118621,
+      "reference_calls": 633,
+      "business_calls": 562,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-release_maintenance-06",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026292945-p6-w10-v6-formal-128k-release_maintenance-06",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026292945,
+        "stages": 6,
+        "width": 10
+      },
+      "band": "128k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 119431,
+      "reference_calls": 683,
+      "business_calls": 608,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-release_maintenance-07",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026292946-p6-w10-v6-formal-128k-release_maintenance-07",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026292946,
+        "stages": 6,
+        "width": 10
+      },
+      "band": "128k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 123265,
+      "reference_calls": 699,
+      "business_calls": 622,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-release_maintenance-08",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026292947-p6-w9-v6-formal-128k-release_maintenance-08",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026292947,
+        "stages": 6,
+        "width": 9
+      },
+      "band": "128k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 118616,
+      "reference_calls": 633,
+      "business_calls": 562,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-release_maintenance-09",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026292948-p6-w10-v6-formal-128k-release_maintenance-09",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026292948,
+        "stages": 6,
+        "width": 10
+      },
+      "band": "128k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 119424,
+      "reference_calls": 683,
+      "business_calls": 608,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-128k-release_maintenance-10",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026292949-p6-w10-v6-formal-128k-release_maintenance-10",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026292949,
+        "stages": 6,
+        "width": 10
+      },
+      "band": "128k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 123258,
+      "reference_calls": 699,
+      "business_calls": 622,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-heterogeneous_integration-01",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292960-p10-w24-v6-formal-256k-heterogeneous_integration-01",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292960,
+        "stages": 10,
+        "width": 24
+      },
+      "band": "256k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 232143,
+      "reference_calls": 532,
+      "business_calls": 513,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-heterogeneous_integration-02",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292961-p10-w27-v6-formal-256k-heterogeneous_integration-02",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292961,
+        "stages": 10,
+        "width": 27
+      },
+      "band": "256k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 237680,
+      "reference_calls": 569,
+      "business_calls": 552,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-heterogeneous_integration-03",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292962-p10-w27-v6-formal-256k-heterogeneous_integration-03",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292962,
+        "stages": 10,
+        "width": 27
+      },
+      "band": "256k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 236189,
+      "reference_calls": 569,
+      "business_calls": 552,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-heterogeneous_integration-04",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292963-p10-w24-v6-formal-256k-heterogeneous_integration-04",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292963,
+        "stages": 10,
+        "width": 24
+      },
+      "band": "256k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 230943,
+      "reference_calls": 528,
+      "business_calls": 509,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-heterogeneous_integration-05",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292964-p10-w27-v6-formal-256k-heterogeneous_integration-05",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292964,
+        "stages": 10,
+        "width": 27
+      },
+      "band": "256k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 237776,
+      "reference_calls": 569,
+      "business_calls": 552,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-heterogeneous_integration-06",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292965-p10-w27-v6-formal-256k-heterogeneous_integration-06",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292965,
+        "stages": 10,
+        "width": 27
+      },
+      "band": "256k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 236448,
+      "reference_calls": 569,
+      "business_calls": 552,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-heterogeneous_integration-07",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292966-p10-w24-v6-formal-256k-heterogeneous_integration-07",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292966,
+        "stages": 10,
+        "width": 24
+      },
+      "band": "256k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 235336,
+      "reference_calls": 548,
+      "business_calls": 529,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-heterogeneous_integration-08",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292967-p10-w27-v6-formal-256k-heterogeneous_integration-08",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292967,
+        "stages": 10,
+        "width": 27
+      },
+      "band": "256k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 237753,
+      "reference_calls": 569,
+      "business_calls": 552,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-heterogeneous_integration-09",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292968-p10-w27-v6-formal-256k-heterogeneous_integration-09",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292968,
+        "stages": 10,
+        "width": 27
+      },
+      "band": "256k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 236481,
+      "reference_calls": 569,
+      "business_calls": 552,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-heterogeneous_integration-10",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292969-p10-w24-v6-formal-256k-heterogeneous_integration-10",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292969,
+        "stages": 10,
+        "width": 24
+      },
+      "band": "256k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 230966,
+      "reference_calls": 530,
+      "business_calls": 511,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-receivables_reconciliation-01",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026292980-p10-w20-v6-formal-256k-receivables_reconciliation-01",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026292980,
+        "stages": 10,
+        "width": 20
+      },
+      "band": "256k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 235568,
+      "reference_calls": 845,
+      "business_calls": 625,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-receivables_reconciliation-02",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026292981-p10-w20-v6-formal-256k-receivables_reconciliation-02",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026292981,
+        "stages": 10,
+        "width": 20
+      },
+      "band": "256k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 230290,
+      "reference_calls": 830,
+      "business_calls": 612,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-receivables_reconciliation-03",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026292982-p10-w20-v6-formal-256k-receivables_reconciliation-03",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026292982,
+        "stages": 10,
+        "width": 20
+      },
+      "band": "256k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 238830,
+      "reference_calls": 830,
+      "business_calls": 612,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-receivables_reconciliation-04",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026292983-p10-w20-v6-formal-256k-receivables_reconciliation-04",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026292983,
+        "stages": 10,
+        "width": 20
+      },
+      "band": "256k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 235251,
+      "reference_calls": 844,
+      "business_calls": 624,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-receivables_reconciliation-05",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026292984-p10-w20-v6-formal-256k-receivables_reconciliation-05",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026292984,
+        "stages": 10,
+        "width": 20
+      },
+      "band": "256k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 230163,
+      "reference_calls": 830,
+      "business_calls": 612,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-receivables_reconciliation-06",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026292985-p10-w20-v6-formal-256k-receivables_reconciliation-06",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026292985,
+        "stages": 10,
+        "width": 20
+      },
+      "band": "256k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 238632,
+      "reference_calls": 830,
+      "business_calls": 612,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-receivables_reconciliation-07",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026292986-p10-w20-v6-formal-256k-receivables_reconciliation-07",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026292986,
+        "stages": 10,
+        "width": 20
+      },
+      "band": "256k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 234564,
+      "reference_calls": 844,
+      "business_calls": 624,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-receivables_reconciliation-08",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026292987-p10-w20-v6-formal-256k-receivables_reconciliation-08",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026292987,
+        "stages": 10,
+        "width": 20
+      },
+      "band": "256k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 231330,
+      "reference_calls": 830,
+      "business_calls": 612,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-receivables_reconciliation-09",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026292988-p10-w20-v6-formal-256k-receivables_reconciliation-09",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026292988,
+        "stages": 10,
+        "width": 20
+      },
+      "band": "256k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 239321,
+      "reference_calls": 830,
+      "business_calls": 612,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-receivables_reconciliation-10",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026292989-p10-w20-v6-formal-256k-receivables_reconciliation-10",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026292989,
+        "stages": 10,
+        "width": 20
+      },
+      "band": "256k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 234710,
+      "reference_calls": 844,
+      "business_calls": 624,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-release_maintenance-01",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026292970-p10-w11-v6-formal-256k-release_maintenance-01",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026292970,
+        "stages": 10,
+        "width": 11
+      },
+      "band": "256k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 233520,
+      "reference_calls": 1259,
+      "business_calls": 1128,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-release_maintenance-02",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026292971-p10-w12-v6-formal-256k-release_maintenance-02",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026292971,
+        "stages": 10,
+        "width": 12
+      },
+      "band": "256k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 235700,
+      "reference_calls": 1351,
+      "business_calls": 1212,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-release_maintenance-03",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026292972-p10-w12-v6-formal-256k-release_maintenance-03",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026292972,
+        "stages": 10,
+        "width": 12
+      },
+      "band": "256k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 239656,
+      "reference_calls": 1369,
+      "business_calls": 1228,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-release_maintenance-04",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026292973-p10-w11-v6-formal-256k-release_maintenance-04",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026292973,
+        "stages": 10,
+        "width": 11
+      },
+      "band": "256k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 233389,
+      "reference_calls": 1259,
+      "business_calls": 1128,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-release_maintenance-05",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026292974-p10-w12-v6-formal-256k-release_maintenance-05",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026292974,
+        "stages": 10,
+        "width": 12
+      },
+      "band": "256k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 235801,
+      "reference_calls": 1351,
+      "business_calls": 1212,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-release_maintenance-06",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026292975-p10-w12-v6-formal-256k-release_maintenance-06",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026292975,
+        "stages": 10,
+        "width": 12
+      },
+      "band": "256k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 239676,
+      "reference_calls": 1369,
+      "business_calls": 1228,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-release_maintenance-07",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026292976-p10-w11-v6-formal-256k-release_maintenance-07",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026292976,
+        "stages": 10,
+        "width": 11
+      },
+      "band": "256k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 233426,
+      "reference_calls": 1259,
+      "business_calls": 1128,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-release_maintenance-08",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026292977-p10-w12-v6-formal-256k-release_maintenance-08",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026292977,
+        "stages": 10,
+        "width": 12
+      },
+      "band": "256k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 235723,
+      "reference_calls": 1351,
+      "business_calls": 1212,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-release_maintenance-09",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026292978-p10-w12-v6-formal-256k-release_maintenance-09",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026292978,
+        "stages": 10,
+        "width": 12
+      },
+      "band": "256k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 239622,
+      "reference_calls": 1369,
+      "business_calls": 1228,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-256k-release_maintenance-10",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026292979-p10-w11-v6-formal-256k-release_maintenance-10",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026292979,
+        "stages": 10,
+        "width": 11
+      },
+      "band": "256k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 233446,
+      "reference_calls": 1259,
+      "business_calls": 1128,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-heterogeneous_integration-01",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292990-p16-w34-v6-formal-512k-heterogeneous_integration-01",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292990,
+        "stages": 16,
+        "width": 34
+      },
+      "band": "512k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 475311,
+      "reference_calls": 1129,
+      "business_calls": 1106,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-heterogeneous_integration-02",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292991-p16-w34-v6-formal-512k-heterogeneous_integration-02",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292991,
+        "stages": 16,
+        "width": 34
+      },
+      "band": "512k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 472766,
+      "reference_calls": 1129,
+      "business_calls": 1106,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-heterogeneous_integration-03",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292992-p16-w31-v6-formal-512k-heterogeneous_integration-03",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292992,
+        "stages": 16,
+        "width": 31
+      },
+      "band": "512k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 466218,
+      "reference_calls": 1058,
+      "business_calls": 1033,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-heterogeneous_integration-04",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292993-p16-w34-v6-formal-512k-heterogeneous_integration-04",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292993,
+        "stages": 16,
+        "width": 34
+      },
+      "band": "512k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 475366,
+      "reference_calls": 1129,
+      "business_calls": 1106,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-heterogeneous_integration-05",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292994-p16-w34-v6-formal-512k-heterogeneous_integration-05",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292994,
+        "stages": 16,
+        "width": 34
+      },
+      "band": "512k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 472340,
+      "reference_calls": 1129,
+      "business_calls": 1106,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-heterogeneous_integration-06",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292995-p16-w31-v6-formal-512k-heterogeneous_integration-06",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292995,
+        "stages": 16,
+        "width": 31
+      },
+      "band": "512k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 469735,
+      "reference_calls": 1070,
+      "business_calls": 1045,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-heterogeneous_integration-07",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292996-p16-w34-v6-formal-512k-heterogeneous_integration-07",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292996,
+        "stages": 16,
+        "width": 34
+      },
+      "band": "512k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 475342,
+      "reference_calls": 1129,
+      "business_calls": 1106,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-heterogeneous_integration-08",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026292997-p16-w34-v6-formal-512k-heterogeneous_integration-08",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026292997,
+        "stages": 16,
+        "width": 34
+      },
+      "band": "512k",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 472681,
+      "reference_calls": 1129,
+      "business_calls": 1106,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-heterogeneous_integration-09",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026292998-p16-w31-v6-formal-512k-heterogeneous_integration-09",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026292998,
+        "stages": 16,
+        "width": 31
+      },
+      "band": "512k",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 466711,
+      "reference_calls": 1060,
+      "business_calls": 1035,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-heterogeneous_integration-10",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026292999-p16-w34-v6-formal-512k-heterogeneous_integration-10",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026292999,
+        "stages": 16,
+        "width": 34
+      },
+      "band": "512k",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 475257,
+      "reference_calls": 1129,
+      "business_calls": 1106,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-receivables_reconciliation-01",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026293010-p16-w25-v6-formal-512k-receivables_reconciliation-01",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026293010,
+        "stages": 16,
+        "width": 25
+      },
+      "band": "512k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 463705,
+      "reference_calls": 1642,
+      "business_calls": 1218,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-receivables_reconciliation-02",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026293011-p16-w24-v6-formal-512k-receivables_reconciliation-02",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026293011,
+        "stages": 16,
+        "width": 24
+      },
+      "band": "512k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 477636,
+      "reference_calls": 1578,
+      "business_calls": 1170,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-receivables_reconciliation-03",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026293012-p16-w25-v6-formal-512k-receivables_reconciliation-03",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026293012,
+        "stages": 16,
+        "width": 25
+      },
+      "band": "512k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 477769,
+      "reference_calls": 1657,
+      "business_calls": 1231,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-receivables_reconciliation-04",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026293013-p16-w25-v6-formal-512k-receivables_reconciliation-04",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026293013,
+        "stages": 16,
+        "width": 25
+      },
+      "band": "512k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 465586,
+      "reference_calls": 1642,
+      "business_calls": 1218,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-receivables_reconciliation-05",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026293014-p16-w24-v6-formal-512k-receivables_reconciliation-05",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026293014,
+        "stages": 16,
+        "width": 24
+      },
+      "band": "512k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 478073,
+      "reference_calls": 1578,
+      "business_calls": 1170,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-receivables_reconciliation-06",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026293015-p16-w25-v6-formal-512k-receivables_reconciliation-06",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026293015,
+        "stages": 16,
+        "width": 25
+      },
+      "band": "512k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 478005,
+      "reference_calls": 1658,
+      "business_calls": 1232,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-receivables_reconciliation-07",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026293016-p16-w25-v6-formal-512k-receivables_reconciliation-07",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026293016,
+        "stages": 16,
+        "width": 25
+      },
+      "band": "512k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 465238,
+      "reference_calls": 1642,
+      "business_calls": 1218,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-receivables_reconciliation-08",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026293017-p16-w24-v6-formal-512k-receivables_reconciliation-08",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026293017,
+        "stages": 16,
+        "width": 24
+      },
+      "band": "512k",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 477297,
+      "reference_calls": 1578,
+      "business_calls": 1170,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-receivables_reconciliation-09",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026293018-p16-w25-v6-formal-512k-receivables_reconciliation-09",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026293018,
+        "stages": 16,
+        "width": 25
+      },
+      "band": "512k",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 477080,
+      "reference_calls": 1657,
+      "business_calls": 1231,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-receivables_reconciliation-10",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026293019-p16-w25-v6-formal-512k-receivables_reconciliation-10",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026293019,
+        "stages": 16,
+        "width": 25
+      },
+      "band": "512k",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 465868,
+      "reference_calls": 1642,
+      "business_calls": 1218,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-release_maintenance-01",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026293000-p16-w15-v6-formal-512k-release_maintenance-01",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026293000,
+        "stages": 16,
+        "width": 15
+      },
+      "band": "512k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 467953,
+      "reference_calls": 2683,
+      "business_calls": 2418,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-release_maintenance-02",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026293001-p16-w15-v6-formal-512k-release_maintenance-02",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026293001,
+        "stages": 16,
+        "width": 15
+      },
+      "band": "512k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 472677,
+      "reference_calls": 2705,
+      "business_calls": 2438,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-release_maintenance-03",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026293002-p16-w14-v6-formal-512k-release_maintenance-03",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026293002,
+        "stages": 16,
+        "width": 14
+      },
+      "band": "512k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 467719,
+      "reference_calls": 2529,
+      "business_calls": 2278,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-release_maintenance-04",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026293003-p16-w15-v6-formal-512k-release_maintenance-04",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026293003,
+        "stages": 16,
+        "width": 15
+      },
+      "band": "512k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 467950,
+      "reference_calls": 2683,
+      "business_calls": 2418,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-release_maintenance-05",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026293004-p16-w15-v6-formal-512k-release_maintenance-05",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026293004,
+        "stages": 16,
+        "width": 15
+      },
+      "band": "512k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 472682,
+      "reference_calls": 2705,
+      "business_calls": 2438,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-release_maintenance-06",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026293005-p16-w14-v6-formal-512k-release_maintenance-06",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026293005,
+        "stages": 16,
+        "width": 14
+      },
+      "band": "512k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 467753,
+      "reference_calls": 2529,
+      "business_calls": 2278,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-release_maintenance-07",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026293006-p16-w15-v6-formal-512k-release_maintenance-07",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026293006,
+        "stages": 16,
+        "width": 15
+      },
+      "band": "512k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 467874,
+      "reference_calls": 2683,
+      "business_calls": 2418,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-release_maintenance-08",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026293007-p16-w15-v6-formal-512k-release_maintenance-08",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026293007,
+        "stages": 16,
+        "width": 15
+      },
+      "band": "512k",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 472689,
+      "reference_calls": 2705,
+      "business_calls": 2438,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-release_maintenance-09",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026293008-p16-w14-v6-formal-512k-release_maintenance-09",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026293008,
+        "stages": 16,
+        "width": 14
+      },
+      "band": "512k",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 467626,
+      "reference_calls": 2529,
+      "business_calls": 2278,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-512k-release_maintenance-10",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026293009-p16-w15-v6-formal-512k-release_maintenance-10",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026293009,
+        "stages": 16,
+        "width": 15
+      },
+      "band": "512k",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 467930,
+      "reference_calls": 2683,
+      "business_calls": 2418,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-heterogeneous_integration-01",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026293020-p24-w48-v6-formal-1m-heterogeneous_integration-01",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026293020,
+        "stages": 24,
+        "width": 48
+      },
+      "band": "1m",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 995803,
+      "reference_calls": 2361,
+      "business_calls": 2330,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-heterogeneous_integration-02",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026293021-p24-w45-v6-formal-1m-heterogeneous_integration-02",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026293021,
+        "stages": 24,
+        "width": 45
+      },
+      "band": "1m",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 1005800,
+      "reference_calls": 2268,
+      "business_calls": 2235,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-heterogeneous_integration-03",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026293022-p24-w48-v6-formal-1m-heterogeneous_integration-03",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026293022,
+        "stages": 24,
+        "width": 48
+      },
+      "band": "1m",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 1001774,
+      "reference_calls": 2361,
+      "business_calls": 2330,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-heterogeneous_integration-04",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026293023-p24-w48-v6-formal-1m-heterogeneous_integration-04",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026293023,
+        "stages": 24,
+        "width": 48
+      },
+      "band": "1m",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 995386,
+      "reference_calls": 2361,
+      "business_calls": 2330,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-heterogeneous_integration-05",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026293024-p24-w45-v6-formal-1m-heterogeneous_integration-05",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026293024,
+        "stages": 24,
+        "width": 45
+      },
+      "band": "1m",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 1002605,
+      "reference_calls": 2254,
+      "business_calls": 2221,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-heterogeneous_integration-06",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026293025-p24-w48-v6-formal-1m-heterogeneous_integration-06",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026293025,
+        "stages": 24,
+        "width": 48
+      },
+      "band": "1m",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 1001588,
+      "reference_calls": 2361,
+      "business_calls": 2330,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-heterogeneous_integration-07",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026293026-p24-w48-v6-formal-1m-heterogeneous_integration-07",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026293026,
+        "stages": 24,
+        "width": 48
+      },
+      "band": "1m",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 994901,
+      "reference_calls": 2361,
+      "business_calls": 2330,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-heterogeneous_integration-08",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-conflict_and_late_correction-s2026293027-p24-w45-v6-formal-1m-heterogeneous_integration-08",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "conflict_and_late_correction",
+        "seed": 2026293027,
+        "stages": 24,
+        "width": 45
+      },
+      "band": "1m",
+      "variant": "conflict_and_late_correction",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 1007112,
+      "reference_calls": 2270,
+      "business_calls": 2237,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-heterogeneous_integration-09",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-branch_specific_transforms-s2026293028-p24-w48-v6-formal-1m-heterogeneous_integration-09",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "branch_specific_transforms",
+        "seed": 2026293028,
+        "stages": 24,
+        "width": 48
+      },
+      "band": "1m",
+      "variant": "branch_specific_transforms",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 1001773,
+      "reference_calls": 2361,
+      "business_calls": 2330,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-heterogeneous_integration-10",
+      "task_id": "DATAOPS-V6-heterogeneous_integration-temporal_identity_mapping-s2026293029-p24-w48-v6-formal-1m-heterogeneous_integration-10",
+      "parameters": {
+        "family": "heterogeneous_integration",
+        "variant": "temporal_identity_mapping",
+        "seed": 2026293029,
+        "stages": 24,
+        "width": 48
+      },
+      "band": "1m",
+      "variant": "temporal_identity_mapping",
+      "family": "heterogeneous_integration",
+      "L_business_ref": 995460,
+      "reference_calls": 2361,
+      "business_calls": 2330,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-receivables_reconciliation-01",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026293040-p24-w33-v6-formal-1m-receivables_reconciliation-01",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026293040,
+        "stages": 24,
+        "width": 33
+      },
+      "band": "1m",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 1003679,
+      "reference_calls": 3226,
+      "business_calls": 2402,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-receivables_reconciliation-02",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026293041-p24-w35-v6-formal-1m-receivables_reconciliation-02",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026293041,
+        "stages": 24,
+        "width": 35
+      },
+      "band": "1m",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 1013661,
+      "reference_calls": 3438,
+      "business_calls": 2564,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-receivables_reconciliation-03",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026293042-p24-w36-v6-formal-1m-receivables_reconciliation-03",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026293042,
+        "stages": 24,
+        "width": 36
+      },
+      "band": "1m",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 1005514,
+      "reference_calls": 3514,
+      "business_calls": 2618,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-receivables_reconciliation-04",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026293043-p24-w33-v6-formal-1m-receivables_reconciliation-04",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026293043,
+        "stages": 24,
+        "width": 33
+      },
+      "band": "1m",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 1004914,
+      "reference_calls": 3226,
+      "business_calls": 2402,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-receivables_reconciliation-05",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026293044-p24-w35-v6-formal-1m-receivables_reconciliation-05",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026293044,
+        "stages": 24,
+        "width": 35
+      },
+      "band": "1m",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 1011262,
+      "reference_calls": 3436,
+      "business_calls": 2562,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-receivables_reconciliation-06",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026293045-p24-w36-v6-formal-1m-receivables_reconciliation-06",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026293045,
+        "stages": 24,
+        "width": 36
+      },
+      "band": "1m",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 1003573,
+      "reference_calls": 3514,
+      "business_calls": 2618,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-receivables_reconciliation-07",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026293046-p24-w33-v6-formal-1m-receivables_reconciliation-07",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026293046,
+        "stages": 24,
+        "width": 33
+      },
+      "band": "1m",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 1004630,
+      "reference_calls": 3226,
+      "business_calls": 2402,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-receivables_reconciliation-08",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-delayed_evidence_and_reversal-s2026293047-p24-w35-v6-formal-1m-receivables_reconciliation-08",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "delayed_evidence_and_reversal",
+        "seed": 2026293047,
+        "stages": 24,
+        "width": 35
+      },
+      "band": "1m",
+      "variant": "delayed_evidence_and_reversal",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 1016542,
+      "reference_calls": 3438,
+      "business_calls": 2564,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-receivables_reconciliation-09",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-partial_and_many_to_many_payment-s2026293048-p24-w36-v6-formal-1m-receivables_reconciliation-09",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "partial_and_many_to_many_payment",
+        "seed": 2026293048,
+        "stages": 24,
+        "width": 36
+      },
+      "band": "1m",
+      "variant": "partial_and_many_to_many_payment",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 1005402,
+      "reference_calls": 3514,
+      "business_calls": 2618,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-receivables_reconciliation-10",
+      "task_id": "DATAOPS-V6-receivables_reconciliation-credit_note_refund_and_duplicate-s2026293049-p24-w33-v6-formal-1m-receivables_reconciliation-10",
+      "parameters": {
+        "family": "receivables_reconciliation",
+        "variant": "credit_note_refund_and_duplicate",
+        "seed": 2026293049,
+        "stages": 24,
+        "width": 33
+      },
+      "band": "1m",
+      "variant": "credit_note_refund_and_duplicate",
+      "family": "receivables_reconciliation",
+      "L_business_ref": 1005025,
+      "reference_calls": 3226,
+      "business_calls": 2402,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-release_maintenance-01",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026293030-p24-w21-v6-formal-1m-release_maintenance-01",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026293030,
+        "stages": 24,
+        "width": 21
+      },
+      "band": "1m",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 984474,
+      "reference_calls": 5631,
+      "business_calls": 5092,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-release_maintenance-02",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026293031-p24-w20-v6-formal-1m-release_maintenance-02",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026293031,
+        "stages": 24,
+        "width": 20
+      },
+      "band": "1m",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 993593,
+      "reference_calls": 5367,
+      "business_calls": 4852,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-release_maintenance-03",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026293032-p24-w21-v6-formal-1m-release_maintenance-03",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026293032,
+        "stages": 24,
+        "width": 21
+      },
+      "band": "1m",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 977975,
+      "reference_calls": 5603,
+      "business_calls": 5066,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-release_maintenance-04",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026293033-p24-w21-v6-formal-1m-release_maintenance-04",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026293033,
+        "stages": 24,
+        "width": 21
+      },
+      "band": "1m",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 984640,
+      "reference_calls": 5631,
+      "business_calls": 5092,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-release_maintenance-05",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026293034-p24-w20-v6-formal-1m-release_maintenance-05",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026293034,
+        "stages": 24,
+        "width": 20
+      },
+      "band": "1m",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 993605,
+      "reference_calls": 5367,
+      "business_calls": 4852,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-release_maintenance-06",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026293035-p24-w21-v6-formal-1m-release_maintenance-06",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026293035,
+        "stages": 24,
+        "width": 21
+      },
+      "band": "1m",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 977895,
+      "reference_calls": 5603,
+      "business_calls": 5066,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-release_maintenance-07",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026293036-p24-w21-v6-formal-1m-release_maintenance-07",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026293036,
+        "stages": 24,
+        "width": 21
+      },
+      "band": "1m",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 984559,
+      "reference_calls": 5631,
+      "business_calls": 5092,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-release_maintenance-08",
+      "task_id": "DATAOPS-V6-release_maintenance-policy_scope_and_consumer_fork-s2026293037-p24-w20-v6-formal-1m-release_maintenance-08",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "policy_scope_and_consumer_fork",
+        "seed": 2026293037,
+        "stages": 24,
+        "width": 20
+      },
+      "band": "1m",
+      "variant": "policy_scope_and_consumer_fork",
+      "family": "release_maintenance",
+      "L_business_ref": 993621,
+      "reference_calls": 5367,
+      "business_calls": 4852,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-release_maintenance-09",
+      "task_id": "DATAOPS-V6-release_maintenance-local_component_correction-s2026293038-p24-w21-v6-formal-1m-release_maintenance-09",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "local_component_correction",
+        "seed": 2026293038,
+        "stages": 24,
+        "width": 21
+      },
+      "band": "1m",
+      "variant": "local_component_correction",
+      "family": "release_maintenance",
+      "L_business_ref": 978078,
+      "reference_calls": 5603,
+      "business_calls": 5066,
+      "reference_policy": "public_decision_metadata_v6"
+    },
+    {
+      "id": "v6-formal-1m-release_maintenance-10",
+      "task_id": "DATAOPS-V6-release_maintenance-shared_source_concurrent_corrections-s2026293039-p24-w21-v6-formal-1m-release_maintenance-10",
+      "parameters": {
+        "family": "release_maintenance",
+        "variant": "shared_source_concurrent_corrections",
+        "seed": 2026293039,
+        "stages": 24,
+        "width": 21
+      },
+      "band": "1m",
+      "variant": "shared_source_concurrent_corrections",
+      "family": "release_maintenance",
+      "L_business_ref": 984462,
+      "reference_calls": 5631,
+      "business_calls": 5092,
+      "reference_policy": "public_decision_metadata_v6"
+    }
+  ]
+}

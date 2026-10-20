@@ -1,0 +1,9 @@
+inspect-ai==0.3.269
+harbor @ https://github.com/harbor-framework/harbor/archive/cfc54c995e90cd438deb862189a58053b9d89fd3.tar.gz
+mcp==2.0.0
+pydantic==2.13.5
+jsonschema==4.26.0
+tiktoken==0.14.0
+PyYAML==6.0.3
+pybtex==0.26.1
+typing-extensions==4.16.0

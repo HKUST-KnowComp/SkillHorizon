@@ -1,0 +1,2876 @@
+{
+  "environment": "LogisticsOps",
+  "dataset_id": "skillhorizon-logisticsops150-20260921-v3",
+  "tasks": [
+    {
+      "id": "64k-logisticsops-carrier_disruption-01",
+      "band": "64k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921510,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 181,
+      "business_calls": 126,
+      "task_id": "c09-transfer-921510-2c-4l-carrier-disruption",
+      "L_business_ref": 57141,
+      "B": 244
+    },
+    {
+      "id": "64k-logisticsops-carrier_disruption-02",
+      "band": "64k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921511,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 187,
+      "business_calls": 132,
+      "task_id": "c09-transfer-921511-2c-4l-carrier-disruption",
+      "L_business_ref": 58890,
+      "B": 253
+    },
+    {
+      "id": "64k-logisticsops-carrier_disruption-03",
+      "band": "64k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921512,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 187,
+      "business_calls": 132,
+      "task_id": "c09-transfer-921512-2c-4l-carrier-disruption",
+      "L_business_ref": 59064,
+      "B": 253
+    },
+    {
+      "id": "64k-logisticsops-carrier_disruption-04",
+      "band": "64k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921513,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 194,
+      "business_calls": 139,
+      "task_id": "c09-transfer-921513-2c-4l-carrier-disruption",
+      "L_business_ref": 61767,
+      "B": 264
+    },
+    {
+      "id": "64k-logisticsops-carrier_disruption-05",
+      "band": "64k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921514,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 189,
+      "business_calls": 134,
+      "task_id": "c09-transfer-921514-2c-4l-carrier-disruption",
+      "L_business_ref": 59876,
+      "B": 256
+    },
+    {
+      "id": "64k-logisticsops-carrier_disruption-06",
+      "band": "64k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921515,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 187,
+      "business_calls": 132,
+      "task_id": "c09-transfer-921515-2c-4l-carrier-disruption",
+      "L_business_ref": 58975,
+      "B": 253
+    },
+    {
+      "id": "64k-logisticsops-carrier_disruption-07",
+      "band": "64k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921516,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 189,
+      "business_calls": 134,
+      "task_id": "c09-transfer-921516-2c-4l-carrier-disruption",
+      "L_business_ref": 60225,
+      "B": 256
+    },
+    {
+      "id": "64k-logisticsops-carrier_disruption-08",
+      "band": "64k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921517,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 187,
+      "business_calls": 132,
+      "task_id": "c09-transfer-921517-2c-4l-carrier-disruption",
+      "L_business_ref": 59741,
+      "B": 253
+    },
+    {
+      "id": "64k-logisticsops-carrier_disruption-09",
+      "band": "64k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921518,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 186,
+      "business_calls": 131,
+      "task_id": "c09-transfer-921518-2c-4l-carrier-disruption",
+      "L_business_ref": 58839,
+      "B": 252
+    },
+    {
+      "id": "64k-logisticsops-carrier_disruption-10",
+      "band": "64k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921519,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 183,
+      "business_calls": 128,
+      "task_id": "c09-transfer-921519-2c-4l-carrier-disruption",
+      "L_business_ref": 57576,
+      "B": 247
+    },
+    {
+      "id": "64k-logisticsops-handling_restricted-01",
+      "band": "64k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921500,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 176,
+      "business_calls": 122,
+      "task_id": "c09-transfer-921500-2c-4l-handling-restricted",
+      "L_business_ref": 54900,
+      "B": 237
+    },
+    {
+      "id": "64k-logisticsops-handling_restricted-02",
+      "band": "64k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921501,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 191,
+      "business_calls": 137,
+      "task_id": "c09-transfer-921501-2c-4l-handling-restricted",
+      "L_business_ref": 60297,
+      "B": 260
+    },
+    {
+      "id": "64k-logisticsops-handling_restricted-03",
+      "band": "64k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921502,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 184,
+      "business_calls": 130,
+      "task_id": "c09-transfer-921502-2c-4l-handling-restricted",
+      "L_business_ref": 57744,
+      "B": 249
+    },
+    {
+      "id": "64k-logisticsops-handling_restricted-04",
+      "band": "64k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921503,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 183,
+      "business_calls": 129,
+      "task_id": "c09-transfer-921503-2c-4l-handling-restricted",
+      "L_business_ref": 58115,
+      "B": 248
+    },
+    {
+      "id": "64k-logisticsops-handling_restricted-05",
+      "band": "64k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921504,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 183,
+      "business_calls": 129,
+      "task_id": "c09-transfer-921504-2c-4l-handling-restricted",
+      "L_business_ref": 57214,
+      "B": 248
+    },
+    {
+      "id": "64k-logisticsops-handling_restricted-06",
+      "band": "64k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921505,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 180,
+      "business_calls": 126,
+      "task_id": "c09-transfer-921505-2c-4l-handling-restricted",
+      "L_business_ref": 56067,
+      "B": 243
+    },
+    {
+      "id": "64k-logisticsops-handling_restricted-07",
+      "band": "64k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921506,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 187,
+      "business_calls": 133,
+      "task_id": "c09-transfer-921506-2c-4l-handling-restricted",
+      "L_business_ref": 58944,
+      "B": 254
+    },
+    {
+      "id": "64k-logisticsops-handling_restricted-08",
+      "band": "64k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921507,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 184,
+      "business_calls": 130,
+      "task_id": "c09-transfer-921507-2c-4l-handling-restricted",
+      "L_business_ref": 57806,
+      "B": 249
+    },
+    {
+      "id": "64k-logisticsops-handling_restricted-09",
+      "band": "64k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921508,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 188,
+      "business_calls": 134,
+      "task_id": "c09-transfer-921508-2c-4l-handling-restricted",
+      "L_business_ref": 59862,
+      "B": 255
+    },
+    {
+      "id": "64k-logisticsops-handling_restricted-10",
+      "band": "64k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921509,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 186,
+      "business_calls": 132,
+      "task_id": "c09-transfer-921509-2c-4l-handling-restricted",
+      "L_business_ref": 58611,
+      "B": 252
+    },
+    {
+      "id": "64k-logisticsops-specialist_disruption-01",
+      "band": "64k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921520,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 191,
+      "business_calls": 136,
+      "task_id": "c09-transfer-921520-2c-4l-specialist-disruption",
+      "L_business_ref": 60968,
+      "B": 259
+    },
+    {
+      "id": "64k-logisticsops-specialist_disruption-02",
+      "band": "64k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 1921521,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 187,
+      "business_calls": 132,
+      "task_id": "c09-transfer-1921521-2c-4l-specialist-disruption",
+      "L_business_ref": 59319,
+      "B": 253
+    },
+    {
+      "id": "64k-logisticsops-specialist_disruption-03",
+      "band": "64k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 2921522,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 177,
+      "business_calls": 122,
+      "task_id": "c09-transfer-2921522-2c-4l-specialist-disruption",
+      "L_business_ref": 56365,
+      "B": 238
+    },
+    {
+      "id": "64k-logisticsops-specialist_disruption-04",
+      "band": "64k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 1921523,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 183,
+      "business_calls": 128,
+      "task_id": "c09-transfer-1921523-2c-4l-specialist-disruption",
+      "L_business_ref": 57666,
+      "B": 247
+    },
+    {
+      "id": "64k-logisticsops-specialist_disruption-05",
+      "band": "64k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 3921524,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 189,
+      "business_calls": 134,
+      "task_id": "c09-transfer-3921524-2c-4l-specialist-disruption",
+      "L_business_ref": 59567,
+      "B": 256
+    },
+    {
+      "id": "64k-logisticsops-specialist_disruption-06",
+      "band": "64k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921525,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 190,
+      "business_calls": 135,
+      "task_id": "c09-transfer-921525-2c-4l-specialist-disruption",
+      "L_business_ref": 60820,
+      "B": 258
+    },
+    {
+      "id": "64k-logisticsops-specialist_disruption-07",
+      "band": "64k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921526,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 190,
+      "business_calls": 135,
+      "task_id": "c09-transfer-921526-2c-4l-specialist-disruption",
+      "L_business_ref": 60591,
+      "B": 258
+    },
+    {
+      "id": "64k-logisticsops-specialist_disruption-08",
+      "band": "64k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 1921527,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 182,
+      "business_calls": 127,
+      "task_id": "c09-transfer-1921527-2c-4l-specialist-disruption",
+      "L_business_ref": 57790,
+      "B": 246
+    },
+    {
+      "id": "64k-logisticsops-specialist_disruption-09",
+      "band": "64k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921528,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 191,
+      "business_calls": 136,
+      "task_id": "c09-transfer-921528-2c-4l-specialist-disruption",
+      "L_business_ref": 60942,
+      "B": 259
+    },
+    {
+      "id": "64k-logisticsops-specialist_disruption-10",
+      "band": "64k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 1921529,
+        "cohorts": 2,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false,
+        "disruption_leg": 3
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 185,
+      "business_calls": 130,
+      "task_id": "c09-transfer-1921529-2c-4l-specialist-disruption",
+      "L_business_ref": 59417,
+      "B": 250
+    },
+    {
+      "id": "128k-logisticsops-carrier_disruption-01",
+      "band": "128k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921610,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 367,
+      "business_calls": 272,
+      "task_id": "c09-transfer-921610-4c-4l-carrier-disruption",
+      "L_business_ref": 114821,
+      "B": 503
+    },
+    {
+      "id": "128k-logisticsops-carrier_disruption-02",
+      "band": "128k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921611,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 371,
+      "business_calls": 276,
+      "task_id": "c09-transfer-921611-4c-4l-carrier-disruption",
+      "L_business_ref": 116378,
+      "B": 509
+    },
+    {
+      "id": "128k-logisticsops-carrier_disruption-03",
+      "band": "128k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921612,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 369,
+      "business_calls": 274,
+      "task_id": "c09-transfer-921612-4c-4l-carrier-disruption",
+      "L_business_ref": 114925,
+      "B": 506
+    },
+    {
+      "id": "128k-logisticsops-carrier_disruption-04",
+      "band": "128k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921613,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 377,
+      "business_calls": 282,
+      "task_id": "c09-transfer-921613-4c-4l-carrier-disruption",
+      "L_business_ref": 118787,
+      "B": 518
+    },
+    {
+      "id": "128k-logisticsops-carrier_disruption-05",
+      "band": "128k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921614,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 361,
+      "business_calls": 266,
+      "task_id": "c09-transfer-921614-4c-4l-carrier-disruption",
+      "L_business_ref": 112607,
+      "B": 494
+    },
+    {
+      "id": "128k-logisticsops-carrier_disruption-06",
+      "band": "128k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921615,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 363,
+      "business_calls": 272,
+      "task_id": "c09-transfer-921615-4c-4l-carrier-disruption",
+      "L_business_ref": 113342,
+      "B": 499
+    },
+    {
+      "id": "128k-logisticsops-carrier_disruption-07",
+      "band": "128k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921616,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 365,
+      "business_calls": 270,
+      "task_id": "c09-transfer-921616-4c-4l-carrier-disruption",
+      "L_business_ref": 114131,
+      "B": 500
+    },
+    {
+      "id": "128k-logisticsops-carrier_disruption-08",
+      "band": "128k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921617,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 369,
+      "business_calls": 274,
+      "task_id": "c09-transfer-921617-4c-4l-carrier-disruption",
+      "L_business_ref": 115728,
+      "B": 506
+    },
+    {
+      "id": "128k-logisticsops-carrier_disruption-09",
+      "band": "128k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921618,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 383,
+      "business_calls": 284,
+      "task_id": "c09-transfer-921618-4c-4l-carrier-disruption",
+      "L_business_ref": 121018,
+      "B": 525
+    },
+    {
+      "id": "128k-logisticsops-carrier_disruption-10",
+      "band": "128k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921619,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 386,
+      "business_calls": 287,
+      "task_id": "c09-transfer-921619-4c-4l-carrier-disruption",
+      "L_business_ref": 121384,
+      "B": 530
+    },
+    {
+      "id": "128k-logisticsops-handling_restricted-01",
+      "band": "128k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921600,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 338,
+      "business_calls": 252,
+      "task_id": "c09-transfer-921600-4c-4l-handling-restricted",
+      "L_business_ref": 104580,
+      "B": 464
+    },
+    {
+      "id": "128k-logisticsops-handling_restricted-02",
+      "band": "128k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921601,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 342,
+      "business_calls": 256,
+      "task_id": "c09-transfer-921601-4c-4l-handling-restricted",
+      "L_business_ref": 105924,
+      "B": 470
+    },
+    {
+      "id": "128k-logisticsops-handling_restricted-03",
+      "band": "128k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921602,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 342,
+      "business_calls": 256,
+      "task_id": "c09-transfer-921602-4c-4l-handling-restricted",
+      "L_business_ref": 105040,
+      "B": 470
+    },
+    {
+      "id": "128k-logisticsops-handling_restricted-04",
+      "band": "128k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921603,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 346,
+      "business_calls": 260,
+      "task_id": "c09-transfer-921603-4c-4l-handling-restricted",
+      "L_business_ref": 107266,
+      "B": 476
+    },
+    {
+      "id": "128k-logisticsops-handling_restricted-05",
+      "band": "128k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921604,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 334,
+      "business_calls": 248,
+      "task_id": "c09-transfer-921604-4c-4l-handling-restricted",
+      "L_business_ref": 102964,
+      "B": 458
+    },
+    {
+      "id": "128k-logisticsops-handling_restricted-06",
+      "band": "128k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921605,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 345,
+      "business_calls": 259,
+      "task_id": "c09-transfer-921605-4c-4l-handling-restricted",
+      "L_business_ref": 106942,
+      "B": 475
+    },
+    {
+      "id": "128k-logisticsops-handling_restricted-07",
+      "band": "128k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921606,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 338,
+      "business_calls": 252,
+      "task_id": "c09-transfer-921606-4c-4l-handling-restricted",
+      "L_business_ref": 104066,
+      "B": 464
+    },
+    {
+      "id": "128k-logisticsops-handling_restricted-08",
+      "band": "128k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921607,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 346,
+      "business_calls": 260,
+      "task_id": "c09-transfer-921607-4c-4l-handling-restricted",
+      "L_business_ref": 107168,
+      "B": 476
+    },
+    {
+      "id": "128k-logisticsops-handling_restricted-09",
+      "band": "128k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921608,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 342,
+      "business_calls": 256,
+      "task_id": "c09-transfer-921608-4c-4l-handling-restricted",
+      "L_business_ref": 104835,
+      "B": 470
+    },
+    {
+      "id": "128k-logisticsops-handling_restricted-10",
+      "band": "128k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921609,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 350,
+      "business_calls": 264,
+      "task_id": "c09-transfer-921609-4c-4l-handling-restricted",
+      "L_business_ref": 108238,
+      "B": 482
+    },
+    {
+      "id": "128k-logisticsops-specialist_disruption-01",
+      "band": "128k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921620,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 373,
+      "business_calls": 278,
+      "task_id": "c09-transfer-921620-4c-4l-specialist-disruption",
+      "L_business_ref": 117522,
+      "B": 512
+    },
+    {
+      "id": "128k-logisticsops-specialist_disruption-02",
+      "band": "128k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921621,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 361,
+      "business_calls": 266,
+      "task_id": "c09-transfer-921621-4c-4l-specialist-disruption",
+      "L_business_ref": 112312,
+      "B": 494
+    },
+    {
+      "id": "128k-logisticsops-specialist_disruption-03",
+      "band": "128k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921622,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 341,
+      "business_calls": 254,
+      "task_id": "c09-transfer-921622-4c-4l-specialist-disruption",
+      "L_business_ref": 105352,
+      "B": 468
+    },
+    {
+      "id": "128k-logisticsops-specialist_disruption-04",
+      "band": "128k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921623,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 355,
+      "business_calls": 264,
+      "task_id": "c09-transfer-921623-4c-4l-specialist-disruption",
+      "L_business_ref": 110583,
+      "B": 487
+    },
+    {
+      "id": "128k-logisticsops-specialist_disruption-05",
+      "band": "128k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921624,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 373,
+      "business_calls": 274,
+      "task_id": "c09-transfer-921624-4c-4l-specialist-disruption",
+      "L_business_ref": 117040,
+      "B": 510
+    },
+    {
+      "id": "128k-logisticsops-specialist_disruption-06",
+      "band": "128k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921625,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 341,
+      "business_calls": 254,
+      "task_id": "c09-transfer-921625-4c-4l-specialist-disruption",
+      "L_business_ref": 105624,
+      "B": 468
+    },
+    {
+      "id": "128k-logisticsops-specialist_disruption-07",
+      "band": "128k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921626,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 375,
+      "business_calls": 276,
+      "task_id": "c09-transfer-921626-4c-4l-specialist-disruption",
+      "L_business_ref": 117203,
+      "B": 513
+    },
+    {
+      "id": "128k-logisticsops-specialist_disruption-08",
+      "band": "128k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921627,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 341,
+      "business_calls": 254,
+      "task_id": "c09-transfer-921627-4c-4l-specialist-disruption",
+      "L_business_ref": 106272,
+      "B": 468
+    },
+    {
+      "id": "128k-logisticsops-specialist_disruption-09",
+      "band": "128k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921628,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 387,
+      "business_calls": 288,
+      "task_id": "c09-transfer-921628-4c-4l-specialist-disruption",
+      "L_business_ref": 122156,
+      "B": 531
+    },
+    {
+      "id": "128k-logisticsops-specialist_disruption-10",
+      "band": "128k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921629,
+        "cohorts": 4,
+        "legs": 4,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 345,
+      "business_calls": 258,
+      "task_id": "c09-transfer-921629-4c-4l-specialist-disruption",
+      "L_business_ref": 107725,
+      "B": 474
+    },
+    {
+      "id": "256k-logisticsops-carrier_disruption-01",
+      "band": "256k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921710,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 731,
+      "business_calls": 546,
+      "task_id": "c09-transfer-921710-6c-5l-carrier-disruption",
+      "L_business_ref": 231389,
+      "B": 1004
+    },
+    {
+      "id": "256k-logisticsops-carrier_disruption-02",
+      "band": "256k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921711,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 740,
+      "business_calls": 555,
+      "task_id": "c09-transfer-921711-6c-5l-carrier-disruption",
+      "L_business_ref": 233676,
+      "B": 1018
+    },
+    {
+      "id": "256k-logisticsops-carrier_disruption-03",
+      "band": "256k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921712,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 748,
+      "business_calls": 555,
+      "task_id": "c09-transfer-921712-6c-5l-carrier-disruption",
+      "L_business_ref": 233768,
+      "B": 1026
+    },
+    {
+      "id": "256k-logisticsops-carrier_disruption-04",
+      "band": "256k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921713,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 733,
+      "business_calls": 548,
+      "task_id": "c09-transfer-921713-6c-5l-carrier-disruption",
+      "L_business_ref": 229963,
+      "B": 1007
+    },
+    {
+      "id": "256k-logisticsops-carrier_disruption-05",
+      "band": "256k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921714,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 703,
+      "business_calls": 526,
+      "task_id": "c09-transfer-921714-6c-5l-carrier-disruption",
+      "L_business_ref": 219505,
+      "B": 966
+    },
+    {
+      "id": "256k-logisticsops-carrier_disruption-06",
+      "band": "256k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921715,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 768,
+      "business_calls": 575,
+      "task_id": "c09-transfer-921715-6c-5l-carrier-disruption",
+      "L_business_ref": 244216,
+      "B": 1056
+    },
+    {
+      "id": "256k-logisticsops-carrier_disruption-07",
+      "band": "256k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921716,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 723,
+      "business_calls": 542,
+      "task_id": "c09-transfer-921716-6c-5l-carrier-disruption",
+      "L_business_ref": 228666,
+      "B": 994
+    },
+    {
+      "id": "256k-logisticsops-carrier_disruption-08",
+      "band": "256k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921717,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 716,
+      "business_calls": 539,
+      "task_id": "c09-transfer-921717-6c-5l-carrier-disruption",
+      "L_business_ref": 225763,
+      "B": 986
+    },
+    {
+      "id": "256k-logisticsops-carrier_disruption-09",
+      "band": "256k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921718,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 728,
+      "business_calls": 543,
+      "task_id": "c09-transfer-921718-6c-5l-carrier-disruption",
+      "L_business_ref": 227906,
+      "B": 1000
+    },
+    {
+      "id": "256k-logisticsops-carrier_disruption-10",
+      "band": "256k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921719,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 728,
+      "business_calls": 551,
+      "task_id": "c09-transfer-921719-6c-5l-carrier-disruption",
+      "L_business_ref": 231056,
+      "B": 1004
+    },
+    {
+      "id": "256k-logisticsops-handling_restricted-01",
+      "band": "256k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921700,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 723,
+      "business_calls": 559,
+      "task_id": "c09-transfer-921700-7c-5l-handling-restricted",
+      "L_business_ref": 221054,
+      "B": 1003
+    },
+    {
+      "id": "256k-logisticsops-handling_restricted-02",
+      "band": "256k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921701,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 728,
+      "business_calls": 564,
+      "task_id": "c09-transfer-921701-7c-5l-handling-restricted",
+      "L_business_ref": 224057,
+      "B": 1010
+    },
+    {
+      "id": "256k-logisticsops-handling_restricted-03",
+      "band": "256k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921702,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 718,
+      "business_calls": 554,
+      "task_id": "c09-transfer-921702-7c-5l-handling-restricted",
+      "L_business_ref": 219828,
+      "B": 995
+    },
+    {
+      "id": "256k-logisticsops-handling_restricted-04",
+      "band": "256k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921703,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 728,
+      "business_calls": 564,
+      "task_id": "c09-transfer-921703-7c-5l-handling-restricted",
+      "L_business_ref": 223300,
+      "B": 1010
+    },
+    {
+      "id": "256k-logisticsops-handling_restricted-05",
+      "band": "256k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921704,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 718,
+      "business_calls": 554,
+      "task_id": "c09-transfer-921704-7c-5l-handling-restricted",
+      "L_business_ref": 220369,
+      "B": 995
+    },
+    {
+      "id": "256k-logisticsops-handling_restricted-06",
+      "band": "256k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921705,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 728,
+      "business_calls": 564,
+      "task_id": "c09-transfer-921705-7c-5l-handling-restricted",
+      "L_business_ref": 223417,
+      "B": 1010
+    },
+    {
+      "id": "256k-logisticsops-handling_restricted-07",
+      "band": "256k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921706,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 733,
+      "business_calls": 569,
+      "task_id": "c09-transfer-921706-7c-5l-handling-restricted",
+      "L_business_ref": 225879,
+      "B": 1018
+    },
+    {
+      "id": "256k-logisticsops-handling_restricted-08",
+      "band": "256k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921707,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 723,
+      "business_calls": 559,
+      "task_id": "c09-transfer-921707-7c-5l-handling-restricted",
+      "L_business_ref": 223333,
+      "B": 1003
+    },
+    {
+      "id": "256k-logisticsops-handling_restricted-09",
+      "band": "256k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921708,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 728,
+      "business_calls": 564,
+      "task_id": "c09-transfer-921708-7c-5l-handling-restricted",
+      "L_business_ref": 224487,
+      "B": 1010
+    },
+    {
+      "id": "256k-logisticsops-handling_restricted-10",
+      "band": "256k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921709,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 738,
+      "business_calls": 574,
+      "task_id": "c09-transfer-921709-7c-5l-handling-restricted",
+      "L_business_ref": 227466,
+      "B": 1025
+    },
+    {
+      "id": "256k-logisticsops-specialist_disruption-01",
+      "band": "256k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921720,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 760,
+      "business_calls": 571,
+      "task_id": "c09-transfer-921720-6c-5l-specialist-disruption",
+      "L_business_ref": 242698,
+      "B": 1046
+    },
+    {
+      "id": "256k-logisticsops-specialist_disruption-02",
+      "band": "256k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921721,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 710,
+      "business_calls": 533,
+      "task_id": "c09-transfer-921721-6c-5l-specialist-disruption",
+      "L_business_ref": 224413,
+      "B": 977
+    },
+    {
+      "id": "256k-logisticsops-specialist_disruption-03",
+      "band": "256k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921722,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 735,
+      "business_calls": 546,
+      "task_id": "c09-transfer-921722-6c-5l-specialist-disruption",
+      "L_business_ref": 230979,
+      "B": 1008
+    },
+    {
+      "id": "256k-logisticsops-specialist_disruption-04",
+      "band": "256k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921723,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 700,
+      "business_calls": 527,
+      "task_id": "c09-transfer-921723-6c-5l-specialist-disruption",
+      "L_business_ref": 221373,
+      "B": 964
+    },
+    {
+      "id": "256k-logisticsops-specialist_disruption-05",
+      "band": "256k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921724,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 710,
+      "business_calls": 533,
+      "task_id": "c09-transfer-921724-6c-5l-specialist-disruption",
+      "L_business_ref": 222650,
+      "B": 977
+    },
+    {
+      "id": "256k-logisticsops-specialist_disruption-06",
+      "band": "256k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921725,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 705,
+      "business_calls": 536,
+      "task_id": "c09-transfer-921725-6c-5l-specialist-disruption",
+      "L_business_ref": 223576,
+      "B": 973
+    },
+    {
+      "id": "256k-logisticsops-specialist_disruption-07",
+      "band": "256k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921726,
+        "cohorts": 7,
+        "legs": 5,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 824,
+      "business_calls": 623,
+      "task_id": "c09-transfer-921726-7c-5l-specialist-disruption",
+      "L_business_ref": 260008,
+      "B": 1136
+    },
+    {
+      "id": "256k-logisticsops-specialist_disruption-08",
+      "band": "256k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921727,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 713,
+      "business_calls": 536,
+      "task_id": "c09-transfer-921727-6c-5l-specialist-disruption",
+      "L_business_ref": 224506,
+      "B": 981
+    },
+    {
+      "id": "256k-logisticsops-specialist_disruption-09",
+      "band": "256k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921728,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 688,
+      "business_calls": 519,
+      "task_id": "c09-transfer-921728-6c-5l-specialist-disruption",
+      "L_business_ref": 217052,
+      "B": 948
+    },
+    {
+      "id": "256k-logisticsops-specialist_disruption-10",
+      "band": "256k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921729,
+        "cohorts": 6,
+        "legs": 5,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 708,
+      "business_calls": 535,
+      "task_id": "c09-transfer-921729-6c-5l-specialist-disruption",
+      "L_business_ref": 224764,
+      "B": 976
+    },
+    {
+      "id": "512k-logisticsops-carrier_disruption-01",
+      "band": "512k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921810,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1447,
+      "business_calls": 1088,
+      "task_id": "c09-transfer-921810-10c-6l-carrier-disruption",
+      "L_business_ref": 454699,
+      "B": 1991
+    },
+    {
+      "id": "512k-logisticsops-carrier_disruption-02",
+      "band": "512k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921811,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1463,
+      "business_calls": 1104,
+      "task_id": "c09-transfer-921811-10c-6l-carrier-disruption",
+      "L_business_ref": 461586,
+      "B": 2015
+    },
+    {
+      "id": "512k-logisticsops-carrier_disruption-03",
+      "band": "512k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921812,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1487,
+      "business_calls": 1112,
+      "task_id": "c09-transfer-921812-10c-6l-carrier-disruption",
+      "L_business_ref": 466166,
+      "B": 2043
+    },
+    {
+      "id": "512k-logisticsops-carrier_disruption-04",
+      "band": "512k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921813,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1493,
+      "business_calls": 1126,
+      "task_id": "c09-transfer-921813-10c-6l-carrier-disruption",
+      "L_business_ref": 471189,
+      "B": 2056
+    },
+    {
+      "id": "512k-logisticsops-carrier_disruption-05",
+      "band": "512k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921814,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1459,
+      "business_calls": 1100,
+      "task_id": "c09-transfer-921814-10c-6l-carrier-disruption",
+      "L_business_ref": 458738,
+      "B": 2009
+    },
+    {
+      "id": "512k-logisticsops-carrier_disruption-06",
+      "band": "512k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921815,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1523,
+      "business_calls": 1152,
+      "task_id": "c09-transfer-921815-10c-6l-carrier-disruption",
+      "L_business_ref": 485193,
+      "B": 2099
+    },
+    {
+      "id": "512k-logisticsops-carrier_disruption-07",
+      "band": "512k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921816,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1447,
+      "business_calls": 1100,
+      "task_id": "c09-transfer-921816-10c-6l-carrier-disruption",
+      "L_business_ref": 455505,
+      "B": 1997
+    },
+    {
+      "id": "512k-logisticsops-carrier_disruption-08",
+      "band": "512k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921817,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1429,
+      "business_calls": 1086,
+      "task_id": "c09-transfer-921817-10c-6l-carrier-disruption",
+      "L_business_ref": 449159,
+      "B": 1972
+    },
+    {
+      "id": "512k-logisticsops-carrier_disruption-09",
+      "band": "512k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921818,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1517,
+      "business_calls": 1138,
+      "task_id": "c09-transfer-921818-10c-6l-carrier-disruption",
+      "L_business_ref": 478098,
+      "B": 2086
+    },
+    {
+      "id": "512k-logisticsops-carrier_disruption-10",
+      "band": "512k",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921819,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1445,
+      "business_calls": 1094,
+      "task_id": "c09-transfer-921819-10c-6l-carrier-disruption",
+      "L_business_ref": 458421,
+      "B": 1992
+    },
+    {
+      "id": "512k-logisticsops-handling_restricted-01",
+      "band": "512k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921800,
+        "cohorts": 12,
+        "legs": 6,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1462,
+      "business_calls": 1148,
+      "task_id": "c09-transfer-921800-12c-6l-handling-restricted",
+      "L_business_ref": 447378,
+      "B": 2036
+    },
+    {
+      "id": "512k-logisticsops-handling_restricted-02",
+      "band": "512k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921801,
+        "cohorts": 12,
+        "legs": 6,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1444,
+      "business_calls": 1130,
+      "task_id": "c09-transfer-921801-12c-6l-handling-restricted",
+      "L_business_ref": 443996,
+      "B": 2009
+    },
+    {
+      "id": "512k-logisticsops-handling_restricted-03",
+      "band": "512k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921802,
+        "cohorts": 12,
+        "legs": 6,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1444,
+      "business_calls": 1130,
+      "task_id": "c09-transfer-921802-12c-6l-handling-restricted",
+      "L_business_ref": 441517,
+      "B": 2009
+    },
+    {
+      "id": "512k-logisticsops-handling_restricted-04",
+      "band": "512k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921803,
+        "cohorts": 12,
+        "legs": 6,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1438,
+      "business_calls": 1124,
+      "task_id": "c09-transfer-921803-12c-6l-handling-restricted",
+      "L_business_ref": 440410,
+      "B": 2000
+    },
+    {
+      "id": "512k-logisticsops-handling_restricted-05",
+      "band": "512k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921804,
+        "cohorts": 12,
+        "legs": 6,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1456,
+      "business_calls": 1142,
+      "task_id": "c09-transfer-921804-12c-6l-handling-restricted",
+      "L_business_ref": 447976,
+      "B": 2027
+    },
+    {
+      "id": "512k-logisticsops-handling_restricted-06",
+      "band": "512k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921805,
+        "cohorts": 12,
+        "legs": 6,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1468,
+      "business_calls": 1154,
+      "task_id": "c09-transfer-921805-12c-6l-handling-restricted",
+      "L_business_ref": 452194,
+      "B": 2045
+    },
+    {
+      "id": "512k-logisticsops-handling_restricted-07",
+      "band": "512k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921806,
+        "cohorts": 12,
+        "legs": 6,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1450,
+      "business_calls": 1136,
+      "task_id": "c09-transfer-921806-12c-6l-handling-restricted",
+      "L_business_ref": 444122,
+      "B": 2018
+    },
+    {
+      "id": "512k-logisticsops-handling_restricted-08",
+      "band": "512k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921807,
+        "cohorts": 12,
+        "legs": 6,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1462,
+      "business_calls": 1148,
+      "task_id": "c09-transfer-921807-12c-6l-handling-restricted",
+      "L_business_ref": 449893,
+      "B": 2036
+    },
+    {
+      "id": "512k-logisticsops-handling_restricted-09",
+      "band": "512k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921808,
+        "cohorts": 12,
+        "legs": 6,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1462,
+      "business_calls": 1148,
+      "task_id": "c09-transfer-921808-12c-6l-handling-restricted",
+      "L_business_ref": 449019,
+      "B": 2036
+    },
+    {
+      "id": "512k-logisticsops-handling_restricted-10",
+      "band": "512k",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921809,
+        "cohorts": 12,
+        "legs": 6,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1462,
+      "business_calls": 1148,
+      "task_id": "c09-transfer-921809-12c-6l-handling-restricted",
+      "L_business_ref": 450492,
+      "B": 2036
+    },
+    {
+      "id": "512k-logisticsops-specialist_disruption-01",
+      "band": "512k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921820,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1467,
+      "business_calls": 1104,
+      "task_id": "c09-transfer-921820-10c-6l-specialist-disruption",
+      "L_business_ref": 460672,
+      "B": 2019
+    },
+    {
+      "id": "512k-logisticsops-specialist_disruption-02",
+      "band": "512k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921821,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1491,
+      "business_calls": 1116,
+      "task_id": "c09-transfer-921821-10c-6l-specialist-disruption",
+      "L_business_ref": 471362,
+      "B": 2049
+    },
+    {
+      "id": "512k-logisticsops-specialist_disruption-03",
+      "band": "512k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921822,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1483,
+      "business_calls": 1116,
+      "task_id": "c09-transfer-921822-10c-6l-specialist-disruption",
+      "L_business_ref": 472627,
+      "B": 2041
+    },
+    {
+      "id": "512k-logisticsops-specialist_disruption-04",
+      "band": "512k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921823,
+        "cohorts": 11,
+        "legs": 6,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1472,
+      "business_calls": 1125,
+      "task_id": "c09-transfer-921823-11c-6l-specialist-disruption",
+      "L_business_ref": 464449,
+      "B": 2035
+    },
+    {
+      "id": "512k-logisticsops-specialist_disruption-05",
+      "band": "512k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921824,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1475,
+      "business_calls": 1104,
+      "task_id": "c09-transfer-921824-10c-6l-specialist-disruption",
+      "L_business_ref": 462606,
+      "B": 2027
+    },
+    {
+      "id": "512k-logisticsops-specialist_disruption-06",
+      "band": "512k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921825,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1423,
+      "business_calls": 1084,
+      "task_id": "c09-transfer-921825-10c-6l-specialist-disruption",
+      "L_business_ref": 448263,
+      "B": 1965
+    },
+    {
+      "id": "512k-logisticsops-specialist_disruption-07",
+      "band": "512k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921826,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1513,
+      "business_calls": 1134,
+      "task_id": "c09-transfer-921826-10c-6l-specialist-disruption",
+      "L_business_ref": 479157,
+      "B": 2080
+    },
+    {
+      "id": "512k-logisticsops-specialist_disruption-08",
+      "band": "512k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921827,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1393,
+      "business_calls": 1074,
+      "task_id": "c09-transfer-921827-10c-6l-specialist-disruption",
+      "L_business_ref": 442624,
+      "B": 1930
+    },
+    {
+      "id": "512k-logisticsops-specialist_disruption-09",
+      "band": "512k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921828,
+        "cohorts": 10,
+        "legs": 6,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1475,
+      "business_calls": 1116,
+      "task_id": "c09-transfer-921828-10c-6l-specialist-disruption",
+      "L_business_ref": 466983,
+      "B": 2033
+    },
+    {
+      "id": "512k-logisticsops-specialist_disruption-10",
+      "band": "512k",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921829,
+        "cohorts": 11,
+        "legs": 6,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 1574,
+      "business_calls": 1187,
+      "task_id": "c09-transfer-921829-11c-6l-specialist-disruption",
+      "L_business_ref": 498065,
+      "B": 2168
+    },
+    {
+      "id": "1m-logisticsops-carrier_disruption-01",
+      "band": "1m",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921910,
+        "cohorts": 16,
+        "legs": 8,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3231,
+      "business_calls": 2428,
+      "task_id": "c09-transfer-921910-16c-8l-carrier-disruption",
+      "L_business_ref": 1020545,
+      "B": 4445
+    },
+    {
+      "id": "1m-logisticsops-carrier_disruption-02",
+      "band": "1m",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921911,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3084,
+      "business_calls": 2329,
+      "task_id": "c09-transfer-921911-15c-8l-carrier-disruption",
+      "L_business_ref": 985265,
+      "B": 4249
+    },
+    {
+      "id": "1m-logisticsops-carrier_disruption-03",
+      "band": "1m",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921912,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3078,
+      "business_calls": 2315,
+      "task_id": "c09-transfer-921912-15c-8l-carrier-disruption",
+      "L_business_ref": 979779,
+      "B": 4236
+    },
+    {
+      "id": "1m-logisticsops-carrier_disruption-04",
+      "band": "1m",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921913,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3060,
+      "business_calls": 2309,
+      "task_id": "c09-transfer-921913-15c-8l-carrier-disruption",
+      "L_business_ref": 975155,
+      "B": 4215
+    },
+    {
+      "id": "1m-logisticsops-carrier_disruption-05",
+      "band": "1m",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921914,
+        "cohorts": 14,
+        "legs": 8,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 2971,
+      "business_calls": 2232,
+      "task_id": "c09-transfer-921914-14c-8l-carrier-disruption",
+      "L_business_ref": 950009,
+      "B": 4087
+    },
+    {
+      "id": "1m-logisticsops-carrier_disruption-06",
+      "band": "1m",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921915,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3027,
+      "business_calls": 2272,
+      "task_id": "c09-transfer-921915-15c-8l-carrier-disruption",
+      "L_business_ref": 955551,
+      "B": 4163
+    },
+    {
+      "id": "1m-logisticsops-carrier_disruption-07",
+      "band": "1m",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921916,
+        "cohorts": 16,
+        "legs": 8,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3305,
+      "business_calls": 2486,
+      "task_id": "c09-transfer-921916-16c-8l-carrier-disruption",
+      "L_business_ref": 1044025,
+      "B": 4548
+    },
+    {
+      "id": "1m-logisticsops-carrier_disruption-08",
+      "band": "1m",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921917,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3027,
+      "business_calls": 2288,
+      "task_id": "c09-transfer-921917-15c-8l-carrier-disruption",
+      "L_business_ref": 964948,
+      "B": 4171
+    },
+    {
+      "id": "1m-logisticsops-carrier_disruption-09",
+      "band": "1m",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921918,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3042,
+      "business_calls": 2283,
+      "task_id": "c09-transfer-921918-15c-8l-carrier-disruption",
+      "L_business_ref": 959674,
+      "B": 4184
+    },
+    {
+      "id": "1m-logisticsops-carrier_disruption-10",
+      "band": "1m",
+      "family": "carrier_disruption",
+      "parameters": {
+        "seed": 921919,
+        "cohorts": 16,
+        "legs": 8,
+        "scenario": "carrier_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3146,
+      "business_calls": 2383,
+      "task_id": "c09-transfer-921919-16c-8l-carrier-disruption",
+      "L_business_ref": 999687,
+      "B": 4338
+    },
+    {
+      "id": "1m-logisticsops-handling_restricted-01",
+      "band": "1m",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921900,
+        "cohorts": 20,
+        "legs": 8,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3198,
+      "business_calls": 2528,
+      "task_id": "c09-transfer-921900-20c-8l-handling-restricted",
+      "L_business_ref": 985244,
+      "B": 4462
+    },
+    {
+      "id": "1m-logisticsops-handling_restricted-02",
+      "band": "1m",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921901,
+        "cohorts": 19,
+        "legs": 8,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3111,
+      "business_calls": 2473,
+      "task_id": "c09-transfer-921901-19c-8l-handling-restricted",
+      "L_business_ref": 964051,
+      "B": 4348
+    },
+    {
+      "id": "1m-logisticsops-handling_restricted-03",
+      "band": "1m",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921902,
+        "cohorts": 20,
+        "legs": 8,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3214,
+      "business_calls": 2544,
+      "task_id": "c09-transfer-921902-20c-8l-handling-restricted",
+      "L_business_ref": 986547,
+      "B": 4486
+    },
+    {
+      "id": "1m-logisticsops-handling_restricted-04",
+      "band": "1m",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921903,
+        "cohorts": 20,
+        "legs": 8,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3222,
+      "business_calls": 2552,
+      "task_id": "c09-transfer-921903-20c-8l-handling-restricted",
+      "L_business_ref": 993470,
+      "B": 4498
+    },
+    {
+      "id": "1m-logisticsops-handling_restricted-05",
+      "band": "1m",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921904,
+        "cohorts": 20,
+        "legs": 8,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3182,
+      "business_calls": 2512,
+      "task_id": "c09-transfer-921904-20c-8l-handling-restricted",
+      "L_business_ref": 979570,
+      "B": 4438
+    },
+    {
+      "id": "1m-logisticsops-handling_restricted-06",
+      "band": "1m",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921905,
+        "cohorts": 20,
+        "legs": 8,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3190,
+      "business_calls": 2520,
+      "task_id": "c09-transfer-921905-20c-8l-handling-restricted",
+      "L_business_ref": 984052,
+      "B": 4450
+    },
+    {
+      "id": "1m-logisticsops-handling_restricted-07",
+      "band": "1m",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921906,
+        "cohorts": 20,
+        "legs": 8,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3214,
+      "business_calls": 2544,
+      "task_id": "c09-transfer-921906-20c-8l-handling-restricted",
+      "L_business_ref": 987082,
+      "B": 4486
+    },
+    {
+      "id": "1m-logisticsops-handling_restricted-08",
+      "band": "1m",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921907,
+        "cohorts": 20,
+        "legs": 8,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3208,
+      "business_calls": 2538,
+      "task_id": "c09-transfer-921907-20c-8l-handling-restricted",
+      "L_business_ref": 989104,
+      "B": 4477
+    },
+    {
+      "id": "1m-logisticsops-handling_restricted-09",
+      "band": "1m",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921908,
+        "cohorts": 20,
+        "legs": 8,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3230,
+      "business_calls": 2560,
+      "task_id": "c09-transfer-921908-20c-8l-handling-restricted",
+      "L_business_ref": 997264,
+      "B": 4510
+    },
+    {
+      "id": "1m-logisticsops-handling_restricted-10",
+      "band": "1m",
+      "family": "handling_restricted",
+      "parameters": {
+        "seed": 921909,
+        "cohorts": 19,
+        "legs": 8,
+        "scenario": "handling_restricted",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3071,
+      "business_calls": 2433,
+      "task_id": "c09-transfer-921909-19c-8l-handling-restricted",
+      "L_business_ref": 951221,
+      "B": 4288
+    },
+    {
+      "id": "1m-logisticsops-specialist_disruption-01",
+      "band": "1m",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921920,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3076,
+      "business_calls": 2321,
+      "task_id": "c09-transfer-921920-15c-8l-specialist-disruption",
+      "L_business_ref": 982774,
+      "B": 4237
+    },
+    {
+      "id": "1m-logisticsops-specialist_disruption-02",
+      "band": "1m",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921921,
+        "cohorts": 16,
+        "legs": 8,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3215,
+      "business_calls": 2420,
+      "task_id": "c09-transfer-921921-16c-8l-specialist-disruption",
+      "L_business_ref": 1022164,
+      "B": 4425
+    },
+    {
+      "id": "1m-logisticsops-specialist_disruption-03",
+      "band": "1m",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921922,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3066,
+      "business_calls": 2315,
+      "task_id": "c09-transfer-921922-15c-8l-specialist-disruption",
+      "L_business_ref": 972852,
+      "B": 4224
+    },
+    {
+      "id": "1m-logisticsops-specialist_disruption-04",
+      "band": "1m",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921923,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3058,
+      "business_calls": 2307,
+      "task_id": "c09-transfer-921923-15c-8l-specialist-disruption",
+      "L_business_ref": 978928,
+      "B": 4212
+    },
+    {
+      "id": "1m-logisticsops-specialist_disruption-05",
+      "band": "1m",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921924,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3096,
+      "business_calls": 2333,
+      "task_id": "c09-transfer-921924-15c-8l-specialist-disruption",
+      "L_business_ref": 991131,
+      "B": 4263
+    },
+    {
+      "id": "1m-logisticsops-specialist_disruption-06",
+      "band": "1m",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921925,
+        "cohorts": 16,
+        "legs": 8,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3263,
+      "business_calls": 2452,
+      "task_id": "c09-transfer-921925-16c-8l-specialist-disruption",
+      "L_business_ref": 1041358,
+      "B": 4489
+    },
+    {
+      "id": "1m-logisticsops-specialist_disruption-07",
+      "band": "1m",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921926,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3048,
+      "business_calls": 2301,
+      "task_id": "c09-transfer-921926-15c-8l-specialist-disruption",
+      "L_business_ref": 973415,
+      "B": 4199
+    },
+    {
+      "id": "1m-logisticsops-specialist_disruption-08",
+      "band": "1m",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921927,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3008,
+      "business_calls": 2277,
+      "task_id": "c09-transfer-921927-15c-8l-specialist-disruption",
+      "L_business_ref": 960799,
+      "B": 4147
+    },
+    {
+      "id": "1m-logisticsops-specialist_disruption-09",
+      "band": "1m",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921928,
+        "cohorts": 15,
+        "legs": 8,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "staggered",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3082,
+      "business_calls": 2315,
+      "task_id": "c09-transfer-921928-15c-8l-specialist-disruption",
+      "L_business_ref": 981501,
+      "B": 4240
+    },
+    {
+      "id": "1m-logisticsops-specialist_disruption-10",
+      "band": "1m",
+      "family": "specialist_disruption",
+      "parameters": {
+        "seed": 921929,
+        "cohorts": 16,
+        "legs": 8,
+        "scenario": "specialist_disruption",
+        "dependency_pattern": "distributed",
+        "background": false
+      },
+      "reference_policy": "public_logistics_cache_v4",
+      "reference_calls": 3001,
+      "business_calls": 2278,
+      "task_id": "c09-transfer-921929-16c-8l-specialist-disruption",
+      "L_business_ref": 954783,
+      "B": 4140
+    }
+  ]
+}

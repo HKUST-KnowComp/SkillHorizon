@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env*
+*.pem
+*.key
+runs/
+tasks/
+assets/
+results/
+.DS_Store

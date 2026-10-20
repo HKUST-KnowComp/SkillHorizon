@@ -1,0 +1,27 @@
+{
+  "scope": "construction_development_not_heldout",
+  "component_family_catalog": "integrations/internal_mcp/scenario_catalog.json",
+  "qualification_entrypoint": "integrations.internal_mcp.richness",
+  "counting_rule": "14 component families plus 7 named compositions; seeds, scales and topologies are separate axes, not additional semantic families.",
+  "compositions": [
+    {"environment": "C09", "scenario": "specialist_disruption", "components": ["handling_restricted", "carrier_disruption"], "task_mode": "selective_replanning", "decision": "Replace invalid specialist custody without discarding unaffected arrangements."},
+    {"environment": "C25", "scenario": "expiring_amendments", "components": ["expiring_reservations", "independent_amendments"], "task_mode": "selective_revision", "decision": "Repair overlapping amendment closures while retaining the independent track and respecting expiring rights."},
+    {"environment": "C06", "scenario": "overlap_reactivation", "components": ["overlapping_conversions", "cooldown_reactivation"], "task_mode": "history_conditioned_release", "decision": "Retain active suppression origins, deduplicate overlap and reactivate only actually expired cohorts."},
+    {"environment": "C47", "scenario": "constrained_renewal", "components": ["heterogeneous_links", "staged_commitments"], "task_mode": "resource_and_contract_coordination", "decision": "Select feasible encodings and capacity while covering time-bounded commitments and future liabilities."},
+    {"environment": "C50", "scenario": "constrained_rework", "components": ["equipment_windows", "partial_rework"], "task_mode": "measurement_conditioned_recovery", "decision": "Retain accepted siblings and rework actual rejected units under maintenance and material constraints."},
+    {"environment": "C01", "scenario": "restricted_funding_revision", "components": ["scoped_installments", "deferred_commitment"], "task_mode": "restricted_revision_and_reuse", "decision": "Reconcile changed tranches and reviewer ownership without disclosing restricted briefs or discarding valid prior dispatches."},
+    {"environment": "C11", "scenario": "ambiguous_withdrawal", "components": ["identity_compatibility", "study_retraction"], "task_mode": "evidence_revision", "decision": "Resolve aliases and incompatible evidence, withdraw only retracted contributions and retain unchanged source annotations."}
+  ],
+  "additional_topologies": {
+    "alternating_fork_join": ["C25", "C06", "C50", "C01"],
+    "protected_branch": ["C25", "C06", "C01"]
+  },
+  "scope_limits": [
+    "Protected branches are structural controls, not claims that every task is fully connected.",
+    "Generic topology options are rejected by C09, C47 and C11 rather than silently ignored.",
+    "C25 amendment scenarios preserve their domain-specific independent track.",
+    "Skill selection correctness is not inferred from begin_skill or finish_skill labels.",
+    "World background counts and actor-observed competing evidence are reported separately.",
+    "Public rule simulations are not independent human realism validation."
+  ]
+}

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Please cite SkillHorizon when using this benchmark."
+title: "SkillHorizon: Constructing Long-Horizon Agent Tasks through Skill Composition"
+type: software
+repository-code: "https://github.com/HKUST-KnowComp/SkillHorizon"
+authors:
+  - family-names: Liu
+    given-names: Yuxuan
+  - family-names: Su
+    given-names: Zhaochen
+  - family-names: Guo
+    given-names: Hangyu
+  - family-names: Huang
+    given-names: Shijue
+  - family-names: Zhang
+    given-names: Zhixiong
+  - family-names: Chung
+    given-names: Kawai
+  - family-names: Xie
+    given-names: Zhongwei
+  - family-names: Zheng
+    given-names: Tianshi
+  - family-names: Fan
+    given-names: Wei
+  - family-names: Zong
+    given-names: Qing
+  - family-names: Shi
+    given-names: Haochen
+  - family-names: Xu
+    given-names: Baixuan
+  - family-names: Li
+    given-names: Haoran
+  - family-names: Song
+    given-names: Yangqiu

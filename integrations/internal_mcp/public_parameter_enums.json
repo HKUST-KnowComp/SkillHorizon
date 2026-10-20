@@ -1,0 +1,550 @@
+{
+  "C06": {
+    "search_content_posts": {
+      "status_filter": [
+        "approved",
+        "canceled",
+        "draft",
+        "failed",
+        "in_review",
+        "published",
+        "rejected",
+        "scheduled"
+      ]
+    }
+  },
+  "C25": {
+    "add_comment": {
+      "priority": [
+        "high",
+        "low",
+        "medium",
+        "urgent"
+      ]
+    },
+    "inspect_activity_events": {
+      "entity_type": [
+        "comment",
+        "decision_record",
+        "page",
+        "relation",
+        "review_request"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ]
+    },
+    "list_comment_threads": {
+      "priority": [
+        "high",
+        "low",
+        "medium",
+        "urgent"
+      ],
+      "sort_by": [
+        "created_at",
+        "last_activity_at",
+        "priority"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "archived",
+        "open",
+        "reopened",
+        "resolved"
+      ]
+    },
+    "list_database_views": {
+      "database_kind": [
+        "decision_log",
+        "launch_checklist",
+        "prd_tracker",
+        "rfc_tracker",
+        "risk_register",
+        "stakeholder_map"
+      ],
+      "sort_by": [
+        "database_kind",
+        "name",
+        "updated_at"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ]
+    },
+    "list_decision_records": {
+      "sort_by": [
+        "decision_title",
+        "impact_score",
+        "updated_at"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "accepted",
+        "proposed",
+        "rejected",
+        "superseded"
+      ]
+    },
+    "list_pages": {
+      "lifecycle_status": [
+        "approved",
+        "archived",
+        "blocked",
+        "draft",
+        "implementation",
+        "in_review"
+      ],
+      "page_type": [
+        "decision_brief",
+        "launch_note",
+        "prd",
+        "research",
+        "rfc",
+        "spec"
+      ],
+      "priority": [
+        "high",
+        "low",
+        "medium",
+        "urgent"
+      ],
+      "sort_by": [
+        "priority",
+        "title",
+        "updated_at",
+        "version"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ]
+    },
+    "list_projects": {
+      "sort_by": [
+        "name",
+        "open_review_count",
+        "target_release",
+        "updated_at"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "active",
+        "archived",
+        "blocked",
+        "planning"
+      ]
+    },
+    "list_review_requests": {
+      "sort_by": [
+        "due_at",
+        "status",
+        "updated_at"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "approved",
+        "canceled",
+        "changes_requested",
+        "in_review",
+        "requested"
+      ]
+    },
+    "list_stakeholders": {
+      "influence_filter": [
+        "critical",
+        "high",
+        "low",
+        "medium"
+      ],
+      "role_filter": [
+        "data",
+        "design",
+        "engineering",
+        "executive",
+        "legal",
+        "marketing",
+        "pm",
+        "security",
+        "support"
+      ],
+      "sort_by": [
+        "influence",
+        "role",
+        "updated_at"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ]
+    },
+    "list_workspaces": {
+      "plan_filter": [
+        "business",
+        "enterprise"
+      ],
+      "region_filter": [
+        "apac",
+        "eu",
+        "na"
+      ],
+      "sort_by": [
+        "active_project_count",
+        "name",
+        "updated_at"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ]
+    },
+    "resolve_comment_thread": {
+      "resolution_action": [
+        "accepted",
+        "deferred",
+        "documented",
+        "reopen"
+      ]
+    },
+    "search_pages": {
+      "lifecycle_status": [
+        "approved",
+        "archived",
+        "blocked",
+        "draft",
+        "implementation",
+        "in_review"
+      ],
+      "page_type": [
+        "decision_brief",
+        "launch_note",
+        "prd",
+        "research",
+        "rfc",
+        "spec"
+      ],
+      "priority": [
+        "high",
+        "low",
+        "medium",
+        "urgent"
+      ],
+      "sort_by": [
+        "relevance",
+        "title",
+        "updated_at"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ]
+    }
+  },
+  "C47": {
+    "inspect_audit_trail": {
+      "target_type": [
+        "allocation",
+        "anomaly",
+        "assessment",
+        "bill",
+        "budget",
+        "commitment",
+        "cost_report",
+        "period_close",
+        "recommendation",
+        "resource",
+        "tag_mapping",
+        "workspace"
+      ]
+    },
+    "list_anomalies": {
+      "severity": [
+        "critical",
+        "high",
+        "low",
+        "medium"
+      ],
+      "sort_by": [
+        "detected_at",
+        "severity",
+        "variance_usd"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "acknowledged",
+        "false_positive",
+        "open",
+        "resolved"
+      ]
+    },
+    "list_budgets": {
+      "scope_type": [
+        "business_unit",
+        "cloud_account",
+        "service_category"
+      ],
+      "sort_by": [
+        "amount_usd",
+        "forecast_spend_usd",
+        "name",
+        "updated_at"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "active",
+        "archived",
+        "exceeded",
+        "paused"
+      ]
+    },
+    "list_cloud_tags": {
+      "governance_status": [
+        "recommended",
+        "required",
+        "retired"
+      ],
+      "sort_by": [
+        "coverage_percent",
+        "key",
+        "updated_at"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ]
+    },
+    "list_commitments": {
+      "provider": [
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "service_category": [
+        "compute",
+        "database",
+        "platform",
+        "storage"
+      ],
+      "status_filter": [
+        "active",
+        "expired",
+        "pending_exchange",
+        "queued"
+      ]
+    },
+    "list_cost_reports": {
+      "service_category": [
+        "ai",
+        "compute",
+        "database",
+        "network",
+        "observability",
+        "platform",
+        "security",
+        "storage"
+      ],
+      "sort_by": [
+        "allocated_cost_usd",
+        "generated_at",
+        "untagged_cost_usd",
+        "variance_percent"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "draft",
+        "locked",
+        "published"
+      ]
+    },
+    "list_organizations": {
+      "sort_by": [
+        "billing_month_start_day",
+        "name",
+        "updated_at"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "active",
+        "archived",
+        "onboarding"
+      ]
+    },
+    "list_rightsizing_recommendations": {
+      "risk_level": [
+        "high",
+        "low",
+        "medium"
+      ],
+      "sort_by": [
+        "confidence_score",
+        "created_at",
+        "monthly_savings_usd",
+        "risk_level"
+      ],
+      "sort_direction": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "dismissed",
+        "executed",
+        "open",
+        "scheduled"
+      ]
+    }
+  },
+  "C50": {
+    "inspect_audit_trail": {
+      "action_type": [
+        "fixture_reset",
+        "program_update",
+        "quality_record",
+        "run_execute",
+        "safety_ack",
+        "tool_mount",
+        "waypoint_update",
+        "zone_update"
+      ]
+    },
+    "list_programs": {
+      "sort_by": [
+        "cycle_time_sec",
+        "name",
+        "status",
+        "updated_at"
+      ],
+      "sort_dir": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "archived",
+        "draft",
+        "released",
+        "validated"
+      ]
+    },
+    "list_quality_checks": {
+      "result": [
+        "fail",
+        "pass",
+        "warn"
+      ]
+    },
+    "list_robot_cells": {
+      "network_state": [
+        "degraded",
+        "offline",
+        "online"
+      ],
+      "sort_by": [
+        "site_name",
+        "status",
+        "updated_at"
+      ],
+      "sort_dir": [
+        "asc",
+        "desc"
+      ],
+      "status_filter": [
+        "active",
+        "commissioning",
+        "maintenance",
+        "paused"
+      ]
+    },
+    "list_robot_tools": {
+      "calibration_status": [
+        "due",
+        "expired",
+        "valid"
+      ],
+      "sort_by": [
+        "calibration_status",
+        "last_calibrated_at",
+        "name",
+        "status"
+      ],
+      "status_filter": [
+        "available",
+        "maintenance",
+        "mounted",
+        "retired"
+      ],
+      "tool_type": [
+        "camera",
+        "dispenser",
+        "gripper",
+        "screwdriver",
+        "vacuum",
+        "welder"
+      ]
+    },
+    "list_safety_zones": {
+      "severity": [
+        "advisory",
+        "emergency_stop",
+        "protective_stop"
+      ],
+      "zone_type": [
+        "keepout",
+        "scanner_field",
+        "speed_limit",
+        "stop_volume"
+      ]
+    },
+    "list_waypoints": {
+      "approach": [
+        "circular",
+        "joint",
+        "linear"
+      ]
+    },
+    "search_runs": {
+      "run_status": [
+        "aborted",
+        "blocked",
+        "completed",
+        "failed",
+        "queued",
+        "running"
+      ],
+      "sort_by": [
+        "defect_count",
+        "run_status",
+        "started_at",
+        "updated_at"
+      ],
+      "sort_dir": [
+        "asc",
+        "desc"
+      ]
+    }
+  }
+}
